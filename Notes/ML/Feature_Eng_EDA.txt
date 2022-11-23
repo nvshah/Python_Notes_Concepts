@@ -1,0 +1,34 @@
+Krish Naik
+
+Seaborn, Matplotlib
+
+Steps :- (Feature Enginneering)
+
+1) EDA 
+    
+    => Raw Data to useful data so that ML model can ingest them
+    
+    - Raw Data -> 1) Numerical Features    (Histogram, PDF, Bar Chart)
+                  2) Categorical Features  (Pie Chart, )
+                  3) Missing Values     (Visualize all the graph)
+                  4) Outliers           (Box Plot - more whiskers)
+
+               -> if required cleaning (ie required all information or not) 
+
+               -> Start Handling Missing Values (Mean, Median, Mode)
+
+               -> Handling Imbalanced Data Set 
+
+               -> Treating the Outliers 
+
+               -> scaling the Data  (standardization | Normalization)
+
+               -> Converting Categorical into Numerical features 
+
+* Feature Selection :
+  ---
+   Correlation
+   K NN 
+   ChiSquare
+   Genetic Algo 
+   feature Importance

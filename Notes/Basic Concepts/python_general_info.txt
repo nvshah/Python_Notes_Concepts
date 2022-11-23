@@ -1,0 +1,81 @@
+
+[Python Interpreter Working] 
+---------
+* Python is compiled but not to Machine code but to Byte Code 
+  This Byte Code is used then by the interpreter
+
+  .pyc files is compiled python files  (For C Lang)
+
+
+* In python an assignment is not expression but statement & its done from left to right (in case of chained one)
+
+* Exception :
+  -----
+   -> To silence the raised exception (ie dont want the callback stack)
+       \
+        -> use :- raise Exception('error string') from None 
+
+  
+=> GeneratorExit exception is not same as Exception
+
+* Dictionary View Objects :
+  ----------
+   => keys() & values() 
+       \
+        -> these are windows to the underlying dictionary objects 
+           So whennever any update happens on the dictionary it will reflect immediately
+           (ie kinda Reactive)
+
+
+* Scopes :
+  ----
+   Python scopes are dictionaries that map names to objects.
+
+   local & global :
+     -> Whether or not a variable is Free Variable or Local Variable is determined at Compile time &
+        Not at run time
+
+
+* Lexiographical Sorting Ordering :
+  ------
+   -> In python when you compare 2 strings they are compared LexioGraphically character by character
+
+
+* format() :
+  ----
+   - use to formate value usinng format specifier
+   - return String
+   - uses __format__ underhood
+
+
+* eval() vs int()
+  -------
+   -> eval('0123')  // error in eval it do not allow leading zero in case of base 10 numbers
+      int('023') => 23  // whereas int() allows to simplify it
+
+
+* functools.cmp_to_key() :
+  ------
+   -> helps to implement total ordering kinda comp between 2 elem (ie 1, -1, 0) via custom key 
+
+* Sorting in Python :
+  -------
+   - In Python 3+, sorting with custom key can be donne in 2 ways :-
+     
+     1) If you want to map each your element to another element then you can use lambda with single argument
+
+     2) If you want to compare 2 elem (ie like total ordering & then take decision)
+         \
+          - In this case you need lambda or func that take 2 arg & decide which stoods out of another 
+            via {1, -1, 0} response 
+
+          - but key in sorted() or sort() only consider single-valued func (ie Func with 1 arg only alike mapper)
+            |
+            for this purpose there is 1 func available in functools that can bridge this gap 
+              \
+               -> functools.cmp_to_key(cmp) 
+                    |
+                    this func make cmp(a1, a2) [a func that takes 2 arg] to readily available to pass to key
+
+
+

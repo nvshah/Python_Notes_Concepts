@@ -1,0 +1,30 @@
+[Common Data Structures] https://realpython.com/python-data-structures/
+
+[interview tips] https://realpython.com/python-coding-interview-tips/
+
+[sorting algorithms] https://realpython.com/sorting-algorithms-python/
+
+[interview] https://realpython.com/learning-paths/python-interview/
+
+[Linked Lists] https://realpython.com/linked-lists-python/
+[namedtuple] https://realpython.com/python-namedtuple/
+[dequeue] https://realpython.com/python-deque/
+[heapQ] https://realpython.com/python-heapq-module/
+
+[Binary Search] https://realpython.com/binary-search-python/
+[Recurrsion] https://realpython.com/python-recursion/
+
+[Ds Pytmotw] https://pymotw.com/3/data_structures.html
+[ChainMap] https://realpython.com/python-chainmap/
+
+[Counter] https://realpython.com/python-counter/
+
+[queue] https://pymotw.com/3/queue/
+
+
+* Amazing facts :
+---------
+
+* Counter :
+  -----
+   -> You can add & mminus with counter as well

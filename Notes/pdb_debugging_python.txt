@@ -1,0 +1,23 @@
+TIPS :- 
+---
+
+-> use `p locals()`  // to inspect all locals() variable of function
+
+_________________________________
+
+
+* pdb :
+  ----
+   -> modlue : pdb 
+
+   pdb.set_trace()  # set breakpoint
+
+   pdb commands :-  
+
+       list       // where am I at moment in code block  
+       p {expr}   // print expr 
+       c          // continue
+       h          // all pdb commands you can use
+       q          // quit debugging
+
+  Most common used commands -> p locals()

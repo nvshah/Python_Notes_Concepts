@@ -1,0 +1,45 @@
+[String Formatting] https://realpython.com/python-formatted-output/
+[String Formatting best Practices] https://realpython.com/python-string-formatting/
+[f strings] https://realpython.com/python-f-strings/
+
+[f strings vs raw strings] https://www.askpython.com/python/string/python-f-string
+
+[Template Strings] https://realpython.com/python-string-formatting/#4-template-strings-standard-library
+
+NOTE :
+
+-> In python strings are array of unicode code points. & to get the ordinal value of those points use :
+   ord()
+
+Useful methods : {
+    ord(), bit_length(), encode()
+}
+----------------------------
+
+* String Formatting :
+  -------
+   
+   1) using +
+   2) using placeholders i.e ({})  & format()
+              \
+               with numbers | without numbers
+               keyword arguments
+
+
+* Note Conversion :
+  ------
+    !s is applied before other string formatting
+
+
+* Template Strings :
+  ------
+   -> mostly used for the Substitution purpose
+
+* strip() :
+  ----
+   If passed string as arg thenn it will consider it as multiple character & not substring match
+
+-----------------------------
+
+
+* Format MiniSpecification : 

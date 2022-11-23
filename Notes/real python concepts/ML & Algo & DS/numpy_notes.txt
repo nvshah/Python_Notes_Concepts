@@ -1,0 +1,3 @@
+Methods :
+  
+  nbytes   // bytes comnsumed by numpy array

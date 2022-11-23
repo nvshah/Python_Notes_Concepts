@@ -1,0 +1,41 @@
+[csv file reader] https://realpython.com/python-csv/
+
+------------------
+
+* When file open with context manager :
+   \
+    You still have access to file object outside but file will be closed
+
+
+file obj ;-
+     read()       // read enitre file at once 
+     readline()   // read line by line 
+     readlines()  // list of lines 
+
+     tell()    // curr position
+     seek()   // move file pointer
+
+Be careful while writting to file that already exists
+
+
+* Image file :
+  ----
+   - Inorder to work with images i.e 'jpg' we need to open file in binary mode.
+
+
+* Csv file :
+  ----
+   module :- csv 
+
+   => Its built on top of open() to reduce boiler plate code to read csv files content
+      (Otherwise we need to process the strings)
+
+   csv.reader()
+      .writer()
+        \
+         writerow()
+      .DictReader()
+      .DictWriter()
+          \
+           .writeheader()
+

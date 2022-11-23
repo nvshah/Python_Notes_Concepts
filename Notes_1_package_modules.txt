@@ -1,0 +1,54 @@
+Tips = https://realpython.com/python-import/
+
+Every file of python has it's Local-Symbol table 
+                              ------------------
+
+It simp to note that if python file is loaded  as module or itself it is a standalone script.
+
+Module are often design to run as standalone script ( for testing purpose )
+
+ 1) Standalone script -> __name__ = '__main__' set by python
+
+ 2) as a module       -> __name__ = '__nameOfModule__' set by python
+
+
+=> a module in one subpackage can reference objects in a sibling subpackage
+
+
+Absolute import - pkgName.subPkgName.modName
+
+Relative import - .. |  .     ( ..  refers to 1 package up
+                                .   refers to current package )
+
+
+Tip : You can use 
+        from __main__ import obj   //for same file of python
+
+
+* import any module from different directory :
+  ------------
+   trick -> do this before importing
+       
+           sys.path.append('../dir_name__path/')
+
+
+           or 
+
+
+           In VSCode Just in settings.json file add 
+
+           relative path in list <---> python.analysis.extraPaths
+
+           {
+                   ...
+           
+                "python.analysis.extraPaths": [
+                        "./tools"
+                ]
+
+                ...
+
+           }
+
+
+

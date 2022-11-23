@@ -1,0 +1,278 @@
+
+PYTHON 101 ->
+# ref https://www.youtube.com/watch?v=URNdRl97q_0
+
+* What is Variable ??
+  --------
+
+  -> When we re-assign variable in diff languages !
+
+  1) C 
+     int a = 10;
+     a = 20;
+
+     print(&a)    // address remains same but content changes 
+
+
+  2) Python 
+
+     a = 10
+     a = 20
+
+     // here reference changes i.e 2 objects were created & a is poinitng to diff obj 
+        
+=> In python object have names/tags
+
+
+* What is a reference ?
+ 
+  -> reference of an object where it's being pointed by 
+
+  Reference Count :
+  --------------
+   -> Incr ref count : 
+
+      Decr ref count : 
+            - assign None
+            - del obj_tag
+            - When some variable goes out of scope
+
+    * What does `del` in python do ?
+    -> It doesn't delete that object 
+       Instead It : 
+               - removes a name as a reference to that object 
+               - reduces a ref count by 1.
+
+  => When there are no more references to an object (i.e ref count = 0)
+     We can safely remove that  object from the memory
+
+
+* local vs global namespace :
+  ---------------------
+  -> If refcount decrease when object goes out of scope, then 
+     what happens for an object lying in global namespace !!
+
+     - never goes out of scope 
+       - ref count never reaches 0
+    
+    => Avoid putting large or complex objects in the global namespace.
+
+
+* Python Object :
+  -----------
+   -> Internally every python objects holds 3 things atleast
+       1. type 
+       2. ref count 
+       3. value 
+
+* Garbage Collection :
+  ------------
+   (Memory Recycling)
+
+   -> It's a process of automatically releasing the memory when object taking up
+      that space is no longer in use
+
+      In C++ -> deallocate manually
+
+   
+   1) Reference Counting GC :
+      -----
+      - Add and remove references 
+      - When the ref count reaches 0, remove the object
+      - Cascading effect
+             decrease ref count of any object the deleted obj was poinitng to.
+
+      Space Overhead :
+      ----------
+       -> space req to store ref count for each & every object 
+
+      Execution overhead :
+      ---------
+       -> each time assign or del object
+
+      Not generally thread safe :
+       --------
+        -> When 2 thread trying to assign & del same object at same time 
+
+      Circular/Cyclical references :
+       -------
+        -> When 2 obj points or refer to each other
+
+    MIMP => 
+      Reference counting alone will not garbage collect object with cyclical references.
+
+      Memory Leak 
+
+
+  2) Tracing GC :
+    ------------
+     
+      Mark and Sweep :
+
+       - Mark : mark all objects references that can be reach from GC root 
+                (on VM heap)
+
+       - Sweep : Sweep all references(i.e objects) that are not detected as mark in above preocedure
+
+
+* What does Python use for GC ?
+  ------
+   -> Ref Counting doesn't clean up those dangling cyclical references 
+
+   => Ref Counting & Generational GC :
+
+
+   * Generational Garbage Collection :
+     ------------
+      -> It is based on theory that most objects die young
+
+      How ?
+       -> Python make list of every object created as program is run.
+
+       Actually it makes 3 :
+          - generation 0 
+          - generation 1
+          - generation 2
+
+       newly created objects are stored in generation 0.
+
+       => If an object survives garbage Collection, It is get promoted to next generation
+            
+          Every Obj only starts in 1 generation 
+          & we can optimize it by collection youn objects in
+          gen-0 more freq than others.
+
+       => Only Container Objects with a reference count greater than 0 will be stored in a 
+         generation list.
+
+         ---MIMP---
+         The only type of objects where cyclical reference can happen is most probably Container Objects
+         (Intricacies between Mutable & Immutable Objects)
+
+       => When the number of Objects in a generation reaches a thresold, 
+          python runs a garbage collection algorithms on that generation, & 
+          any generations younger than it.
+
+
+    Q): What happens during Generational garbage Collection ??
+
+      1. Python makes a list of obj to discard 
+      2. It runs an algorithms to detect reference cycles
+      3. If an object has not outside references, add it to discard list 
+      4. When the cycle is done, free up the objects on discard list.
+
+      After garbage collection cycle, objects that survived the sweep 
+      will be promoted to the next genertion 
+
+      Objects in the last generation (i.e 2) will stay there as program executes.
+
+    Idea -> 
+      When object's ref count reaches 0, immediate clean up 
+      but
+      If you have a cycle you need to wait for garbage collection to run.
+
+      NOTE : If your program slows down, (or have memory issue), 
+             then Circular references can be one of the issue.
+
+
+    => Objects with cyclical references get cleaned up by the generational garbage collection
+
+
+Q):: Why does python program don't shrink in memory after garbage Collection ??
+
+-> After the garbage collection, the size of python program won't likely shrink.
+
+   => The freed memory is fragmented 
+      -> i.e it's not freed in one contiguous block 
+
+   => When we say memory freed during garbage collection, it's released back to python
+      to use for other objects, not necessarily to system.
+
+------
+* Quick Optimizations :
+------
+
+* __slots__ : 
+  ___________ 
+   -> for restricting monkey patching for pre-defined attributes names only.
+
+ When to use slots ??
+   -> Creating many instances of class 
+   -> know in advance what properties a class should have
+
+ TIP :- Don't Optimize Prematurely 
+        \
+         -> restricts everywhere with __slots__ 
+            \
+             This will affects code maintainability
+
+
+* weakref : 
+  _______ 
+
+  -> A `weakref` to an object is not enough to keep it alive.
+
+  -> When remaining references are only weak references, then object can be garbage collected.
+
+  -> Useful for :
+       - implementing caches or mappings holding large objects. 
+
+  -> It's sole purpose is when we pass object reference as self to its method as argument then
+     to not consider it for reference counting update
+
+     weakref -> module
+
+  weakref.finalize()  // finalizer
+   \
+    -> similar to __del__, it is used to perform the cleanup things
+
+    -> It is called despite of
+         interpreter is shutdown,
+         global vars is deleted or
+         any module is deleted
+
+  => Thus main idea behind using weakref is to avoid
+       - increasing the reference count &
+       - prevent the obj from being the garbage collected
+
+
+* GIL (Global interpreter Lock) :
+  -----------
+   -> prevents multiple threads executing python code at same time 
+   -> each python interpreter has 1 GIL 
+      2 python programs running on same machine don't share a GIL 
+
+   -> Only 1 thread can run in interpreter at a time.
+     
+   Q) Why python need an GIL ??
+   -> To prevent reference count from being changed concurrently.
+      (Eg what if 2 threads try to increase & decrease ref count of same object at same time.)
+          \
+           operation may not happen in order & cause a inconsistency or big problem.
+
+    
+    Advantages & Disadvantages of a GIL :
+    -------
+     Upside :
+     ______
+      reference counting is fast & easy to implement 
+
+     Downside :
+     _______ 
+      In a python program, no matter how many threads exists, only one thred will be executed at a time.
+
+
+   Q)** Want to take advantage of multiple threads ???
+     
+     -> Use multi-processing instead of multi-threading 
+
+     -> Each process will have it's own GIL, 
+        it's on the developer to figure out a way to share information between processes.
+
+
+   Explore : Thread vs Process !!!
+
+
+   => Jython & IronPython don't have GIL
+       
+   

@@ -1,0 +1,2 @@
+* For json serialization - deserialization :
+   -> jsonschema, marshmallow

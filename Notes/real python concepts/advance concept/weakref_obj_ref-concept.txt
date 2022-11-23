@@ -1,0 +1,4 @@
+[Pass by Ref] https://realpython.com/python-pass-by-reference/
+[Pointers in Python] https://realpython.com/pointers-in-python/
+
+[WeakRef] https://pymotw.com/3/weakref/

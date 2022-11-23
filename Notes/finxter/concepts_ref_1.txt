@@ -1,0 +1,9 @@
+[Run time complexity]  https://blog.finxter.com/python-list-clear/
+[dictionary] https://blog.finxter.com/python-dictionary/
+[list methods] https://blog.finxter.com/python-list-methods/
+
+[python list pop] https://blog.finxter.com/python-list-pop/
+
+[import files from path] https://blog.finxter.com/python-how-to-import-modules-from-another-folder/#:~:text=The%20most%20Pythonic%20way%20to,import%20module%20.
+
+[zero fill string] https://blog.finxter.com/python-pad-zeros-to-a-string/

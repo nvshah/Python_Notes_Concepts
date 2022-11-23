@@ -1,0 +1,19 @@
+* Sentinel :
+  -------
+  => Sentinel Obj is an object to which other object are compared if those are Sentinel or not
+
+  Default Arg & Sentinel :
+  ---
+  => When  0 or empty list are considered as valid value then use None as a default val 
+  ie in such case None become Sentinel Val 
+   
+   If None is also a valid val then you need to create some sentinel object like 
+     Eg SENTINEL = object()
+   & use this senntinel object as Default val
+
+  Thus inorder to distinguish None We need to make our own Sentinel Val
+
+
+* @overload & Function Overloading :
+  ----------
+   @overload decorator is available from 

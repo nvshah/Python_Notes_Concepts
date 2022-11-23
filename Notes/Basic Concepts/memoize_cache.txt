@@ -1,0 +1,12 @@
+* lru_cache:
+  --------
+   - functools 
+   -> lru_cache uses dictionary underhood 
+
+   [drawback]
+   -> So You cannot use non-hashable argument for lru_cache decorated function 
+   -> Thus You cannot use list or set as an argument to cache for lru_cached function
+
+   [Soln]
+   -> To overcome this drawback You can use Combination of `FrozenSet` & dict (ie HashMap)
+       

@@ -1,0 +1,39 @@
+Sample 1 :
+------- 
+
+Input - catrick acrcik
+
+Output - Longest Common Substring length : 4
+         Possible substrings : {arik, crik, arck, crck}
+
+Sample 2 :
+--------
+
+Input - manu muna
+
+Output - Longest Common Substring length : 2
+         Possible substrings : { mu, mn, ma }              
+                   
+Sample 3
+--------
+
+Input - 12322 1223221
+
+Output - Longest Common Substring length: 5
+         Possible substrings : { 12322 }    
+
+Sample 4
+--------
+
+Input - HARRY SALLY
+
+Output - Longest Common Substring length: 2
+         Possible substrings : { AY }   
+
+Sample 5
+--------
+
+Input - SHINCHAN NOHARAAA
+
+Output - Longest Common Substring length: 3
+         Possible substrings : { NHA }    

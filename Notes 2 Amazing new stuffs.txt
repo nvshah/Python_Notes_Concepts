@@ -1,0 +1,104 @@
+EAPF - easier to ask for forgiveness than permission
+lBYL - look before you leap
+
+ EAPF helps to prevent race conditions, improve general performance program or a code fragment, & prevent errors from passing silently
+
+module - textwrap
+
+ textwrap.wrap
+ ------------
+  -> It can be used to split string in n distinct groups of length length
+
+    textwrap.wrap(s, 3) 
+
+
+* walrus operator (:=),  py3.8
+  ------------
+
+
+* Remember : (Comprehension)
+  ------
+
+  Comprehension without (), [] or {} itself is also treated as an iterable when passed as an argument to any function
+
+  Eg func(t+2 for t in range(4)) is same as func([t+2 for t in range(4)])
+
+
+* Sentinel : 
+  --------
+   (Ref https://python-patterns.guide/python/sentinel-object/ )
+   value that can be used as stopping iteration break point
+
+
+* hash, equal & ==
+  -------------
+
+   -> in dictionary hash() & == must be same to hit in the bucket of hash table
+
+   -> == matters at last for comparing object
+
+      is will compare memory reference 
+
+
+* os.urandom() :
+  ----------
+   ref : https://pynative.com/cryptographically-secure-random-data-in-python/
+
+   -> return string suitable for cryptographic use
+
+
+* gc :
+  ---
+  ref -> https://realpython.com/python-memory-management/
+
+   garbage collector
+
+
+* closures & cell content :
+  -------------------
+   ref : https://stackoverflow.com/questions/26094700/cell-contents-in-python-closure
+
+   func.__closure__[0].cell_contents
+
+    [cell.cell_contents for cell in func.__closure__]
+
+  __closure__ :- None or a tuple of cells that contain bindings for the function’s free variables.
+
+
+
+* inspect :
+  -------
+    ref -> https://pymotw.com/2/inspect/
+    
+   inspect.getclosurevars(func)
+
+
+* pdb :
+  ---
+   ref - https://realpython.com/python-debugging-pdb/
+
+
+* bpython :
+  ------ 
+   -> fancy python interactive interpreter
+
+
+-------------------------------------------------
+
+
+* joblib:
+  ------
+   module -> `joblib`
+    
+     It is used to load & dump the python objects <-> pickled file
+
+* pickle :
+  ------
+   -> also used to load & dump pickle file
+
+* itertools - more - functionality :
+  ______________________________
+
+  1) more_itertools :
+     ________ 
+      ref : (https://pypi.org/project/more-itertools/)

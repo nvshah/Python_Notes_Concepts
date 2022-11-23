@@ -1,0 +1,40 @@
+[learning path] https://realpython.com/learning-paths/object-oriented-programming-oop-python/
+
+[oop] https://realpython.com/python3-object-oriented-programming/
+
+[inheritance & Composition] https://realpython.com/inheritance-composition-python/
+
+[metaclass] https://realpython.com/python-metaclasses/
+[namedtuple] https://realpython.com/python-namedtuple/
+
+[mixin interface] https://rednafi.github.io/digressions/python/2020/07/03/python-mixins.html
+
+[class instance attributes]  https://www.python-course.eu/python3_class_and_instance_attributes.php
+[Mixins ] https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556?gi=c24e199ad78d
+[Decorator] https://realpython.com/primer-on-python-decorators/
+
+[descriptors] https://realpython.com/python-descriptors/
+[Data classes] https://realpython.com/python-data-classes/
+
+* property()
+  callable()
+
+* Monkey Patching - for user defined class only
+
+=> obj.__class__.__base__  // get access to base class of any object
+=> __subclasses__() to get referennce to all subclasses of curr class object 
+
+
+---------------------------
+
+topics :
+   data class, monkey patching, type of class, 
+
+
+------------------------------
+
+* type :
+  ----
+   class that is used as blueprint to define any custom types in python 
+    
+    `type("ClassName", (ParentIfAny), {attrbs})`

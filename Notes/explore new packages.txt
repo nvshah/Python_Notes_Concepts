@@ -1,0 +1,75 @@
+* `Attrs` module/package :
+   ----
+    -> same as data classes in python
+
+
+* joblib :
+  ------ 
+   -> pickled <---> python objects
+
+* tqdm :
+  -----
+   to trace the progress while iterating heavily on List
+
+* cprofile :
+  ------
+
+* PIL :
+  ---
+   Image & ImmageFilter
+
+* pydantic :   // (meant for parsing)
+  ------
+   BaseModel
+
+* types :
+  ----
+   SimpleNameSpace  
+
+* numbers :
+  ----
+   Real
+
+* inspect :
+  -----
+   currentframe()   // current stack frame
+
+* jsonscheme, marshmallow  // for json serialization-deserialization
+
+* platform :
+  -----
+   - node(), machine(), processor(), platform(), system(), release(), version()
+
+* six :
+  ----
+   library that is compatible with python 2 & 3 (ie 2*3 = 6)
+
+
+* weakref :
+  ---
+   - finalize()
+
+* getpass:
+  ---
+   - getpass()
+
+* winreg :
+  ---
+
+* structs :  // bytes stream
+
+* socket
+
+* PyQt5
+
+* qrcode
+
+* tomllib
+
+---------------
+
+* fuzzywuzzy   // for text/string matching & related usecases
+
+  - fuzz
+
+*

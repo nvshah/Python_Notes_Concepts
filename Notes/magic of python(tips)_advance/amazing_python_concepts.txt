@@ -1,0 +1,18 @@
+* Interning :
+  ------
+   -> String Interning
+
+      Compile time [Yes]
+      Dynamic/run time [No]
+
+* Hash & Dict 
+  -----
+   -> bool and num have same hash value 
+
+* circular reference :
+  -------
+   When there is deadlock of object referencing same object 
+
+* self(ClassName, self).__init__(param)
+  ----------
+   -> that's way to run __init__ method of parent class reliably.

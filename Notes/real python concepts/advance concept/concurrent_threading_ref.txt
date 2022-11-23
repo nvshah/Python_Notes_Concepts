@@ -1,0 +1,7 @@
+https://realpython.com/learning-paths/python-concurrency-parallel-programming/
+
+[intro threading] https://realpython.com/intro-to-python-threading/
+[concurrency] https://realpython.com/python-concurrency/
+[async io] https://realpython.com/async-io-python/
+
+[Memory management] https://realpython.com/python-memory-management/

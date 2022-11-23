@@ -1,0 +1,260 @@
+datatypes :- int64, float64, object 
+
+Useful methods :- 
+   { 
+     to_datetime(), nunique(), value_counts()
+     dropna()
+     .astypes()   // set muktiple dtatype of column at once
+
+     memory_usage()
+     to_numpy() 
+   }
+
+Useful Property :
+   - empty
+   - axes
+
+_____________
+Remember
+
+Note: nan, which stands for “not a number,” is a particular floating-point value in Python.
+
+float('nan')
+numpy.nan 
+math.nan
+
+By default Your index of dataframe is 0th axes
+
+-------------
+
+Series & Dataframe both stores values in numpy array 
+
+------------
+TIPS :
+  -> Python indexing operator has some performance drawbacks. 
+  the .loc and .iloc data access methods are preferable. 
+
+  => You shouldn’t use attribute-styled indexing for production code or for manipulating data
+     \
+      Use loc -> for label 
+          iloc -> for positional index instead, 
+
+------------
+
+object data type is 
+“a catch-all for columns that Pandas doesn’t recognize as any other specific type.”
+
+* Series :
+  ----
+   -> Series Objects wraps 2 info 
+      1) seq of vals 
+      2) seq of identifiers (ie index)
+
+  also Series has corresp names :- ie .name
+
+  implicit index : (positional)
+  ---
+  => Pandas Series also has an integer index that’s implicitly defined
+   - Series behaves like List in python
+
+  explicit index : (hashable objects)
+  ---
+   - provide labesl specifically
+   - Series behaves like dict in python
+
+* Dataframe :
+  ------
+   Sequence of Series that shared same index
+
+   dict of col_name -> series_obj
+
+   When created using multiple Series obj : 
+        The new DataFrame index is the union of the two Series indices:
+
+   Dictionary & DF :
+   -----
+    DF can be created using dictionary where key is the index & value is another dict 
+     \
+      -> {index : { c1: v1, c2: v2 }}
+
+      Thus key = index = row 
+           value = inner dict :- dict where key = col-name & val = cell-val`
+
+  Axes :
+  ---
+    2 dimensions of a DataFrame as axes
+
+    Row axes :- 0
+    Col axes :- 1
+
+* Indexing ;
+  -------
+   loc & ilolc 
+
+   => useful when label indexes are of int type (to distinguish clearly)
+
+   => Python idexing operator [] have some performance drawbacks
+      So its preferrable to use .loc & .iloc for data access 
+
+   Slicing :
+    --- 
+     While .iloc excludes the closing element, .loc includes it. 
+
+   NOTE :-
+     do not use .ix for indexing. 
+     Instead, always use .loc for label indexing and .iloc for positional indexing. 
+
+   Trick to Remember :-
+     
+     loc  := List 
+     iloc := dict
+
+  Datframe Picking element :- 
+    
+    - Indexer method for column 
+    - loc, iloc method for rows
+
+  Data Access Method (loc & iloc)
+  -----
+  (1) subSet 
+   - also accepts 2nd param
+      \
+       1st param :- row based on indices or slices 
+       2nd param :- column based on indices or slices
+
+  (2) Masking
+   - conditionally row selecting 
+  
+  (3) Not Null Filter
+   - .notnull()
+     .notna()
+
+  (4) Access as a str to perform string methds : 
+   - .str
+
+=> use logical operator &, | to filter diff conditions
+
+
+* Grouping & Aggregations :
+  ---------------------
+
+  Aggregations :-
+    - applying aggregation function on Sereis (ie Column)
+
+  Grouping :-
+    - concepts when dataframe have multiple columns
+
+  NOTE -> By default, Pandas sorts the group keys during the call to .groupby(). 
+          If you don’t want to sort, then pass sort=False.
+
+methods :-
+
+* pd.to_datetime()
+  ------
+   -> convert column values to datetime
+
+  - nunique()
+  - value_counts()
+
+
+* Categorical type :
+  -------
+   pd.Categorical()   // convertes to data type of like enum
+    
+    advantage :- take less memory comparitively than text data 
+
+
+-------------------------
+
+* Cleaning Data :
+  --------
+
+   dropna() :- remove all rows which have missing value atleast in 1 column
+
+   fillna() :- to replace missing values
+
+
+* Invalid Values Can be more dangerous than missing values. 
+
+* InConsistent Values :
+  -------
+   You can check mutuallu exclusive events via mask condition & then 
+   use empty property on dataframe to check if its emoty or not 
+   
+
+----------------------
+(COMBINE 2 DATAFRAMES)
+
+* Add more data to dataframe :
+  ------
+   pd.concat()
+       \
+        - By default, concat() combines along axis=0. In other words, it appends rows. 
+
+       join param :- to perform join operation
+
+       =>  concat() combines based on index (implicitly)
+
+   pd.merge()
+       
+       => use to simulate join operation as of sql 
+          (ie its not always that concat should happen on index)
+
+
+   Index & Merging note :-
+   ----------
+    -> When you merge 2 dataframes, then if you merge either using one's index 
+       then other ones index will be taken as index of resulted table
+
+    -> If you merge totaly on different columns then by default 0 based indexing will 
+       happen in resulted dataframe 
+
+------------------------------
+(READ-WRITE files )
+
+- to_excel, to_csv, to_html, to_json, to_pickle, to_sql
+
+  read likewise as above
+
+  * to_csv()
+    -----
+     param :- path_or_buf,
+              na_rep
+              date_format
+              sep          // denotes a values separator.
+              decimal      // indicates a decimal separator.
+              encoding     // sets the file encoding.
+              header       // specifies whether you want to write column labels in the file.
+
+  Pandas consifering follwoing values as missing value whilst reading :
+    
+    '', 'nan', 'n/a', 'na', 'null', '-nan'
+
+  * read_csv() :
+    -----
+     param : index_col,
+             dtypes,
+             parse_dates,
+             squeeze       // to get series object
+
+TIP :- It's convenient to specify type of columns of df via `astypes()` explicitly
+       before writing data to sql, csv or pickel files 
+
+
+* Work with Large Dataset :
+  ----------
+   - Compress your files
+   - Choose only the columns you want
+   - Omit the rows you don’t need
+   - Force the use of less precise data types
+   - Split the data into chunks
+
+
+* Skip Rows while reading :
+  ------
+   read_csv()  or read_excel()
+
+   skiprows, skipfooter, nrows
+
+
+TIP :- to see memory consumption by dataframe :- `df.memory_usage()`

@@ -1,0 +1,20 @@
+time.sleep()
+
+bytearray(), byte()
+
+staticmethod()
+memeoryview()
+
+hash()
+
+vars()
+
+dis()
+
+
+
+--------
+
+monkey-patching
+
+CLI

@@ -1,0 +1,52 @@
+* Proper Conventions to write Python Codes :
+    - youtube tech with tim
+
+------------------------------------------- 
+
+* closure 
+    - free variables + function
+
+* free variables 
+    - If a variable is used in a code block but not defined there, it is a free variable.
+
+* free list 
+    - list that keep track of poniters pointing to tuple
+
+* mappingproxy object 
+    - __dict__ attrib value that being hold by obj (dir() on obj)
+
+* Monkey Patching
+    - able to add or modify the attributes of an object in python 
+
+* methods & attributes :
+    - part of class in python
+
+* type blueprint :
+    - type class is top for any type impl
+
+* reference counter : 
+    - memory management 
+
+* circular reference 
+    - Deadlock & GIL, Generation based Garbage Collection 
+
+* Interning & canonicalize
+    - tuple, string
+    -> Peephole Optimization, AST Optimizer
+
+* wild card character :
+    - ubnderscore i.e `_`
+
+* magic (dunder) methods:
+
+* namespace : 
+    - key-val pair of any object's names & it's corresponding value (i.e reference)
+* Local Symbol table :
+* LEGB Scope Resolution : (Local, Enclosing, Global, Builtin)
+
+* Decorator Func : allow to add functionalities to existing function via adding some func to wrapper Func   
+        \
+         -> decorated_func():
+                return wrapper_func()
+
+* Sentinel Value/Obj :- It's an object that is used to compare whether any other obj is Sentinel Object or Not

@@ -1,0 +1,9 @@
+* We can use ! as prefix to run command in shell/terminal from Jupyter NB
+
+* Text :- Mark Down
+   -> To add mathematics Equation ;- latext syntax
+
+      $e^x$  // e to the power x    
+
+ 
+    

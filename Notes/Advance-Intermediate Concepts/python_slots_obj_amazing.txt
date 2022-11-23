@@ -1,0 +1,123 @@
+* Concepts : descriptors 
+
+obj :- __dict__
+
+=> Generally Object in python holds following info :
+   -> type, ref_cnt, weakref (in case of slots), dict (non-slotted, ie normal), next, prev ptrs
+ 
+-------------------
+
+-> If attrib not found in current class it will look in super class
+
+Q) Why size of empty objects is giving size of 56 or 36 kinda bytes ???
+  -> because every object store ptr to obj_type, obj_refcount
+     & 
+     also python keep store of garbage collection ptr (i.e 2 pointer)
+     for every obj as well ie( gc_next, gc_prev)
+
+-----------------
+
+* slots :
+  -----
+
+  __slots__ :-
+    
+    - used to save memory when we have very small object 
+
+  => By default classes are like dictionary except you access via dot notation instead square bracket
+
+
+* attrib lookup :
+  -------
+   -> whenever we use dot notation to access any attrib it lookup in local dict 
+      localk dict i.e dict of instance level
+      if not found then it will check in parent dictionary
+      parent dict means dict at class level
+      unitl not found 
+      & at last AttributeFoundError
+
+
+* Monkey Patchinng :
+  ------------
+   -> You can add new element to an obj at run time (as dict are dynamically allocated )
+
+ __slots__ 
+   
+   -> It doesnt affect mutability but it prevents adding new element at runtime
+   -> All the attrib of instance defined when class is defined
+
+   noTE :- You can still do monkey patching on Class Level
+
+   => slots helps to save memory for an instance/object compare to normal obj
+
+   Sloted classes consume less memory than non-sloted classes
+
+   => instances of sloted classes dont use __dict__   // (while looking for attributes)
+
+
+* descriptors ;
+  ---------
+   -> allows you to modify the attribute access happen
+
+
+* How Objects is laid Out in Memory ??
+
+ -> Every Objects have 2 things 
+       - ob_refcnt    // object reference count
+       - ptr to ob_type 
+
+  so when we do sizeof(obj) 
+     // it simply gives us size of pointers & objects but do not account sub-objects
+
+
+* What is slot ??
+  ----------
+   -> piece of memory that we used particularly for storing a data
+
+   __slots__ is extra slots in add to pointer to ref cnt & obj_type 
+             that this class defines
+
+  Inn Non-sloted class :
+    instead of having space for slots directly
+     \
+      -> we have space for __dict__ where we keep track for attributes
+
+      so you have to look inside __dict__ to find attrib 
+
+  But for sloted class there is actual slot assign for defined slots attrib names
+
+
+* When some class inherit the slotted class it will not get slots until slots are defined explicitly
+  so child class will still hold __dict__
+
+-> slotted variable will be stored on slots & not in dict even for child class even in inheritance
+
+=> When we define more additional slots for sub-class it will get just added on top 
+
+
+Q) Why size of empty objects is giving size of 56 or 36 kinda bytes ???
+
+  -> because every object store ptr to obj_type, obj_refcount
+     & 
+     also python keep store of garbage collection ptr (i.e 2 pointer)
+     for every obj as well ie( gc_next, gc_prev)
+
+  several pointers :-
+
+    { *ob_type, *ob_refcnt, *__weakref__ , *__dict__, *gc_prev, *gc_next, }
+
+
+* slots with dict :
+  -----------
+   1) 
+   __slots__ = ('__dict__',)  // prevent creation of weakref 
+             = ('__weakref__',) // prevent creation of dict 
+   
+   2) 
+   Empty slot prevent creation of both __dict__ & __weakref__ 
+
+   i.e __slots__ = ()
+
+   3) 
+   If you dont abind the slots then instance will have both dict & weakref
+

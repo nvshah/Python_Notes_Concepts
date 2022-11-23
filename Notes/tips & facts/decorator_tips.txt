@@ -1,0 +1,20 @@
+* Decorator Usefulness : (practical tips)
+  -------------
+ 
+  1) Timing functions :
+
+      use time.perf_counter() 
+
+      or 
+
+      timeit module
+
+  2) Register Plugins ;
+
+      use this kinda architecture i.e light weight where you keep your function intact but register it inside 1 global
+      registry
+
+      so whenever you create function & want to register then just use decorator for that purpose
+
+      Plus :- do not need to maintain list of which plugins exists  
+              list is created when plugin register themselves

@@ -1,0 +1,7 @@
+* Interning :
+  --------
+   A method of storing only 1 copy of each distinct string value, which must be immutable 
+
+   NOTE : Interning works for compile time constants only 
+          It will treat dynamic/run-time variable as seperate object 
+          

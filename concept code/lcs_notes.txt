@@ -1,0 +1,108 @@
+* LCS - DP Approach * 
+  -----------------
+
+aim : To find longest common substring from given 2 strings
+--- 
+
+solution : 1 of the solution can be possible via DP approach i.e 
+--------
+  Possible solutions : That include all possible longest common substrings 
+
+Example : 
+-------
+s1 = 'catrick'
+s2 = 'acrcik'
+soln : { arck, crck, arik, crik } 
+
+Approach : Bottom-Up Dynamic Programming 
+----------------------------------------
+
+Logic Explanation :
+________________ 
+
+ matrix -> m
+ row    -> r  ( string 1 )
+ column -> c  ( string 2 )
+
+ 1) Possible Solutions : 
+
+   -> m[r][c] : length of longest common substring between s1[:r] & s2[:c] at moment
+
+   -> Base Case : 
+
+         if either of string is empty (i.e 0 length) => no LCS can be found
+
+      Rest Case :
+
+	    1) if at moment character matches between 2 string then increment your counter of length by 1
+
+        2) if not then check 1 by 1 :
+           - compare s1 (ignoring last character) with s2
+           - compare s1 and s2 (ignoring last character)
+
+           and assign length having max count found of above 2 checks  
+        
+        3) Repeat until either of string exhaust
+
+Equations :
+_________
+
+item -> (w,v)
+
+i -> row    (current last index of string 1)
+j -> column (current last index of string 2)
+vi -> character at index i of respective string 1
+vj -> character at index j of respective string 2
+
+1) Possible Solutions :
+
+    Matrix element -> int value; v -> max length at moment
+
+	m[i][j]  = 0                                    i, j == 0
+            = m[i-1][j-1]+1                        if vi == vj
+            = max(m[i-1][j], m[i][j-1])            Rest all cases
+
+Example :
+_______ 
+
+ Q  s1: catrick
+    s2: acrcik
+    max length of longest common substring : 4
+
+ => Possible Solutions : 
+
+    Matrix :
+
+      j  -  a  c  r  c  i  k
+     i 
+     -  [0, 0, 0, 0, 0, 0, 0]
+     c  [0, 0, 1, 1, 1, 1, 1]
+     a  [0, 1, 1, 1, 1, 1, 1]
+     t  [0, 1, 1, 1, 1, 1, 1]
+     r  [0, 1, 1, 2, 2, 2, 2]
+     i  [0, 1, 1, 2, 2, 3, 3]
+     c  [0, 1, 2, 2, 3, 3, 3]
+     k  [0, 1, 2, 2, 3, 3, 4]
+   
+   length of longest substr : 4
+	Possible substrings      : { crik, crck }
+
+Backtracking :
+____________ 
+
+  1) Possible Solutions  :
+
+     if bottom-right corner of matrix is greater than 0 then :
+
+        step 1) check if last current row == current column
+		        i.e if vi == vj
+
+                - bang! we have one of the common character . Now go for others...
+                   \
+                    -> go for checking (i-1,j-1) position in matrix & repeate step-1          
+
+        step 2) step 1 is false then,
+
+                check one by one 'top' & 'left' position of current position in matrix to explore chrs. (via step 1)
+                
+        step 3) Exhaust above steps when either of string is over

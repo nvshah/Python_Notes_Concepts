@@ -1,0 +1,90 @@
+https://realpython.com/python-async-features/#using-python-async-features-in-practice
+
+Zetcode notes
+Python like you mean it
+
+https://www.pythonlikeyoumeanit.com/Module2_EssentialsOfPython/Iterables.html
+
+Good Solution(que)
+https://codegolf.stackexchange.com/questions/4707/outputting-ordinal-numbers-1st-2nd-3rd#answer-4712
+
+
+(DSA Que)
+https://medium.com/afteracademy/100-data-structures-and-algorithms-problems-asked-during-coding-interviews-269391b8ff8
+
+https://www.techiedelight.com/list-of-problems/
+
+
+Data Science (CheatSheet)
+
+https://elitedatascience.com/python-cheat-sheet
+https://www.dataquest.io/blog/numpy-cheat-sheet/
+https://towardsdatascience.com/numpy-cheat-sheet-4e3858d0ff0e
+
+
+Chrome TaBS
+
+https://realpython.com/team/dbader/
+https://realpython.com/search?q=algorithms&kind=article   [ALGORITHMS]
+https://realpython.com/python-math-module/                [MATH MODULE]
+https://realpython.com/python-heapq-module/#how-to-identify-problems  [PROBLENS]
+https://realpython.com/primer-on-python-decorators/#a-few-real-world-examples  [DECORATORS]
+https://realpython.com/python-concurrency/                                    [CONCURRENCY]
+https://realpython.com/courses/python-3-concurrency-asyncio-module/        [CONCURRENCY ASYNCIO]
+https://realpython.com/lru-cache-python/                                    [LRU CACHE]
+
+https://realpython.com/advanced-git-for-pythonistas/    [GIT PYTHONISTA]
+https://realpython.com/python-gil/                      [PYTHON GIL]
+https://realpython.com/courses/functional-programming-python/   [FUNCTIONALPROGRAMMING]
+https://realpython.com/sorting-algorithms-python/               [SORTING ALGORITHMS]
+https://realpython.com/python-thinking-recursively/             [PYTHON RECURSIVELY]
+
+
+https://realpython.com/numpy-array-programming/    [NUMPY ARRAY]
+https://realpython.com/numpy-tutorial/             [NUMPY TUTORIAL]
+https://realpython.com/np-linspace-numpy/          [NP-LINSPACE-NUMPY]
+https://realpython.com/python-pyqt-database/       [PYQT DB]
+https://realpython.com/python-descriptors/          [DESCRIPTORS]
+
+https://code.activestate.com/recipes/578091-simple-tool-for-simulating-classes-using-closures-/ [SIMULATING CLASSES USING CLOSURES]
+
+https://towardsdatascience.com/numpy-cheat-sheet-4e3858d0ff0e  [numpy cheat sheet]
+
+https://medium.com/afteracademy/100-data-structures-and-algorithms-problems-asked-during-coding-interviews-269391b8ff8
+[Data structure que]
+
+https://practice.geeksforgeeks.org/courses/dsa-self-paced?utm_source=geeksforgeeks&utm_medium=article&utm_campaign=gfg_article_dsa_content_bottom
+[DS course geeksforgeeks]
+
+
+----------------
+Parallel | Threading | Coroutines
+
+https://stackabuse.com/coroutines-in-python
+
+https://www.geeksforgeeks.org/multithreading-python-set-1/
+
+https://realpython.com/intro-to-python-threading/
+https://realpython.com/python-concurrency/
+https://realpython.com/async-io-python/
+
+
+----------------
+
+date time
+
+https://realpython.com/python-time-module/
+https://realpython.com/python-datetime/
+https://realpython.com/python-timer/
+https://realpython.com/lessons/time-data-structures/
+https://realpython.com/lessons/python-time-seconds/ 
+
+
+
+----------------
+
+Python Codes :
+
+https://github.com/satwikkansal/wtfpython#-first-things-first-
+
+https://github.com/fbaptiste/python-deepdive

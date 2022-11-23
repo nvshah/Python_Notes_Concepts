@@ -1,0 +1,95 @@
+[MemCache efficient Caching] https://realpython.com/python-memcache-efficient-caching/
+[memory Management] https://realpython.com/python-memory-management/
+[GIL] https://realpython.com/python-gil/
+[Redis for Cacheing] https://realpython.com/caching-in-django-with-redis/
+
+[LRU] https://realpython.com/lru-cache-python/
+
+[intro threading] https://realpython.com/intro-to-python-threading/
+[concurrency] https://realpython.com/python-concurrency/
+[async io] https://realpython.com/async-io-python/
+
+[multiprocessig] https://realpython.com/python-concurrency/#multiprocessing-version
+
+----------
+TIPS 
+
+- to get refcount of an object :- sys.getrefcount()
+- to check the fix interval of continuous use by a thread :- sys.getcheckinterval()
+
+-----------
+=> Python uses reference counting for memory management
+   Other languages uses garbage collection for memory management 
+
+-> Python has Single-Thread, GIL way for memory management (powerful for single threaded)
+   Other lanng have JIT compilers that employs Locking mechanism (good for multi-threaded)
+
+Simple Terms :-
+  - 
+
+
+* GIL (Global interpreter Lock) :
+  ------
+  The Python Global Interpreter Lock or GIL, in simple words, is a mutex (or a lock) 
+  that allows only one thread to hold the control of the Python interpreter.
+
+  * deadlock :- can only happen if there is more than 1 lock
+
+  -> GIL simple as only 1 lock needs to be managed
+  => lock is shared between threads 
+
+-> CPU-bound programs are those that are pushing the CPU to its limit
+
+-> In the multi-threaded version the GIL prevented the CPU-bound threads from executing in parellel.
+
+=> On 1 Core your interpreter is shared by the different threads 
+
+* multi-Processing :
+  ------
+   Each Python process gets its own Python interpreter and memory space so the GIL won’t be a problem
+
+------------
+[Memory]
+
+-> Python Code gets boiled down to ByteCode which then interpreted by Virtual Machine
+
+REMEMBER :- 
+
+-> Physical or actual memory is abstracted by the OS 
+   OS abstract this by creating virtual memory for processes (like python)
+   now this process can carve out chunk of memory from virtual space 
+
+VMM :
+  OS-specific virtual mempry manager that carves out chunk of memory for Python Process 
+
+CPython - Object Allocator :
+  
+  Responsible for allocating memory for Object within obj memory area
+
+* Struct :
+    A struct, or structure, in C is a custom data type that groups together different data types. 
+    To compare to object-oriented languages, it’s like a class with attributes and no methods.
+
+* PyObject :
+  --
+   -> grand-daddy of all objects in Python
+   - 2 info :-  ob_refcnt, ob_type
+
+* GIL :
+  ---
+   -> soln to problem of dealing with shared resources in memory   (on Single Core/processor)
+
+* Garbage collection :
+  -----
+   -> free the memory blocks from the pool that are no longer required
+
+* Arena :
+  ----
+   - Chunk of memory 
+   - Comprises of pools
+   - aligned on page boundary in memory 
+   
+   Pools :- comprises of blocks (free, untouched, allocated)
+
+   
+   Page Boundary : A page boundary is the edge of a fixed-length contiguous chunk of memory that the OS uses

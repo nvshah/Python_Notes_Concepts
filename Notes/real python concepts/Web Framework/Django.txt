@@ -1,0 +1,11 @@
+ref
+
+https://realpython.com/tutorials/django/
+
+https://realpython.com/get-started-with-django-1/
+
+
+[Flask]
+
+https://realpython.com/learning-paths/flask-by-example/
+https://realpython.com/python-web-applications-with-flask-part-i/

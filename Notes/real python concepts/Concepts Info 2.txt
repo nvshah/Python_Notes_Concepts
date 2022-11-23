@@ -1,0 +1,97 @@
+https://dbader.org/blog/python-repr-vs-str
+
+[walrus operator] https://realpython.com/lessons/assignment-expressions/
+[lambda] https://realpython.com/python-lambda/
+[time your code] https://realpython.com/python-timer/
+
+[logging] https://realpython.com/python-logging/
+[String Advance Formatting] https://realpython.com/python-string-formatting/
+
+--------------------------------
+TIPS 
+
+-> to get bit length of any int in python -> `.bit_length()`
+
+
+_______________________________
+
+
+
+* csv.dictreader :- use to read content from file in dict form
+
+
+* Type Hierarchy  (https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy)
+  ___________
+
+    None
+    NotImplemented
+    Ellipsis (...)
+    numbers.Number
+           .Integer
+           .Real
+           .Complex
+    Sequences
+    Mutable Sequences
+    Sets
+    Mappings
+    Callable types
+
+* Introspection on function object :
+  ________________
+
+   -> .__name__, .__doc__, .__defaults__
+
+* Advance Formatting in python :
+  ___________________
+
+  -> You can format string mainly by 2 ways i.e str.format() & f-strings
+
+     In both if you want to do some manipulation to variable/val being formaatted then there is a way :
+
+     You can use suffix likes : !r, !s, !a, etc...
+
+      !r = apply repr() prior starting the format 
+      !s = apply str() prior staarting the format
+      !a = apply ascii() prior starting the format
+
+      Eg "{0!a:.2f}".format('101')    //first convert 101 to ascii then format it to string
+       
+         "{say!r}".format(say="Hello")  //first create repr("Hello") then do format on that resulted string
+
+         f'{var!r}'     //repr(var) & then do formatting...
+
+
+* List:
+  ----
+
+   -> list in python is not always contiguous memory allocation. i.e it may be possible that members are scattered around
+
+* walrus operator : (3.9 +)
+  -----------
+   `:=`
+   It allows to assign & return inside single statement
+
+   ref :- https://zetcode.com/python/python-walrus/
+
+
+* time.sleep()
+
+
+* collections.Counter to dict :
+  ------
+   Any Mapping (anything that behaves like a dictionary) can be passed into dict, 
+   and you will get a dict with the same contents. 
+   There is no need to iterate over it to construct it yourself.
+
+
+* dis() 
+  ---
+   dis() expose a readable version of the Python bytecode 
+   allowing the inspection of the low-level instructions 
+   that the Python interpreter will use while executing the program.
+
+
+* repr of object :
+  -----
+   use repr() or  
+       f'{obj!r}'   //!r is used in string formatting for getting repr of an object

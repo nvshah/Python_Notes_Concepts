@@ -1,0 +1,69 @@
+NOTEs :-
+
+  - astimezone() cannot be applied to a naive datetime
+
+___________________________________
+
+IMP topics :- { naive,  }
+
+
+* datetime - module 
+  ---------
+
+   1) Naive datetime :
+        -> don't have info like timezone 
+
+   2) Aware datetime : 
+        -> timezone info
+
+
+   timedelta = diff between datetime objects
+
+   datetime.date -> years, months, day, weekday
+           .time -> hrs, mins, sec, mircorsec
+
+           .datetime -> all (date + time)
+
+   datetime.datetime.
+             today()   // local timezone 
+             now()   // provides option to pass time zone
+             utcnow() // current utc time
+
+   datetime.
+       date().today()
+       timedelta()
+          days, total_seconds()
+       time
+
+   
+   datetime.datetime 
+             \
+            strftime - convert datetime to string (to format)
+            strptime - convert string to datetime (given format)
+
+------------------------------------
+
+module -> pytz :  
+--------------
+
+  -> for timezone info working with datetime 
+  -> timezone aware datetime 
+  -> its recommended to use utc time zone 
+
+
+  To represent given utc timezone time in another timezone :- 
+       astimezone(pytz.timezone('---'))
+  
+  List of all timezone : - `pytz.all_timezones`
+
+
+  * naive datetime to diff timezone conversion :
+    ------------------------------
+     -> Step 1 : first localize your local timezone to timezone you demand for !!
+        Step 2 : then convert as usual you do conversion in timezone aware datetime 
+
+
+  
+
+
+   

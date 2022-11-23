@@ -1,0 +1,6 @@
+https://www.dataquest.io/blog/pandas-cheat-sheet/
+
+https://blog.finxter.com/pandas-cheat-sheets/
+
+[MatplotLib cheatSheet]
+https://github.com/matplotlib/cheatsheets

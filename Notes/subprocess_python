@@ -1,0 +1,19 @@
+* subprocess : (module)
+  ----------
+
+  -> allows us to run system commands by using a function provided by subprocess module
+
+  i.e subprocess.run(<List of cmd args>, <specify 2nd arg if you want>)
+
+                  \
+                   .stdout
+
+      := { 2nd arg : capture_output, }
+
+      :- the script is a parent process & creates a child proces that runs the system commands
+         & only continue once child proces is completed
+
+         by default output goes to standard output stream
+
+         if you want to capture & prevent then use 2nd argument 
+              => capture_output=True

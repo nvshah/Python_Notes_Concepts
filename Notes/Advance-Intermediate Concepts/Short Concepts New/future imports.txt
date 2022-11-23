@@ -1,0 +1,18 @@
+future imports
+
+
+* __future__ imports :
+  -----------------
+  -> It really changes how python works behind (ie different bytes code gets generated for such kinda
+     imports)
+  -> It is doing something really fundamental (in C code as well)
+  -> It is changing the way your python source code gets interpreted
+  -> can change meaning of programs
+
+* __future__.generator_stop
+  -----------------------
+  -> inorder to avoid amibgutiy between StopIteration Exception & Generator Improper access issue
+     Generator Stop Exception is introduced
+
+  -> NOTE : while looping if StopIteration Exception is raised it is silent by Python itself & loop is
+            terminated

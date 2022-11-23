@@ -1,0 +1,13 @@
+* Decorator ;
+  ------
+   Decorator can be implemented via 2 ways - 
+    1) function decorator 
+    2) class decorator 
+
+* class decorator :
+  -------
+   __init__ ; keep hold of initial func to be decorated innside a variable
+   __call__ ; wrapper function impl inside this 
+
+
+* functools :- @wraps decorator

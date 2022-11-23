@@ -1,0 +1,11 @@
+* Single most useful decorator in Python : functools.cache
+
+  functools.cache  decorator : 
+   --------
+    -> remember the values
+
+
+* functools -> lru_cache :
+  ----
+   - lru_cache uses dictionary underhood to remember the things 
+   - So you cannot use non-hashable argument (like List) under lru_cache decorated function

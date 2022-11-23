@@ -1,0 +1,2 @@
+Gradient of Function 
+https://towardsdatascience.com/step-by-step-the-math-behind-neural-networks-d002440227fb

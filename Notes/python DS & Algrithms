@@ -1,0 +1,75 @@
+ref : https://realpython.com/python-heapq-module/#data-structures-heaps-and-priority-queues
+
+[Dijkstra Path Finding] https://www.codementor.io/blog/basic-pathfinding-explained-with-python-5pil8767c1
+
+[PyMOTW - DS] https://pymotw.com/3/data_structures.html
+
+[PyCOn Data structure ] https://www.youtube.com/watch?v=fYlnfvKVDoM
+
+
+* Stack :
+  -----
+ -> using list or deque (doubly linked list)
+
+    deque is best when you only need to pop or push i.e want to deal with the start or end of list as list has some issue
+    when length of list elements grows
+    while deque does not face issue because it is implemented using doubly linked list
+   
+
+* Heap :
+  ----
+   module - heapq
+
+   Abstract Ds - priority queue
+   Concrete Ds - Heaps    (implement priority queue as complete binary tree)
+
+   Completednes - means except at last level all levels are filled
+
+    heapq. heapify()
+           heappop()
+           heappush()
+           heapreplace()
+           heappushpop()
+
+         . merge(itr1, itr2)         // returns iterator  & assumes iterables are already sorted
+         . nsmallest(n, itr, key=)  // key is function that act as comparator to sort sequences
+         . nlargest(n, itr, key=)  
+
+  complexity - (base2-log-n)   // depends on how many elements percolate up & down the tree
+
+  => Use :
+     ---
+      - to merge sorted sequences.
+      - to schedule periodic tasks
+
+      -> problems that invloves extremes, like most or least of a given metric
+         :- Largest, Smallest
+            Biggest, Smallest,
+            Best,    Worst
+            Top,     Bottom,
+            Maximum, Minimum
+            Optimal
+
+      -> Whenever a problem statement indicates that you’re looking for some extreme element, 
+         it’s worthwhile to think about whether a priority queue would be useful.
+
+* priority queue + dynamic programming = sometimes useful
+
+* USECASE - Finding paths
+
+* HeapQ  :
+  ----
+   -> For n largest or n smallest element
+
+* namedtuple :  (collections)
+  -----
+   -> light weigh obj that provides good readability
+   -> compromise between tuple & dictionary
+
+
+* Counter 
+  ---
+
+* deque :
+  ---
+   

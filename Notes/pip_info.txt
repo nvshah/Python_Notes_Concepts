@@ -1,0 +1,86 @@
+[pip reference] https://realpython.com/what-is-pip/
+
+Jupyter gallery   -  ipython github
+
+which python
+where python
+
+--------------------------------------
+
+pip - manula package manager
+conda - for non python packages
+
+* Install packages from PyPi via pip
+
+pip search pkg_name
+pip install pkg_name     
+pip list                 //list all installed package 
+pip list -o              // outdated packages
+pip install -U p_name    // update package
+pip freeze               // Output all packages in requirement format.
+
+pip freeze > fileName.txt  // ouput requirements to specific file
+pip install -r filename.txt   // install packages from requirements file
+
+pip list --outdated       // list all outdated packages
+
+-------
+//update all outdated packages at once :
+pip freeze --local | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U 
+-------
+
+
+
+* Install packages from github via pip :- just add git+ ahead of url 
+     = pip install "git+{githuburl}"
+
+     use @ at the end to download from specific branch or commit or version
+
+     #egg=requests at the end
+
+
+--------------------------------------
+
+* Conda ??
+  -----
+   -> It's encompasses of umbrella tha include multiple packages to work with under 1 hood.
+
+** Commands :
+  ---
+
+- conda list
+- conda env list 
+- conda remove --name name_of_env -all
+
+* With conda you can manage env !!
+ ->
+     conda create --name my_app flask sqlalchemy    //flask & sqlalchemy are dependecy package over here 
+
+    [windows]  activate my_app         | deactivate
+    [mac]      source activate my_app  | source deactivate
+
+
+* Jupyter :
+  ------
+   -> jupyter notebook
+
+   => bash commands from notebook : !command
+
+    * line magic : %    // use single line as command
+
+            %lsmagic
+            %pwd    
+            %ls -la
+            %matplotlib inline
+
+    * cell magic : %%   //used entire cell as commands 
+
+            %%HTML   //Allow you to embed html in your notebook
+            %%timeit //time your code block/cell
+
+    
+
+   
+    
+
+

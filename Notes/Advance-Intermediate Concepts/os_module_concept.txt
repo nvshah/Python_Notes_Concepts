@@ -1,0 +1,52 @@
+tips :-
+
+=> see all attribute available with modules : `dir(mod__name)`
+
+=> os.rmdir() is used to remove empty directory. (no sub dir or files)
+   use shutil.rmtree()  // to remove non-emty directory
+   
+   shutil // shell utils 
+     \
+      -> .rmtree()  //remove the whole tree
+______________________________
+
+
+* os module  :
+  --------
+   -> helps to access or play with the :-
+
+       files system, Env paths/variables
+
+
+   => dir(os)   //see many attrib available by os 
+      dir(os.path)  // info for os.path
+
+
+  Utilisation :
+  -----------
+   
+   -> os.getcwd()  // curretn working directory
+        .listdir()  // list all files & folders in cwd()
+        .chdir()  
+        .mkdir()   // only root level
+        .mkdirs()  //nested levels as well
+        .rmdir()   // only root level 
+        .rmdirs()  // nested levels as well 
+        .rename()  // rename file name 
+
+        .stat(fileName)  // stats of filename 
+
+        .walk()     // walk down entire tree from current dir i.e all files & folders 
+
+        .environ   // print all environment variables 
+
+        .path.join()        // all guess works & creating slash is done by it.
+             .basename()    // leaf level file name 
+             .dirname()     // get dir name for path 
+             .split()       // (dirname, basename)
+             .exists()     // if path exists on file system
+             .isdir()       // if path is dir 
+             .isfile()
+             .splitext()  // split the filename & extension
+
+            

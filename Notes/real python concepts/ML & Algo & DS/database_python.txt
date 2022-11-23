@@ -1,0 +1,2 @@
+[Sqllite & sql-alchemy] https://realpython.com/python-sqlite-sqlalchemy/
+[Sql Libraries] https://realpython.com/python-sql-libraries/

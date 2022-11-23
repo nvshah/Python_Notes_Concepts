@@ -1,0 +1,41 @@
+ref -> official doc 
+Static Type Checking Real Python
+
+-----------------------------------
+
+* typing :  (module)
+  ------ 
+
+  -> documenting your code but not change functionality (i.e not change dynamic nature of python)
+  -> Python Linters will be happy with this.
+
+  => Not "must" but "should"
+
+  Static tool -> look and analyze your python code 
+     \
+      -> MyPy
+               (pip3 install mypy)
+
+    To check any file -> `mypy path/to/your/python/file.py`
+    
+    
+* Python 3.9+ 
+  --------
+
+   list[int], dict[str, str]
+
+   __origin__
+   __args__
+   __paramters__
+
+
+* typing -> @overload decorator : (MetaClass)
+  --------------
+   -> Helps to emulate the Function or method Overloading in Python 
+      ie 
+      Useful When type of func has Type-Hints
+      &
+      NOTE : @overload is only useful for static type checking otherwise at run time only 1 Func is called
+
+
+   -> typing.__prepare__()  // inorder to prepare namespace for class 

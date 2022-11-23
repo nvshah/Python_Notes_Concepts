@@ -1,0 +1,139 @@
+[int internal] https://rushter.com/blog/python-integer-implementation/
+
+
+* int in python is using `bignum` underhood so python can store arbitarily long integers
+
+* random.random() is example of Uniform Distributions 
+  (i.e equal probability for all outcomes)
+
+* Fastest way to loop in python is to not use loop & use formulas if available
+  if not then consider order -> numpy -> builtins -> for loop -> while loop
+
+* `+=` when used with mutable types such as `list` will perform inplace operation i.e `iconcat()`
+
+* use Fraction when you want to gist out something like stroy from result (i.e like probability or else)
+
+* leading zeros in decimal integer literals are not permitted
+  i.e 07 is invalid
+
+* this module ie `import this`
+
+* antigravity module ie `import antigravity`  [open comic book]
+
+* To see underlying representation of num in bits use `struct` module/library : struct.pack()
+
+* decimal.localcontext -> to change context settings for decimal module
+
+* Inorder to get str obj from eval() in python :- use eval(repr(s)) // s is str obj 
+  so instead of eval(s) => use eval(repr(s))
+
+* heapq lets you fetch top t of n items in O(t+n) time
+
+* To list all objects in builtin namespace :- dir(__builtins__)
+
+* use custom key for sorted fun :- functools.cmp_to_key()
+
+* Access Windows Registry (Db) :- module -> `winreg`
+
+* To bind the function to specific instance of python, You can use descriptor protocol :
+
+  func.__get__(owner, type(owner))  // this will bind the func to `owner`
+
+--------
+
+-> for loop is faster in compare to while loop 
+   because for loop utilise range() which is iterator written in C underhood 
+   whereas in while we have to do increment of cntr manually which is accounted in python itself so it's bit slow
+-> use builtin function wherever possible instead of for loop or while loop 
+
+=> If possible than use numpy as entire operations are written in C & its much faster
+
+=> `nan` is the only object which on comparing itself gives False every time
+
+=> is & in are comparison operators & can participate in chained comparison
+
+=> When  0 or empty list are considered as valid value then use None as a default val 
+  ie in such case None become Sentinel Val 
+   
+   If None is also a valid val then you need to create some sentinel object like 
+     Eg SENTINEL = object()
+   & use this senntinel object as Default val
+
+  Thus inorder to distinguish None We need to make our own Sentinel Val
+    
+
+-------- Amazing 
+
+Augmented Assignments Operator :
+-----------------------------
+
+-> `+=` behaviour in python
+        - It may call __iadd__() or __iconcat__() on calling object 
+
+        Now when you call += on list lying inside tuple it will behave abruptly
+
+    plus equals -> may change pointer to variable (in case of immutable obj)
+                -> do inplace operation for mutable objects
+
+
+-> __name__ == __main__  : Standalone Script
+    
+    If you see this in python file then you can run it as script 
+    otherwise
+    Connsider that file as ann library  (Unspoken truth)
+
+    __main__ check allows you to create an entry point of an program that will not 
+             work or point will be closed for other scripts
+
+-> int() rounds towards 0 
+   whereas division via `//` is same as floor() result 
+    
+   So When we have -ve result in division int() will perform Ceil whereas // will perform floor() always
+
+-> `/` is used in function param to signnify end of positional arguments
+
+=> To get the info regarding any function call in python you can usen :- cprofile.run 
+
+
+* Tricky Assignments :
+  ----------
+   Ellipsis :- ...
+
+   Whenn you do chain assignments in python -> a temp var is created for val expression
+    & then all variable from left to right are assigned that temp variable one by one
+
+
+* List & its Size (Amazing Obsv):
+  ----------------
+   What innfo list holds in Python (at its core)
+
+   # Garbage Collection info (before Object)
+   _gc_next = ...
+   _gc_prev = ... 
+
+   # PyObject info 
+   ob_refcnt = ...
+   on_type = ...
+
+   # PyVarObject info 
+   ob_size = ...  // equi to len() as list is of variable size // Tells how many elem are in the memory
+
+   # PyListObject info 
+   ob_item = ...     # pointer to contiguous memory
+   allocated = ...   # how many elems could FIT in ob_item memory 
+
+   
+   => When we do sys.getsizeof(l) :- it returns the size of memory allocated & not used 
+
+   -> For garbage collection purposes Python stores 2 pointers to object before the object gets starts
+
+* Stack Frame :
+  ------
+   => In python you can get access to currently executing stack frame by :- inspect.currentframe()
+   => You can find the locals for current stack frame :- inspect.currentframe().f_back.f_locals
+
+
+* type, exec & namespace :
+  -------
+   --> You can use (metaclass) & exec (dynamic) 
+       to do objects & class stuffs at run time (ie dynamically in true sense)

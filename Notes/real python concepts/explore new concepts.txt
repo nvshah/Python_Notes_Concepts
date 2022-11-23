@@ -1,0 +1,95 @@
+* unittests
+   \
+    main()
+
+* doctest
+    \
+     testmod()
+
+
+* operator
+   \
+    itemgetter()
+
+* contextlib
+
+
+* pathlib
+  \
+   Path -> cwd()
+           home() -> joinpath()
+           open()
+           read_text()
+           resolve() -> parent
+           parent
+           stat() -> st_mtime 
+
+* importlib :
+   \
+    metadata.metadata()
+            .files() 
+              \
+               .read_text()
+            .requires()
+
+* statistics :
+   \
+    {fmean(), geometric_mean(), multimode(), quantiles()}
+
+* feedparser :
+  -------
+   -> module to read & parse a feed of articles.
+
+* configparser :
+  -------
+
+* sys :
+  ---
+   \
+    getsizeof()
+
+* argparse :
+  -------
+
+* requests :
+  -------
+
+
+* tracemalloc :
+  ----------
+    \
+     takesnapshots()
+     stop(), start()
+     clear_traces()
+
+
+* Attrs :  (Same as data class in python) 
+
+
+* joblib :
+  ------
+
+* struct :
+    \
+     pack()  // to get full binary bits repre of number
+
+* cprofile :
+  ----
+   -> to get information abt any function call
+
+* csv :
+  ---
+   reader 
+   Sniffer().sniff()  // to get the dialect
+
+* string :
+  ----
+   Template 
+      - substitute
+
+* collections.ChainMap 
+  ----
+    new_child()
+    parents
+
+

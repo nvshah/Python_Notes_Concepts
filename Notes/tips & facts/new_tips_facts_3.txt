@@ -1,0 +1,10 @@
+new_tips_facts_3
+-----------------
+
+* int & str digit size (python 3.10+)
+  -------
+  As per latest python int number when represented using str, has some digit limits
+  Inorder to change that limit
+  You can use
+
+  sys.set_int_max_str_digits(0)   // apply while conversion from int to str

@@ -1,0 +1,58 @@
+(generator) https://realpython.com/introduction-to-python-generators/#using-advanced-generator-methods
+
+* Also see mcoding youtube for `python generaotrs`
+
+=> Remember : For Iterator or generaotr, You need to follow corresponding protocol
+
+------------
+
+modules useful :
+  {  sys.getsizeof, cprofile  }
+
+* Generators :
+ ----------
+  ->  Python yield statement is certainly the linchpin 
+      on which all of the functionality of generators rests
+
+
+* next() & Iterators or generators :
+  --------
+   -> When you use next() manually on Iterator or Gennerator then on Exhausted
+      it will give StopIteration Exception 
+
+      To avoid that you can provide default val in next() as second argument
+
+** QUE :- Check if iterator is empty or not ??
+ -> 
+
+___________________
+
+* Generators useful for
+  - Long Sequences
+  - Reading Files
+  - Getting Arbitarily Long Ranges
+
+  Generators := memory efficient
+    -> We can completely define our pipeline to carryout
+
+  yield statement is not only a statement but its also an expression which will return some value
+
+=> generators are not only functions that yield values
+   but
+   Generators are a Bi-Directional Pipeline
+   - Generator can yield value to its caller &
+     Its caller can send back the value to its generator
+
+* send() -> will cause the generator to run until next yield
+
+
+* Generator & Async :
+  ---
+  Similarity :
+  - Defining the Task, Pausing the function & then again resuming the task
+  - Under the hood Async Coroutines are defined using the Genrators
+
+  -> The laziness of Generator is powerful enough to design the entire Async-Await Coroutines !
+
+* yield from := call pass through
+  

@@ -1,0 +1,19 @@
+ref : kethi gali
+
+[numpy & pandas]  http://www.wvview.org/open_source_gis/site_renders/numpy_pandas/site/index.html
+
+* Matrix is just a linear transformation
+
+* List vs Numpy
+
+list :- members need not compulsorily need to be contiguous
+numpy :- contiguous memory allocation
+
+
+* SIMD vector processing unit
+ 
+  single instruction multiple data
+  -> We can leverage this if there is contiguous memory allocation done.
+
+* MatplotLib 
+   

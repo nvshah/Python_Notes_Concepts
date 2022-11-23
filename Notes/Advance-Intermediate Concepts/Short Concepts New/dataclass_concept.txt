@@ -1,0 +1,109 @@
+ref :-
+
+[SimpleNameSpace]  https://lwn.net/Articles/818777/
+
+
+* Data Class :
+  -------
+
+  modules :- dataclass, attr
+
+* alternatives to DataClass :
+  ----
+
+1) attr :
+   ----
+   @attr.s
+
+2) Tuple 
+
+3) NamedTuple :
+   ---
+    - But with this you can't modify the attrib 
+    - So there will be cost of instantiation of new tuple each time modificationn requires 
+
+4) Dict :
+   ----
+
+5) SimpleNameSpace :
+   -----
+    module :- `types.SimpleNameSpace`
+
+
+* Decorator :- dataclass :
+  ------------------
+   - params : frozen, order
+
+     frozen :- if you want it to be immutable or not (ie hash or not)
+
+
+_________
+
+6) pydantic.BaseModel :
+   -----
+    -> Very much useful whiulst parsing json in case of Web Response (ApI)
+
+
+----------
+
+DataClass Raw :
+ ---
+ -> __init__, __repr__, __str__, 
+    
+    __eq__, __ne__, __hash__
+
+    totalordering (for comparision)
+
+
+---------------
+
+1> By default @dataclass()
+   ---
+    -: will provide 3 funciton to us :- {eq, init, repr}
+
+2> @dataclass(frozen= True)
+   ---
+    -> {eq, init, repr, hash}
+    
+    - thus {frozen} is used to signify that if you want your class to be immutable or not 
+    - {frozen} indicates if you want to define __hash__ for your dataclass 
+
+
+3> @dataclass(order=True)
+   -----
+    -> {eq, init, repr, gt, ge, le, lt}  // total ordering
+
+    -> As seen above {order} total order impl for corresp dataclass
+
+4> @dataclass.transform
+   ----
+   - For custom type in custom library to support same as dataclass
+
+----
+
+* dataclass.field :
+  -----
+   -> used for creating factory or default_factory, initialization val for any specific 
+      field of dataclass
+
+
+--------------
+
+* attr library :
+  -------
+   - does almost samething as what dataclass does !
+
+   - it allows validator and converter for specific field of dataclass 
+   - it possess slots feature
+       \
+        So if you wanna use slots instead of dictionary for your data representation underhood
+        You can leverage the `attr` module instead of `dataclass` module
+
+   Downside of attr module :
+   ---
+    -> it is a seperate dependecy (ie it is not built in python)
+       So
+       You need to install it manually (as outside dependecies)
+
+
+--------------

@@ -1,0 +1,111 @@
+https://realpython.com/python-functional-programming/
+
+https://realpython.com/learning-paths/functional-programming/
+
+[filter] https://realpython.com/python-filter-function/
+[reduce] https://realpython.com/python-reduce-function/
+[lambda] https://realpython.com/python-lambda
+[functions] https://realpython.com/defining-your-own-python-function/#returning-data-to-the-caller
+
+Rem) ->> If in filter(), predicate is `None` then bool() will be used instead
+
+unittest
+
+
+
+---- Notes ----
+
+gist about functional programming :-
+----
+ -> Functional programming is all about calling functions and passing them around, 
+    so it naturally involves defining a lot of functions
+
+=> You can display a function to the console with print(), 
+   include it as an element in a composite data object like a list, or even use it as a dictionary key
+
+NOTE ->
+  Though function is same as first class obj & behave merely same as string or numbers in python
+
+  => You can add two integer objects or concatenate two string objects with the plus operator (+). 
+     But the plus operator isn’t defined for function objects.
+
+=>  Functional programming tries to avoid mutable data types 
+    and state changes as much as possible.
+
+# Pure Functions # higher Order Functions # recursions
+
+* callbacks :
+  --------
+   -> When you pass one function as a param to another function, It is referred as callbacks
+      
+      NOTE - inner function can modify outer function's behaviour (i.e closure concepts)
+
+
+* lambda :
+  ------
+   IMP -> returning tuple from lambda :-
+
+   But you can return a tuple from a lambda function. 
+   You just have to denote the tuple explicitly with parentheses.
+   
+   IMP -> (local namespace own)
+
+   A lambda expression has its own local namespace, 
+   so the parameter names don’t conflict with identical names in the global namespace. 
+   A lambda expression can access variables in the global namespace, 
+   but it can’t modify them.
+
+   NOTE :- (f strings & lambda)
+    If you find a need to include a lambda expression in a formatted string literal (f-string), 
+    then you’ll need to enclose it in explicit parentheses
+
+   HABIt ->
+    Its a good habit to use parentheses around lambda function
+
+    -> Use lambdas with higher-order functions or Python key functions
+   
+
+* lambda vs normal func :
+  ------
+   - when there will be exception then 
+      normal function will be easy to trace as exception mentiones the name of function
+
+=> lambda expressions cannot have type hinting on arguments
+
+
+* Closure :
+  ------
+   -> A closure is a function where every free variable, everything except parameters, 
+      used in that function is bound to a specific value defined in the enclosing scope of that function
+
+   A closure is a function where every free variable, everything except parameters, 
+   used in that function is bound to a specific value defined in the enclosing scope of that function
+
+   Closure has access to its embedding environment, such that upon invocation of the closure, 
+   it is able to operate on the two free variables x and y.
+
+** noTE (iMp) :-
+   -----
+     -> behavior of a lambda can be deceptive due to its evaluation time (definition time vs runtime).
+
+
+   free variables & lambda :
+   ----------------
+    ->  when free variables are bound in the context of a lambda ?
+
+        -> Make Sure that free var is bound at definition time
+
+* lambda & docstring :
+  ---------------
+   -> lambda functions does not support a typical docstring, 
+      it is possible to assign a string to the __doc__ element of a named lambda
+
+ 
+* Pythonic Way :
+  ---------
+   filter(), map(), reduce() -> list comprehension, generator comprehension
+
+
+TIP :-
+  
+  1) reduce() is written in C, its internal loop can be faster than an explicit Python for loop.

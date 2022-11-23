@@ -1,0 +1,193 @@
+
+* ipywidgets :
+  ------
+   ipywidgets.interactive  // helpful to change height or aspect or plots
+
+=> In case of Density Func :- all (scale*width) must sum to 1
+
+--------
+TIPS
+
+- sns.set_style('dark')  // before doing any plot with seaborn 
+
+- to set xlim range of any specific axis :- plt.gca().set(xlim=(start, end))
+
+- plt.rc('date.autoformatter', day='%b %Y')  // Format Data whilst Plotting
+
+_________________
+
+1) KDE plot :
+  ------
+   -> KDE is a way to estimate PDF from finite set of data 
+    - It's a non-parameteric way (means that It doesn't assume any underlying distribution)
+    - 
+
+
+2) Pair Plot :
+  ------- 
+  Diagonal :- KDE or Histogram 
+  Off-Diagonal :- Scatter plot or Relative Plot 
+
+  sns.pairplot() 
+         \
+          kind, diag, hue, vars, y_vars, x_vars, palette
+          diag_kws, plot_kws, 
+        
+
+
+3) Hist Plot :
+  -----
+   sns.histplot()
+        \
+         x, data, bins, kde
+         binwidth, binrange,
+         stat,
+         fill, element
+         hue
+         multiple, shrink
+
+  element -> {'step', 'poly', }
+
+
+4) Box Plot : 
+  -----
+   - (Categorical Distribution Plot)
+   - Median, 25th Percentile, 75th Percentile 
+
+   -> IQR :- distance between 25th & 75th percentile 
+      
+   Whiskers :- 1.5 * IQR
+     \
+      Help us to give idea about an Outliers (Diamond)
+
+   Thus WHiskers at both end can be thought of as Range of Values (without considering the outliers)
+
+   - Box Plot helps us to understand the distribution of data in terms of stats 
+   - It also helps us to flag anomalies (ie diamonds outside whiskers)
+
+   whis : property 
+     \
+      Control Outliers in BoxPlot
+
+
+5) Violin Plot :
+  ------
+   - Categorical Distribution Plot
+   - KDE for Data's Probability Density function + Box Plot
+
+   Special Property 
+    - Violin Plots is Symmmetric
+
+  param :
+    split, inner, scale, scale_hue, order
+    bw  // bandwidth
+
+6) Scatter Plot :
+  ---------
+   - Relational Plot 
+      \
+       jelp to find the Relation between 2 features
+
+   To express the diff category via markers we can use :
+     - hue, size, style, etc...
+
+   To customise the color :-- `palette`
+
+   params (other) :- marker, color, alpha, s
+
+7) RegPlot :
+  -------
+   - It's a combination of scatter plot + Regression Line (plane)
+   - Relationship trends between x & y variables axis
+   - correlation
+   - Linear Relation Ship doesn’t immply casusation
+      - X doesn’t cause Y to increase linerly
+        Just it is trend
+   
+   bootstraping : (Shaded Banded Region)
+   ----
+    - CI
+    -> Confidence Interval :- Shaded Line around the linear reg line
+
+   params :
+   --
+    x_jitter, x_estimate
+    scatter_kws, line_kws
+
+   1) Polynomial Regression (order)
+      -------
+        param :- { order,  robust}
+
+   2) Robust Regression : helps us deal with outlier
+
+   3) Logistic Reg :- (binary)
+  
+
+  => to set xlim range of any specific axis :- plt.gca().set(xlim=(start, end))
+
+8) LinePlot
+ ---------
+  - Purpose :- Continuous val Observation 
+
+    Usually Time is along the X-Axis
+        \
+         Pattern of Trend, Seasonality
+
+  - Also provides the CI along the Line 
+
+  -> Line connecting the data + Confidence Interval 
+
+  * BootStraping :
+    ----
+     - params : {n_boot, ci, estimator }
+     
+     - Sample uniformly with replacement
+
+     - default {n_boot} := 1000 // ie number of time experimennt is performed
+                \
+                 bootstrap datasets
+
+  * params :- {x, y, data, hue, size, palette, style }
+
+    Both Size & hue :- can take categorical or numerical val
+
+
+* heatMap :
+  -------
+   - You can use HeatMap for matrix Like or tabular like data to visualize the density of values 
+
+   - groupby(), value_counts(), unstack(), fillna()  // all are useful methods to create tabular data from given dataframe for HeatMap
+   - It can also be useful to represent simple numpt ndarray or matrix 
+
+   -> Usefulness :-  
+        
+        1) Correlation :-  
+               corr()  // pandas useful method
+                  \
+                   Pearson Correlation
+
+                   -> Helpful to get innsights the val that are positively or negatively correlated
+
+                   By Default :- larger val :- lighter color 
+                                 smaller val :- darker color
+    
+    => Palette & Arguments :
+       ---
+        - cmap  -> {"Blues", "RDBU"}
+        - center
+        - vmin, vmax  
+
+    => Annotations :
+       --- 
+        - annot 
+        - fmt    // format of annotation val  (Eg ".0f")
+        - annot_kws   // style annotation
+
+    => advance :
+       ---
+        - linewidth
+        - linecolor 
+        - xticklabels
+        - yticklabels
+        - square       // perfect square each rectanngle of heatmap
+     

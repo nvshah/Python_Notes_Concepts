@@ -1,0 +1,175 @@
+ref : mcoding (youtube)
+
+__________
+Useful methods 
+
+isinstance()
+issubclass()
+
+
+---------
+
+=> In python you can get access to currently executing stack frame by :- inspect.currentframe()
+
+=> To get the class name of any object in python :- obj.__class__.__name__
+
+=> In python each & every concept, object has certain protocol (ie Dunder methods defined)
+   to distinguish itself,
+   & You need to bound to that protocol inorder to utilise the properties
+
+=> class methods are used exclusively for alternative constructor (for Eg from_json())
+
+---------
+
+
+=> Normal Functions implement the descriptor protocol
+
+-> to Check the object/instance namespace, use :- `__dict__`
+
+-> to get help abt MRO & other details of class :- help(classname)
+
+______________________________
+
+
+* new() vs init():
+  ------------  
+   __new__ :- call to create object 
+   __init__ :- to add attrib to that object
+
+   new :- return object 
+   init :- do not return anything
+
+   generlly signature of both are same
+
+   new :- is a class method     (cls)
+   init :- is a instance method (self)
+
+   => Always remember to return something from new (as that is its job)
+
+   new :- Change how obj is created
+
+
+   init :- when called obj is already created 
+   
+   So if you want to perform anything during or before object creation use __new__ 
+   else you can go with __init__
+
+   So __new__ is often used when to deal with immutable object 
+   as immutable obj cannot be altered once created 
+
+* classmethod & staticmethod 
+  ----------------
+   to call classmethod from instance method use :- type(self).classMethodName()
+
+   static methods :- dont pass any argument as first argument like `self` or `cls` 
+                     Those are just regular function but 
+                     we put them inside class just because they have some logical relation with them 
+                     
+
+* Class OOPs concepts also follow namespace :
+  --------------
+   First look at instance namespace (ie __dict__)
+                 class namesapce    
+                 parent class namespace (ie inheritance)
+
+
+          
+* Inheritance :
+  -----
+
+   Method Resolution Order :- (MRO)
+   ---
+   - Chain of Lookup for Methods & Arttributes 
+
+   TIP :- to get idea abt MRO :- use `help(ClassName)`
+
+   super :
+   ----
+    - to call parent class attributes 
+
+
+* magic methods :
+  -------
+   - allows to emulate the builtin behaviour in python & also operator overloading
+
+   1) __str__  | __repr__
+        o.__repr__()  or repr(o)
+
+   2) __add__
+   3) __len__
+
+* NotImplemented :
+  ----
+   If some operations throw NotImplemented exception then operand is checked either way to second
+   side if there the operation is define or not !
+
+
+* Property :
+  ------
+   get :- @property 
+       :- defining the getter property as a method but can access it like a property/attribute
+       :- no need () while invoking
+
+   setter :
+       @name.setter   // name is name of the property (ie getter property)
+
+   deleter :
+       @name.deleter  // dispose the resources of an instance 
+
+       Eg :- del obj.name 
+
+--------- Advance ------------
+
+* super() :   // MISC TOPIC 
+  ------
+   UseCase :
+   |
+    -> LoggingDict -> ie While Setting or getting Item of Dict (via Custom Dict)
+
+   TIPS (REMEMBER)
+   
+   > super doesnt necessary call your parent (ie it may call ancestor's version as well, possibly)
+   > super can access sibblings
+
+   MRO (Method Resolution Order)
+   -----
+    To get mro for any class -> ClassName.__mro__  // returns list of ordered search for method
+
+   super => next in line in MRO's list 
+   
+   REMEMBER :- 
+    -> with Single innheritance next in line is always the Parent 
+    -> with multiple inheritance next in line is not always the Parent (it may be Sibblings)
+  
+  Q) What actually super() is ??
+   ->
+     super() := returns instance of Super Class
+        \
+  * Proxy Object 
+    ____________
+         -> instance of Super class is called as Proxy Object 
+         -> It's simply a wrapper class that holds the obj & provide attribute lookup for that obj
+
+      Proxy Obj := an Class or Object that is intended to store or hold another Object 
+
+  => super just doesn't forward only attrib req & returnn res
+
+  => 0 arg super gathers all the info it needs just by looking at Caller's Stack Frame
+     |
+     So when we do super()
+     it actually sneakily grabs 2 variable underhood ie __class__ & self  (via Caller's Stack frame)
+      1) __class__  :- class it's currently run from !
+      2) self       :- object its currently being run on !
+
+      So You can pass 2 argumments 
+
+      Eg b = B()
+         sup = super(B, b)   // B is class from where its being running on  & b is object on which its being running on  
+
+* Cooperative Inheritance :
+  ------
+   -> A way to ensure that particular Parent's behaviour is invoked on super()
+
+
+* bound methods vs free methods :
+  ----------------------

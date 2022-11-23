@@ -1,0 +1,83 @@
+ref :- 
+
+Benjamin Peterson Garbage Collection in Python - PyCon 2014
+[https://www.youtube.com/watch?v=iHVs_HkjdmI]
+
+-----------
+* Garbage Collection :- 
+  _______
+
+Q) What is GC in Python ??
+ -> Objects that are not reachable by the program would be deallocated 
+    So that new object ca take the place. 
+
+ When Object gets cleaned up ??
+ ->  first ans :- when we do exit() in python program 
+
+ but before that during program running also Objects gets deallocated via GC 
+
+* CPython :
+  ---
+
+1) Reference Counting :
+   ---
+    The primary GC is done by ref-counting. 
+
+    major Flow :- Cycles
+
+
+* cyclic GC :
+  ----
+   - Detects Cycle unreachable from program & deletes them.
+   - Cyclic GC subtracts the internal references of an Cycle
+
+
+-> CPython has 3 Generations
+
+
+-----
+
+* PyPy :
+  ---
+   - RPython
+   - Interpreter is actually abstracted away from GC implementation.
+   - You can change GC at translation time
+
+   - Current Default GC :- 'minmark'
+
+* Mark & Sweep :
+  -------
+
+=> High Infant Mortality :
+   ---- 
+    - Short lived temporary variable bound to values
+
+[Generations]
+* Nursery :  (Generational)
+  ----
+   - Put those such `High infant Mortality` objects in chunk of memory from where GC can deallocates it 
+
+* GC in Summary :
+  ---
+   - Pluggable   (You can choose what tyoe of GC you want )
+   - Generational 
+   - Incremental 
+   - Integrated with JIT
+
+
+* __del__ & cycles :
+  -------
+   - Finalizers
+   -> Problems 
+
+=> GC can be subtle or difficult topic 
+=> PyPy's GC is amazing !
+
+
+------
+[QNA]
+
+Q) How CPython deals with Fragmentation ??
+  
+  -> Fragmmentation depends on Memory Allocator - ie Heap used by Language 
+     So CPython uses something kinda obj_malloc 

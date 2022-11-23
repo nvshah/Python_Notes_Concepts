@@ -1,0 +1,3 @@
+* Get access to base class for any object in python :- obj.__class__.__base__
+
+* 

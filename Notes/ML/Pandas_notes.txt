@@ -1,0 +1,81 @@
+
+--------------------------
+TIP : Slicing is inclusive in pandas
+
+
+
+--------------------------
+df.dtypes // give info abt all types for all columns
+
+
+
+______________
+
+* Pandas : pd
+
+* dataframe & series :
+ 
+  - series = single array obj | single col of rows
+  - df = container of series.
+
+* index :
+  _____
+   -> label for row
+   -> default (integers from 0,1,2,...) 
+
+
+* iloc & loc :
+  __________
+ 
+  - to get row 
+
+    loc -> by labels of index & iloc -> by index integer
+
+    df.iloc[[list of indices for row], {index for column to select}]  // Eg df.iloc[[1,2], 2] will select 1&2 row with 3rd column
+
+  - slicing works on column names as well
+      df.loc[[lst of index], col1:col2]             // THis is the reason Slicing inclusive
+
+
+
+Q Access multiple cols :  -> df[['col1', 'col2']]  // df[list of col_names]
+Q to get rows :           -> df.iloc[i]
+Q to get multiple rows :  -> df.iloc[[i1, i2]]     //df.iloc[list of indices] 
+
+q to get multiple rows with selected cols : 
+                        -> df.iloc[[i1, i2], [ci1, ci2]]  // df.iloc[[list of row index], [list of col index]]
+                           df.loc[[i1, i2], [c1, c2]]  // df.iloc[[list of row index], [list of col names]]
+
+q to get range of rows :  -> df.iloc[s:e, {[list of columns index]}]  //s-start, e-end both inclusive
+                          -> df.loc[s:e, {[list of colmn names]}]  //s-start, e-end both inclusive
+ 
+Q to get rows & col cnt : -> shape()
+
+Q set col as index :->  df.set_index('col_name')
+
+Q to check if series elem in series2 :- s1.isin(s2)
+
+  to check if series elem has na :- s1.isna()
+
+
+* Remember : 
+   ----
+    Masking only works with Boolean Series in pandas dataframe
+
+   To do slice based on index :- df.iloc[i1:i2, j1:j2]
+
+   if pd.concate() on axis = 0 then index will be repeated
+
+   .loc can use labels & boolean array to access rows
+
+   => The new DataFrame index is the union of the two Series indices:
+
+
+* subset using 2 ways :  
+  -----
+
+
+* to_csv() :
+  -----
+   - doesn't limit you to create only csv files
+   - you can create txt files with same method as well

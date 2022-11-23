@@ -1,0 +1,65 @@
+ref :
+[MemCache efficient Caching] https://realpython.com/python-memcache-efficient-caching/
+[LRU] https://realpython.com/lru-cache-python/
+
+____________
+
+* Local Computer Cache : functools.lru_cache
+* Distributed Cache :- memcached, reddis
+
+Motif :
+
+If not cache then :-
+   - either you need to bring data again from canonical source 
+   - or you need recomputation in some cases 
+
+Therefore, when a system is distributed across a network, 
+it also needs a cache that is distributed across a network.
+
+* memcache :
+  -----
+
+  Cache Invalidation :- remove stale or out of data (with current data) cache records
+  TTL :- time to live, (expiration time for cache)
+
+  canonical data source :- Single Source of Data
+      \
+       Eg Database, RestAPI, socket, GraphQL, etc...
+
+
+* pymemcache :
+  -------
+    preferred Python library for interacting with memcached
+   
+
+* Memcached & Network-Available Dictionary :
+  --------------
+  -> Keys and values have to be bytes
+  -> Keys and values are automatically deleted after an expiration time
+
+
+* Cold-Cache Scenarios :
+  ----------
+   - MemCached Crash   // Cold-Cache cannot be prevented 
+   - Migrating to new MemCache Server // Here Cold Cache Can be prevented by duplication
+
+
+* Thundering Herd Problem :
+  ------
+   -> Cache needs to be refilled
+      So the canonical storage of cached data will be hit simultaneously by the users 
+      who lacks a cache data 
+  
+* FallBackClient :
+  ------
+   When you need Scenario like migrate from old cache to new cache 
+
+   then You can utilise it in this way :
+     1) Query to new cache 
+     2) If not found then Query to Old Cache & set in new cache accordingly
+
+  In this case, the new cache server will always be queried first, and in case of a cache miss, 
+  the old one will be queried—avoiding a possible return-trip to the primary source (canonical source) of data.
+
+* CAS (Check & Set) & concurrency :
+  ------------         

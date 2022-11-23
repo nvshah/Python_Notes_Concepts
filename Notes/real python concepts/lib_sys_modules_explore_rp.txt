@@ -1,0 +1,118 @@
+[pathlib] https://realpython.com/python-pathlib/
+
+[Size of an Object] https://code.tutsplus.com/tutorials/understand-how-much-memory-your-python-objects-use--cms-25609
+
+Interesting (Must Explore)
+
+[pathilbs path] https://snarky.ca/why-pathlib-path-doesn-t-inherit-from-str/
+[importlib]     https://realpython.com/python-import/
+
+Advance ---
+
+[Command Line Args] https://realpython.com/python-command-line-arguments/
+[Command line Parsing Lib] https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/
+
+TIPS : use `pydoc obj_name`, to see help(obj_name)
+
+sys
+os 
+inspect 
+importlib     https://realpython.com/python-import/
+contextlib 
+pathlib
+typing
+glob
+shutil
+
+configparser   [https://pymotw.com/2/ConfigParser/]
+argparser
+argparse   [https://realpython.com/command-line-interfaces-python-argparse/]
+
+urllib  (for url request)
+
+requests
+
+
+---------------------
+
+=> When we use sys.argv list then, first element will be module_name if run from command line & not in idle
+
+
+* Alternatives :-
+  -------
+   os.path,
+   argparse, configparser
+
+* paths :
+  -----
+   modules :- {pathlib, os.path, os.fspath()}
+
+   pathlib.Path <- class is imp
+
+   / operator to make path string obj 
+   --------
+    -> Atleast 1 path object
+
+   path Object :- 
+        - joinpath()
+
+   open(path) can work with path object as well
+   -------
+     Q. How open() works internally ??
+        -> internally path.open(mode='r') is called by open(path, mode='r')
+
+   NOTE :
+     Paths can also be specified as simple file names, 
+     in which case they are interpreted relative to the current working directory
+
+     .resolve() will find the full path
+
+
+   Counting Files :
+   -------
+     iterdir()
+     glob(), rglob()   //more sophisticated & flexible approach
+
+     stat().st_mtime   //time of last modification of file
+   
+   * WindowsPath() | PosixPath()
+
+   PurePath :
+   -------
+    1) PureWindowsPath
+       ------
+        -> manipulation mimited to path only not file
+        -> not allowed methods that access file system
+
+
+  NOTE :- For Path object (as an object not string)
+    
+    independently of the operating system you are using, 
+    paths are represented in Posix style, with the forward slash as the path separator
+
+
+  os.fspath() :
+  ----------
+   -> safely convert pathlike object to string format
+
+* size of object :
+  --------------
+   sys.getsizeof(o)   // size of obj o in memory
+      \
+       -> Note this doesnt cnt memory for sub-object
+
+* sys.argv :
+  -------
+   -> to get arguments passed via command line
+
+* sys.exit(0):
+  -----
+   -> exit python script
+
+   Any number other than 0 i.e True will result in an error exit
+
+
+
+
+
+

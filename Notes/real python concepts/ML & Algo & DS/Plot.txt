@@ -1,0 +1,14 @@
+[Histograms] https://realpython.com/python-histograms/
+
+[Bokeh Data Visualization] https://realpython.com/python-data-visualization-bokeh/
+
+-----------
+
+* To include plots directly insoide notebook :  %matplotlib inline
+
+* plot and pandas :
+  ---------
+   Both series & dataframe has .plot() method
+
+   - wrapper around matplotlib.pyplot.plot()
+   -> By default, it creates a line plot

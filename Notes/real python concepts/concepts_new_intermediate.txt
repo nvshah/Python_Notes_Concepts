@@ -1,0 +1,41 @@
+[command Line Python]  https://dbader.org/blog/python-commandline-tools-with-click  
+[Command line Commands with Python] https://dbader.org/blog/how-to-make-command-line-commands-with-python
+
+[logging] https://realpython.com/python-logging/
+
+
+* sys.stdin, stdout, stderr 
+
+  sys.argv   // to get arguments pass from command line
+
+* AST object in python
+
+* monkey patch 
+  ------------
+   fixture/mock -> https://docs.pytest.org/en/latest/how-to/monkeypatch.html
+
+
+* __dict__ & vars() :
+  ---------
+   https://medium.com/analytics-vidhya/dict-attribute-and-vars-function-in-python-42d82dbaba73
+
+* __missing__() :
+
+
+* argparse, optparse, click :  [Command Line]
+  --------------------
+   -> Better Commandline
+
+   Click :
+   -----
+
+* configparser :
+  ---------
+
+* importlib :
+  -------
+
+
+
+
+

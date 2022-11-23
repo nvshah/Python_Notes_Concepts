@@ -1,0 +1,21 @@
+[Standard Library function] https://docs.python.org/3/library/functions.html
+
+* built-in :
+  -------
+   -> environment comes with python :
+       Eg 
+           print()
+
+   -> This Python addons (i.e module) do not require extra things to be used
+
+   => Python 3.8 comes with 69 built-in function
+
+* literal :
+  ------
+   -> A literal is data whose values are determined by the literal itself.
+
+  bool :
+  ---  
+  ->  Boolean values are the two constant objects True and False used to represent truth values (in numeric contexts 1 is True, while 0 is False.
+  
+  None literal -> of NoneType

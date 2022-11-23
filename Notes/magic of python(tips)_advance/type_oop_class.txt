@@ -1,0 +1,20 @@
+* Everything in Python is Object 
+
+* blueprint :
+  -------
+
+   type class 
+   __________
+   -> Just as we create a blueprint for our custom object & we call them as a class !
+
+      So how to define that class i.e blueprint is also governed by some other class in python 
+
+       `type` class :-     Bluprint that allows you to define classes(custom objects)
+       `function` class :- Blueprint that allows you to define your own function 
+       `method` class :-   Blueprint that allows you to define your own method
+
+   dynamically create class :
+   ----------
+    -> using type()
+              \
+               this procedure is often called as metaclass

@@ -1,0 +1,132 @@
+* To read document for any python module :- use `pydoc modulename`
+
+
+* __dict__
+   -> https://medium.com/analytics-vidhya/dict-attribute-and-vars-function-in-python-42d82dbaba73
+
+   => used to store an object’s (writable) attributes
+   => is also called `mappingproxy` object
+
+* __missing__ 
+   -> dunder on dict type objects
+
+
+* When you are running any file via python p1.py 
+   -> then for p1 __name__ == __main__ i.e 
+      namespace of that p1.py module for that program at moment is from __main__ 
+
+      So if you want to import any items from same module inside same module you need to use 
+
+      from __main__ import obj
+
+   * timeit & namespace :
+     ---------------
+      -> http://www.openbookproject.net/books/pythonds/AlgorithmAnalysis/Lists.html
+
+
+* Extended unpacking, starred assignment, slice assignment  
+  -------------------------
+   -> behaves greedily with iterator & iterate through the generatpr/iterator at once at time of assigning or definition
+
+* Circular reference :
+  --------------
+   -> ...
+
+* sys argv tip :
+  ---------- 
+  => When we use sys.argv list then, 
+     first element will be module_name if run from command line & not in idle
+
+
+* dis module :
+  --------
+   -> use to analyze CPython bytecode
+
+
+* splat (i.e unpack) operator : {*, **}
+  -------------
+
+* accumulate vs reduce :
+  ----
+   -> Accumulate provides you all intermediate results in finding reduce() answer
+
+  => Do sorting by key() before doing groupby() same key
+
+
+* `+=` when used with mutable types such as `list` will perform inplace operation i.e `iconcat()`
+
+* `time.perf_counter()` doesnt uses actually clock but it uses CPU clock cycles 
+                        so you always need to use 2 time instances of perf_counter & subtraction 
+                        to calculate elapsed time
+
+* View Objects vs Copy :  (https://johnlekberg.com/blog/2020-09-19-dict-view.html)
+  ------------------
+   eg dict.keys(), dict.values()
+   -> View is not copy of any iterable but its kinda Window to access that iterable
+   -> They provide a dynamic view on the dictionary’s entries, 
+      which means that when the dictionary changes, the view reflects these changes
+
+   -> Its kinda reactive way informally
+
+
+* repr() vs str() :
+  -----------
+   repr() :- goal is to be unambiguous
+   str()  :- goal is to be readable
+
+   repr() is more like a python command so (it can be used with eval)
+
+* Exception vs BaseException :
+  ----------
+   Exception :- is meant for all logical code ie funtion & classes
+   BaseException :- parent, can catch sys.exit() exception 
+
+   also bare except:  - will not get interrupt via ctrl+c 
+        but except Except will get interrupt via ctrl + c
+
+
+* Assignments :
+  ---------
+   assignments in python are statements & not expression 
+   So chain assignments will work from left -> right
+
+   For expression we have Walrus operator `:=` 
+   that return val after doing assignment
+
+   So 
+
+   normal equal operator `=` :- left -> right 
+   assignment expression operator (walrus) `:=`  :- goes right -> left
+   
+    
+* eval() vs exec() :
+  ---------
+   - both used to dynamically execute the python code
+   - eval :- used for single expression
+     exec :- used for any piece of python code
+
+* Tuple & Copy :
+  ---------
+   - When you create a tuple from another tuple then same tuple object is referred (ie Canonical Form)
+   - There is no point in creating a Shallow Copy of an immutable obj so thus its just making a copy of reference
+     instaed makinng shallow copy of all elements of tuple
+
+
+* Data Class & Immutable Properties :
+  -----------
+   - Inorder to make attrib or properties of a class as immutable 
+     (which is what Data class is known for )
+
+     You need to use double underscore in front of variable-name ie `__varName`
+     this way 
+     it will not allow to be modified or accessed by outside code
+     So you need to provide getter or setter or some other likewise mechanism to expose them
+
+* round() & -ve offset :
+  -------------
+   We can specifiy -ve offset to round in reverse direction for integer part (in case we have very large number)
+
+   n = 2343649
+
+   round(n, -1)  // 2343650
+   round(n, -2)  // 2343600

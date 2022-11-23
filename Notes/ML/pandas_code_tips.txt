@@ -1,0 +1,36 @@
+* pd.set_options('display.max_columns', 80)
+
+* df['col']    // series|column
+    \
+     -> value_counts()
+
+* df.index          //gives index series 
+    .reset_index    //undo reset_index
+    .sort_index()  
+
+  pd.read_csv(, index_col=)
+
+* to applys string function filter on Column/Series :- use .str first i.efficient
+     
+     df['ColName'].str.contains('Shah')   // you can do regex and other complication with this
+
+* Conditional Changes :
+  ----
+   -> df.loc[df['col1'] = v1, 'col2'] = new_val   // used 1 condition to change val in other col or same col
+
+
+* value_counts() and unstack() :
+  ----
+   -> After grouping & getting value_counts() for particular column 
+      We can do unstack() to get data in tabulated form
+
+
+* One Hot Encoding :
+  ---
+   pd.get_dummies()  // can be used for one hot encode particular columns in df
+
+* Continuous to Categorical Variable :
+  ---
+   pd.cut(df, bins=, labels=)
+
+* apply (ie same as map to apply lambda)

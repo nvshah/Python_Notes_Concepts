@@ -1,0 +1,41 @@
+* Bounds Methods vs Normal|Free Methods :
+  -------------------------
+   Free Methods :- method reference via class ie ClassName.methodName 
+
+   bound methods :- method reference via object ie instanceName.methodName
+      \
+       often takes place at runtime (ie dynamic) as method gets bounded to objects at dynamically
+
+
+* Object & inheritance :
+  ------
+   With python3 everything class is inherited from an `object`
+   whether you specify explicitly or not 
+
+   ie  class A, 
+       class B(),
+       class C(object)
+
+       All A,B,c are inherited from an `object` class 
+
+* New OOPS (Python 3) comprises of new features :-
+   - Descriptors
+   - dunder method
+   - MRO
+
+* class methods vs static methods | Descriptors :
+  ---------
+  ref : mcoding
+
+  => class methods are used exclusively (most common) for alternative constructors
+     \
+      from, make, create, ...
+
+  Static Method :
+   -> when you create static method it wraps a function
+   -> & via Descripto protocol it returns that same func when demanded
+
+  REMEMBER :
+   -> Normal funciton follows Descriptor protocol
+      Calling the __get__() on normal function will bind that func to provided specific instance !
+

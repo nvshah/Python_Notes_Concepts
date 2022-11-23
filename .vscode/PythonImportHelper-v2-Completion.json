@@ -1,0 +1,2047 @@
+[
+    {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
+        "documentation": {
+            "value": "\n```python\nimport functools\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {
+            "value": "\n```python\nimport functools\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {
+            "value": "\n```python\nimport functools\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {
+            "value": "\n```python\nimport functools\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {
+            "value": "\n```python\nimport time\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {
+            "value": "\n```python\nimport random\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {
+            "value": "\n```python\nimport math\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {
+            "value": "\n```python\nimport os\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {
+            "value": "\n```python\nimport re\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {
+            "value": "\n```python\nimport sys\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {
+            "value": "\n```python\nimport collections\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {
+            "value": "\n```python\nimport logging\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {
+            "value": "\n```python\nimport itertools\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "operator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "operator",
+        "description": "operator",
+        "detail": "operator",
+        "documentation": {
+            "value": "\n```python\nimport operator\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "wrap",
+        "importPath": "textwrap",
+        "description": "textwrap",
+        "isExtraImport": true,
+        "detail": "textwrap",
+        "documentation": {
+            "value": "\n```python\nimport textwrap\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "wrap",
+        "importPath": "textwrap",
+        "description": "textwrap",
+        "isExtraImport": true,
+        "detail": "textwrap",
+        "documentation": {
+            "value": "\n```python\nimport textwrap\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {
+            "value": "\n```python\nimport string\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "debug",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.debug_decorator",
+        "description": "Notes.decoratorrs.debug_decorator",
+        "peekOfCode": "def debug(func):\n    \"\"\"Print the function signature and return value\"\"\"\n    @functools.wraps(func)\n    def wrapper_debug(*args, **kwargs):\n        args_repr = [repr(a) for a in args]                      # 1\n        kwargs_repr = [f\"{k}={v!r}\" for k, v in kwargs.items()]  # 2\n        signature = \", \".join(args_repr + kwargs_repr)           # 3\n        print(f\"Calling {func.__name__}({signature})\")\n        value = func(*args, **kwargs)\n        print(f\"{func.__name__!r} returned {value!r}\")           # 4",
+        "detail": "Notes.decoratorrs.debug_decorator",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.debug_decorator import debug\n```\n\n```python\n\n\n```\n\n```python\ndef debug(func):\n    \"\"\"Print the function signature and return value\"\"\"\n    @functools.wraps(func)\n    def wrapper_debug(*args, **kwargs):\n        args_repr = [repr(a) for a in args]                      # 1\n        kwargs_repr = [f\"{k}={v!r}\" for k, v in kwargs.items()]  # 2\n        signature = \", \".join(args_repr + kwargs_repr)           # 3\n        print(f\"Calling {func.__name__}({signature})\")\n        value = func(*args, **kwargs)\n        print(f\"{func.__name__!r} returned {value!r}\")           # 4\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "make_greeting",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.debug_decorator",
+        "description": "Notes.decoratorrs.debug_decorator",
+        "peekOfCode": "def make_greeting(name, age=None):\n    if age is None:\n        return f\"Howdy {name}!\"\n    else:\n        return f\"Whoa {name}! {age} already, you are growing up!\"",
+        "detail": "Notes.decoratorrs.debug_decorator",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.debug_decorator import make_greeting\n```\n\n```python\n\n\n```\n\n```python\ndef make_greeting(name, age=None):\n    if age is None:\n        return f\"Howdy {name}!\"\n    else:\n        return f\"Whoa {name}! {age} already, you are growing up!\"\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "decorator",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.decoratoe_boilerplate",
+        "description": "Notes.decoratorrs.decoratoe_boilerplate",
+        "peekOfCode": "def decorator(func):\n    @functools.wraps(func)\n    def wrapper_decorator(*args, **kwargs):\n        # Do something before\n        value = func(*args, **kwargs)\n        # Do something after\n        return value\n    return wrapper_decorator",
+        "detail": "Notes.decoratorrs.decoratoe_boilerplate",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.decoratoe_boilerplate import decorator\n```\n\n```python\n\n\n```\n\n```python\ndef decorator(func):\n    @functools.wraps(func)\n    def wrapper_decorator(*args, **kwargs):\n        # Do something before\n        value = func(*args, **kwargs)\n        # Do something after\n        return value\n    return wrapper_decorator\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "timer",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.decorator_collection",
+        "description": "Notes.decoratorrs.decorator_collection",
+        "peekOfCode": "def timer(func):\n    \"\"\"Print the runtime of the decorated function\"\"\"\n    @functools.wraps(func)\n    def wrapper_timer(*args, **kwargs):\n        start_time = time.perf_counter()    # 1\n        value = func(*args, **kwargs)\n        end_time = time.perf_counter()      # 2\n        run_time = end_time - start_time    # 3\n        print(f\"Finished {func.__name__!r} in {run_time:.4f} secs\")\n        return value",
+        "detail": "Notes.decoratorrs.decorator_collection",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.decorator_collection import timer\n```\n\n```python\n\n\n```\n\n```python\ndef timer(func):\n    \"\"\"Print the runtime of the decorated function\"\"\"\n    @functools.wraps(func)\n    def wrapper_timer(*args, **kwargs):\n        start_time = time.perf_counter()    # 1\n        value = func(*args, **kwargs)\n        end_time = time.perf_counter()      # 2\n        run_time = end_time - start_time    # 3\n        print(f\"Finished {func.__name__!r} in {run_time:.4f} secs\")\n        return value\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "debug",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.decorator_collection",
+        "description": "Notes.decoratorrs.decorator_collection",
+        "peekOfCode": "def debug(func):\n    \"\"\"Print the function signature and return value\"\"\"\n    @functools.wraps(func)\n    def wrapper_debug(*args, **kwargs):\n        args_repr = [repr(a) for a in args]                      # 1\n        kwargs_repr = [f\"{k}={v!r}\" for k, v in kwargs.items()]  # 2\n        signature = \", \".join(args_repr + kwargs_repr)           # 3\n        print(f\"Calling {func.__name__}({signature})\")\n        value = func(*args, **kwargs)\n        print(f\"{func.__name__!r} returned {value!r}\")           # 4",
+        "detail": "Notes.decoratorrs.decorator_collection",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.decorator_collection import debug\n```\n\n```python\n\n\n```\n\n```python\ndef debug(func):\n    \"\"\"Print the function signature and return value\"\"\"\n    @functools.wraps(func)\n    def wrapper_debug(*args, **kwargs):\n        args_repr = [repr(a) for a in args]                      # 1\n        kwargs_repr = [f\"{k}={v!r}\" for k, v in kwargs.items()]  # 2\n        signature = \", \".join(args_repr + kwargs_repr)           # 3\n        print(f\"Calling {func.__name__}({signature})\")\n        value = func(*args, **kwargs)\n        print(f\"{func.__name__!r} returned {value!r}\")           # 4\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "slow_down",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.decorator_collection",
+        "description": "Notes.decoratorrs.decorator_collection",
+        "peekOfCode": "def slow_down(func):\n    \"\"\"Sleep 1 second before calling the function\"\"\"\n    @functools.wraps(func)\n    def wrapper_slow_down(*args, **kwargs):\n        time.sleep(1)\n        return func(*args, **kwargs)\n    return wrapper_slow_down\ndef register(func):\n    \"\"\"Register a function as a plug-in\"\"\"\n    PLUGINS[func.__name__] = func",
+        "detail": "Notes.decoratorrs.decorator_collection",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.decorator_collection import slow_down\n```\n\n```python\n\n\n```\n\n```python\ndef slow_down(func):\n    \"\"\"Sleep 1 second before calling the function\"\"\"\n    @functools.wraps(func)\n    def wrapper_slow_down(*args, **kwargs):\n        time.sleep(1)\n        return func(*args, **kwargs)\n    return wrapper_slow_down\ndef register(func):\n    \"\"\"Register a function as a plug-in\"\"\"\n    PLUGINS[func.__name__] = func\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.decorator_collection",
+        "description": "Notes.decoratorrs.decorator_collection",
+        "peekOfCode": "def register(func):\n    \"\"\"Register a function as a plug-in\"\"\"\n    PLUGINS[func.__name__] = func\n    return func",
+        "detail": "Notes.decoratorrs.decorator_collection",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.decorator_collection import register\n```\n\n```python\n\n\n```\n\n```python\ndef register(func):\n    \"\"\"Register a function as a plug-in\"\"\"\n    PLUGINS[func.__name__] = func\n    return func\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "PLUGINS",
+        "kind": 5,
+        "importPath": "Notes.decoratorrs.decorator_collection",
+        "description": "Notes.decoratorrs.decorator_collection",
+        "peekOfCode": "PLUGINS = dict()   #plugins registry\ndef timer(func):\n    \"\"\"Print the runtime of the decorated function\"\"\"\n    @functools.wraps(func)\n    def wrapper_timer(*args, **kwargs):\n        start_time = time.perf_counter()    # 1\n        value = func(*args, **kwargs)\n        end_time = time.perf_counter()      # 2\n        run_time = end_time - start_time    # 3\n        print(f\"Finished {func.__name__!r} in {run_time:.4f} secs\")",
+        "detail": "Notes.decoratorrs.decorator_collection",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.decorator_collection import PLUGINS\n```\n\n```python\n\n\n```\n\n```python\nPLUGINS = dict()   #plugins registry\ndef timer(func):\n    \"\"\"Print the runtime of the decorated function\"\"\"\n    @functools.wraps(func)\n    def wrapper_timer(*args, **kwargs):\n        start_time = time.perf_counter()    # 1\n        value = func(*args, **kwargs)\n        end_time = time.perf_counter()      # 2\n        run_time = end_time - start_time    # 3\n        print(f\"Finished {func.__name__!r} in {run_time:.4f} secs\")\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.register_plugins",
+        "description": "Notes.decoratorrs.register_plugins",
+        "peekOfCode": "def register(func):\n    \"\"\"Register a function as a plug-in\"\"\"\n    PLUGINS[func.__name__] = func\n    return func\n@register\ndef say_hello(name):\n    return f\"Hello {name}\"\n@register\ndef be_awesome(name):\n    return f\"Yo {name}, together we are the awesomest!\"",
+        "detail": "Notes.decoratorrs.register_plugins",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.register_plugins import register\n```\n\n```python\n\n\n```\n\n```python\ndef register(func):\n    \"\"\"Register a function as a plug-in\"\"\"\n    PLUGINS[func.__name__] = func\n    return func\n@register\ndef say_hello(name):\n    return f\"Hello {name}\"\n@register\ndef be_awesome(name):\n    return f\"Yo {name}, together we are the awesomest!\"\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.register_plugins",
+        "description": "Notes.decoratorrs.register_plugins",
+        "peekOfCode": "def say_hello(name):\n    return f\"Hello {name}\"\n@register\ndef be_awesome(name):\n    return f\"Yo {name}, together we are the awesomest!\"\ndef randomly_greet(name):\n    greeter, greeter_func = random.choice(list(PLUGINS.items()))\n    print(f\"Using {greeter!r}\")\n    return greeter_func(name)\nrandomly_greet('Nipun')",
+        "detail": "Notes.decoratorrs.register_plugins",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.register_plugins import say_hello\n```\n\n```python\n\n\n```\n\n```python\ndef say_hello(name):\n    return f\"Hello {name}\"\n@register\ndef be_awesome(name):\n    return f\"Yo {name}, together we are the awesomest!\"\ndef randomly_greet(name):\n    greeter, greeter_func = random.choice(list(PLUGINS.items()))\n    print(f\"Using {greeter!r}\")\n    return greeter_func(name)\nrandomly_greet('Nipun')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "be_awesome",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.register_plugins",
+        "description": "Notes.decoratorrs.register_plugins",
+        "peekOfCode": "def be_awesome(name):\n    return f\"Yo {name}, together we are the awesomest!\"\ndef randomly_greet(name):\n    greeter, greeter_func = random.choice(list(PLUGINS.items()))\n    print(f\"Using {greeter!r}\")\n    return greeter_func(name)\nrandomly_greet('Nipun')",
+        "detail": "Notes.decoratorrs.register_plugins",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.register_plugins import be_awesome\n```\n\n```python\n\n\n```\n\n```python\ndef be_awesome(name):\n    return f\"Yo {name}, together we are the awesomest!\"\ndef randomly_greet(name):\n    greeter, greeter_func = random.choice(list(PLUGINS.items()))\n    print(f\"Using {greeter!r}\")\n    return greeter_func(name)\nrandomly_greet('Nipun')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "randomly_greet",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.register_plugins",
+        "description": "Notes.decoratorrs.register_plugins",
+        "peekOfCode": "def randomly_greet(name):\n    greeter, greeter_func = random.choice(list(PLUGINS.items()))\n    print(f\"Using {greeter!r}\")\n    return greeter_func(name)\nrandomly_greet('Nipun')",
+        "detail": "Notes.decoratorrs.register_plugins",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.register_plugins import randomly_greet\n```\n\n```python\n\n\n```\n\n```python\ndef randomly_greet(name):\n    greeter, greeter_func = random.choice(list(PLUGINS.items()))\n    print(f\"Using {greeter!r}\")\n    return greeter_func(name)\nrandomly_greet('Nipun')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "PLUGINS",
+        "kind": 5,
+        "importPath": "Notes.decoratorrs.register_plugins",
+        "description": "Notes.decoratorrs.register_plugins",
+        "peekOfCode": "PLUGINS = dict()\n#?The @register decorator simply stores a reference to the decorated function in the global PLUGINS dict. \ndef register(func):\n    \"\"\"Register a function as a plug-in\"\"\"\n    PLUGINS[func.__name__] = func\n    return func\n@register\ndef say_hello(name):\n    return f\"Hello {name}\"\n@register",
+        "detail": "Notes.decoratorrs.register_plugins",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.register_plugins import PLUGINS\n```\n\n```python\n\n\n```\n\n```python\nPLUGINS = dict()\n#?The @register decorator simply stores a reference to the decorated function in the global PLUGINS dict. \ndef register(func):\n    \"\"\"Register a function as a plug-in\"\"\"\n    PLUGINS[func.__name__] = func\n    return func\n@register\ndef say_hello(name):\n    return f\"Hello {name}\"\n@register\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "slow_down",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.slow_down_decorator",
+        "description": "Notes.decoratorrs.slow_down_decorator",
+        "peekOfCode": "def slow_down(func):\n    \"\"\"Sleep 1 second before calling the function\"\"\"\n    @functools.wraps(func)\n    def wrapper_slow_down(*args, **kwargs):\n        time.sleep(1)\n        return func(*args, **kwargs)\n    return wrapper_slow_down\n@slow_down\ndef countdown(from_number):\n    if from_number < 1:",
+        "detail": "Notes.decoratorrs.slow_down_decorator",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.slow_down_decorator import slow_down\n```\n\n```python\n\n\n```\n\n```python\ndef slow_down(func):\n    \"\"\"Sleep 1 second before calling the function\"\"\"\n    @functools.wraps(func)\n    def wrapper_slow_down(*args, **kwargs):\n        time.sleep(1)\n        return func(*args, **kwargs)\n    return wrapper_slow_down\n@slow_down\ndef countdown(from_number):\n    if from_number < 1:\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "countdown",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.slow_down_decorator",
+        "description": "Notes.decoratorrs.slow_down_decorator",
+        "peekOfCode": "def countdown(from_number):\n    if from_number < 1:\n        print(\"Liftoff!\")\n    else:\n        print(from_number)\n        countdown(from_number - 1)\ncountdown(5)",
+        "detail": "Notes.decoratorrs.slow_down_decorator",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.slow_down_decorator import countdown\n```\n\n```python\n\n\n```\n\n```python\ndef countdown(from_number):\n    if from_number < 1:\n        print(\"Liftoff!\")\n    else:\n        print(from_number)\n        countdown(from_number - 1)\ncountdown(5)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "timer",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.timer_decorator",
+        "description": "Notes.decoratorrs.timer_decorator",
+        "peekOfCode": "def timer(func):\n    \"\"\"Print the runtime of the decorated function\"\"\"\n    @functools.wraps(func)\n    def wrapper_timer(*args, **kwargs):\n        start_time = time.perf_counter()    # 1\n        value = func(*args, **kwargs)\n        end_time = time.perf_counter()      # 2\n        run_time = end_time - start_time    # 3\n        print(f\"Finished {func.__name__!r} in {run_time:.4f} secs\")\n        return value",
+        "detail": "Notes.decoratorrs.timer_decorator",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.timer_decorator import timer\n```\n\n```python\n\n\n```\n\n```python\ndef timer(func):\n    \"\"\"Print the runtime of the decorated function\"\"\"\n    @functools.wraps(func)\n    def wrapper_timer(*args, **kwargs):\n        start_time = time.perf_counter()    # 1\n        value = func(*args, **kwargs)\n        end_time = time.perf_counter()      # 2\n        run_time = end_time - start_time    # 3\n        print(f\"Finished {func.__name__!r} in {run_time:.4f} secs\")\n        return value\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "waste_some_time",
+        "kind": 2,
+        "importPath": "Notes.decoratorrs.timer_decorator",
+        "description": "Notes.decoratorrs.timer_decorator",
+        "peekOfCode": "def waste_some_time(num_times):\n    for _ in range(num_times):\n        sum([i**2 for i in range(10000)])",
+        "detail": "Notes.decoratorrs.timer_decorator",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.decoratorrs.timer_decorator import waste_some_time\n```\n\n```python\n\n\n```\n\n```python\ndef waste_some_time(num_times):\n    for _ in range(num_times):\n        sum([i**2 for i in range(10000)])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "g",
+        "kind": 2,
+        "importPath": "Notes.generator_concept",
+        "description": "Notes.generator_concept",
+        "peekOfCode": "def g():\n    i = 0\n    while True:\n        i+=1\n        print('increment')\n        yield i\nk = g()\nprint('started')\n# for i in range(3):\n#    print(next(k))",
+        "detail": "Notes.generator_concept",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.generator_concept import g\n```\n\n```python\n\n\n```\n\n```python\ndef g():\n    i = 0\n    while True:\n        i+=1\n        print('increment')\n        yield i\nk = g()\nprint('started')\n# for i in range(3):\n#    print(next(k))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "k",
+        "kind": 5,
+        "importPath": "Notes.generator_concept",
+        "description": "Notes.generator_concept",
+        "peekOfCode": "k = g()\nprint('started')\n# for i in range(3):\n#    print(next(k))",
+        "detail": "Notes.generator_concept",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.generator_concept import k\n```\n\n```python\n\n\n```\n\n```python\nk = g()\nprint('started')\n# for i in range(3):\n#    print(next(k))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "mean",
+        "kind": 2,
+        "importPath": "Notes.inner_function",
+        "description": "Notes.inner_function",
+        "peekOfCode": "def mean():\n    sample = []\n    def inner_mean(n):\n        sample.append(n)\n        return (float(sum(sample)) / len(sample))\n    return inner_mean\nmean_calc = mean()\nv1 = mean_calc(1)\nv2 = mean_calc(2)\nv3 = mean_calc(6)",
+        "detail": "Notes.inner_function",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.inner_function import mean\n```\n\n```python\n\n\n```\n\n```python\ndef mean():\n    sample = []\n    def inner_mean(n):\n        sample.append(n)\n        return (float(sum(sample)) / len(sample))\n    return inner_mean\nmean_calc = mean()\nv1 = mean_calc(1)\nv2 = mean_calc(2)\nv3 = mean_calc(6)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "mean_calc",
+        "kind": 5,
+        "importPath": "Notes.inner_function",
+        "description": "Notes.inner_function",
+        "peekOfCode": "mean_calc = mean()\nv1 = mean_calc(1)\nv2 = mean_calc(2)\nv3 = mean_calc(6)\nprint(v1, v2, v3)  #Cumulutaive means : 1, 1.5, 3",
+        "detail": "Notes.inner_function",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.inner_function import mean_calc\n```\n\n```python\n\n\n```\n\n```python\nmean_calc = mean()\nv1 = mean_calc(1)\nv2 = mean_calc(2)\nv3 = mean_calc(6)\nprint(v1, v2, v3)  #Cumulutaive means : 1, 1.5, 3\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "v1",
+        "kind": 5,
+        "importPath": "Notes.inner_function",
+        "description": "Notes.inner_function",
+        "peekOfCode": "v1 = mean_calc(1)\nv2 = mean_calc(2)\nv3 = mean_calc(6)\nprint(v1, v2, v3)  #Cumulutaive means : 1, 1.5, 3",
+        "detail": "Notes.inner_function",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.inner_function import v1\n```\n\n```python\n\n\n```\n\n```python\nv1 = mean_calc(1)\nv2 = mean_calc(2)\nv3 = mean_calc(6)\nprint(v1, v2, v3)  #Cumulutaive means : 1, 1.5, 3\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "v2",
+        "kind": 5,
+        "importPath": "Notes.inner_function",
+        "description": "Notes.inner_function",
+        "peekOfCode": "v2 = mean_calc(2)\nv3 = mean_calc(6)\nprint(v1, v2, v3)  #Cumulutaive means : 1, 1.5, 3",
+        "detail": "Notes.inner_function",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.inner_function import v2\n```\n\n```python\n\n\n```\n\n```python\nv2 = mean_calc(2)\nv3 = mean_calc(6)\nprint(v1, v2, v3)  #Cumulutaive means : 1, 1.5, 3\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "v3",
+        "kind": 5,
+        "importPath": "Notes.inner_function",
+        "description": "Notes.inner_function",
+        "peekOfCode": "v3 = mean_calc(6)\nprint(v1, v2, v3)  #Cumulutaive means : 1, 1.5, 3",
+        "detail": "Notes.inner_function",
+        "documentation": {
+            "value": "\n```python\nfrom Notes.inner_function import v3\n```\n\n```python\n\n\n```\n\n```python\nv3 = mean_calc(6)\nprint(v1, v2, v3)  #Cumulutaive means : 1, 1.5, 3\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "checkMagazine",
+        "kind": 2,
+        "importPath": "collection concept.counter_hash_forelse_concept",
+        "description": "collection concept.counter_hash_forelse_concept",
+        "peekOfCode": "def checkMagazine(magazine, note):\n    magazine_ctr = ctr(magazine)\n    note_ctr = ctr(note)\n    for n in note:\n        if magazine_ctr[n] < note_ctr[n]:\n            print('No')\n            break\n    else:\n        print('Yes')\nif __name__ == '__main__':",
+        "detail": "collection concept.counter_hash_forelse_concept",
+        "documentation": {
+            "value": "\n```python\nfrom collection concept.counter_hash_forelse_concept import checkMagazine\n```\n\n```python\n\n\n```\n\n```python\ndef checkMagazine(magazine, note):\n    magazine_ctr = ctr(magazine)\n    note_ctr = ctr(note)\n    for n in note:\n        if magazine_ctr[n] < note_ctr[n]:\n            print('No')\n            break\n    else:\n        print('Yes')\nif __name__ == '__main__':\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "prepareMatrix",
+        "kind": 2,
+        "importPath": "concept code.lcs",
+        "description": "concept code.lcs",
+        "peekOfCode": "def prepareMatrix(s1:str, s2:str):\n    '''\n    prepare matrix for memoization\n    '''\n    global lcs_matrix\n    s2_len = len(s2)\n    s1_len = len(s1)\n    #initalise matrix, initially assume both string have 0 Common Length Substring\n    lcs_matrix = [[0]*s2_len for _ in range(s1_len)]\n    #provide matrix data point for given row & column",
+        "detail": "concept code.lcs",
+        "documentation": {
+            "value": "\n```python\nfrom concept code.lcs import prepareMatrix\n```\n\n```python\n\n\n```\n\n```python\ndef prepareMatrix(s1:str, s2:str):\n    '''\n    prepare matrix for memoization\n    '''\n    global lcs_matrix\n    s2_len = len(s2)\n    s1_len = len(s1)\n    #initalise matrix, initially assume both string have 0 Common Length Substring\n    lcs_matrix = [[0]*s2_len for _ in range(s1_len)]\n    #provide matrix data point for given row & column\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "findStringFrom",
+        "kind": 2,
+        "importPath": "concept code.lcs",
+        "description": "concept code.lcs",
+        "peekOfCode": "def findStringFrom(r: int,c: int):\n    '''\n    Help to search characters of longest common substring recursively\n    '''\n    logging.info(f':== AT position ({r},{c}) <--')\n    #string search over\n    if not (r and c):\n        if string_buffer:\n            substr = ''.join(reversed(string_buffer))\n            logging.info(f':=========> Found String {substr}')",
+        "detail": "concept code.lcs",
+        "documentation": {
+            "value": "\n```python\nfrom concept code.lcs import findStringFrom\n```\n\n```python\n\n\n```\n\n```python\ndef findStringFrom(r: int,c: int):\n    '''\n    Help to search characters of longest common substring recursively\n    '''\n    logging.info(f':== AT position ({r},{c}) <--')\n    #string search over\n    if not (r and c):\n        if string_buffer:\n            substr = ''.join(reversed(string_buffer))\n            logging.info(f':=========> Found String {substr}')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "backtracking",
+        "kind": 2,
+        "importPath": "concept code.lcs",
+        "description": "concept code.lcs",
+        "peekOfCode": "def backtracking():\n    '''\n    backtracking to find substrings itself\n    '''\n    last_row = len(s1)-1\n    last_col = len(s2)-1\n    if lcs_matrix[last_row][last_col] == 0:\n        return\n    else:\n        findStringFrom(last_row, last_col)",
+        "detail": "concept code.lcs",
+        "documentation": {
+            "value": "\n```python\nfrom concept code.lcs import backtracking\n```\n\n```python\n\n\n```\n\n```python\ndef backtracking():\n    '''\n    backtracking to find substrings itself\n    '''\n    last_row = len(s1)-1\n    last_col = len(s2)-1\n    if lcs_matrix[last_row][last_col] == 0:\n        return\n    else:\n        findStringFrom(last_row, last_col)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "getLogConsent",
+        "kind": 2,
+        "importPath": "concept code.lcs",
+        "description": "concept code.lcs",
+        "peekOfCode": "def getLogConsent():\n    '''\n    permission to show logs or not\n    '''\n    showLogs = input('\\nDo you wanna display logs (for tracking) ?  { y/n } : ')\n    while showLogs not in ('y', 'Y', 'n', 'N'):\n        showLogs = input('invalid input ! try again : ')\n    if showLogs in ('y', 'Y'):\n        print('\\n------------------------------------------------ Logs -----------------------------------------------------------------')\n        logging.basicConfig(level=logging.DEBUG)",
+        "detail": "concept code.lcs",
+        "documentation": {
+            "value": "\n```python\nfrom concept code.lcs import getLogConsent\n```\n\n```python\n\n\n```\n\n```python\ndef getLogConsent():\n    '''\n    permission to show logs or not\n    '''\n    showLogs = input('\\nDo you wanna display logs (for tracking) ?  { y/n } : ')\n    while showLogs not in ('y', 'Y', 'n', 'N'):\n        showLogs = input('invalid input ! try again : ')\n    if showLogs in ('y', 'Y'):\n        print('\\n------------------------------------------------ Logs -----------------------------------------------------------------')\n        logging.basicConfig(level=logging.DEBUG)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "lcs_matrix",
+        "kind": 5,
+        "importPath": "concept code.lcs",
+        "description": "concept code.lcs",
+        "peekOfCode": "lcs_matrix = []\npossible_lcs = set()\nstring_buffer = []\n### FUNCTIONS -------------------------------------\ndef prepareMatrix(s1:str, s2:str):\n    '''\n    prepare matrix for memoization\n    '''\n    global lcs_matrix\n    s2_len = len(s2)",
+        "detail": "concept code.lcs",
+        "documentation": {
+            "value": "\n```python\nfrom concept code.lcs import lcs_matrix\n```\n\n```python\n\n\n```\n\n```python\nlcs_matrix = []\npossible_lcs = set()\nstring_buffer = []\n### FUNCTIONS -------------------------------------\ndef prepareMatrix(s1:str, s2:str):\n    '''\n    prepare matrix for memoization\n    '''\n    global lcs_matrix\n    s2_len = len(s2)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "possible_lcs",
+        "kind": 5,
+        "importPath": "concept code.lcs",
+        "description": "concept code.lcs",
+        "peekOfCode": "possible_lcs = set()\nstring_buffer = []\n### FUNCTIONS -------------------------------------\ndef prepareMatrix(s1:str, s2:str):\n    '''\n    prepare matrix for memoization\n    '''\n    global lcs_matrix\n    s2_len = len(s2)\n    s1_len = len(s1)",
+        "detail": "concept code.lcs",
+        "documentation": {
+            "value": "\n```python\nfrom concept code.lcs import possible_lcs\n```\n\n```python\n\n\n```\n\n```python\npossible_lcs = set()\nstring_buffer = []\n### FUNCTIONS -------------------------------------\ndef prepareMatrix(s1:str, s2:str):\n    '''\n    prepare matrix for memoization\n    '''\n    global lcs_matrix\n    s2_len = len(s2)\n    s1_len = len(s1)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "string_buffer",
+        "kind": 5,
+        "importPath": "concept code.lcs",
+        "description": "concept code.lcs",
+        "peekOfCode": "string_buffer = []\n### FUNCTIONS -------------------------------------\ndef prepareMatrix(s1:str, s2:str):\n    '''\n    prepare matrix for memoization\n    '''\n    global lcs_matrix\n    s2_len = len(s2)\n    s1_len = len(s1)\n    #initalise matrix, initially assume both string have 0 Common Length Substring",
+        "detail": "concept code.lcs",
+        "documentation": {
+            "value": "\n```python\nfrom concept code.lcs import string_buffer\n```\n\n```python\n\n\n```\n\n```python\nstring_buffer = []\n### FUNCTIONS -------------------------------------\ndef prepareMatrix(s1:str, s2:str):\n    '''\n    prepare matrix for memoization\n    '''\n    global lcs_matrix\n    s2_len = len(s2)\n    s1_len = len(s1)\n    #initalise matrix, initially assume both string have 0 Common Length Substring\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "f",
+        "kind": 2,
+        "importPath": "concepts_miniCode.basic_useful_snippet_concept",
+        "description": "concepts_miniCode.basic_useful_snippet_concept",
+        "peekOfCode": "def f(r,c):\n    print(r,c)\nz = [*map(f, *zip(*((r,c) for r in range(1, 3+1) for c in range(1, 4+1))))]\nprint(z)",
+        "detail": "concepts_miniCode.basic_useful_snippet_concept",
+        "documentation": {
+            "value": "\n```python\nfrom concepts_miniCode.basic_useful_snippet_concept import f\n```\n\n```python\n\n\n```\n\n```python\ndef f(r,c):\n    print(r,c)\nz = [*map(f, *zip(*((r,c) for r in range(1, 3+1) for c in range(1, 4+1))))]\nprint(z)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "concepts_miniCode.basic_useful_snippet_concept",
+        "description": "concepts_miniCode.basic_useful_snippet_concept",
+        "peekOfCode": "l = [1,2,3,4,5]\ns1, s2, s3, s4 = l[:2], l[2:], set(l[:2]), set(l[2:])\nprint(s1)\nprint(s2)\nprint(s3)\nprint(s4)\n#Useful when keys are changing but value (i.e 0) remains same\nd = {}.fromkeys([1,2,3], 0)  \nprint(d)   \n#zip",
+        "detail": "concepts_miniCode.basic_useful_snippet_concept",
+        "documentation": {
+            "value": "\n```python\nfrom concepts_miniCode.basic_useful_snippet_concept import l\n```\n\n```python\n\n\n```\n\n```python\nl = [1,2,3,4,5]\ns1, s2, s3, s4 = l[:2], l[2:], set(l[:2]), set(l[2:])\nprint(s1)\nprint(s2)\nprint(s3)\nprint(s4)\n#Useful when keys are changing but value (i.e 0) remains same\nd = {}.fromkeys([1,2,3], 0)  \nprint(d)   \n#zip\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "concepts_miniCode.basic_useful_snippet_concept",
+        "description": "concepts_miniCode.basic_useful_snippet_concept",
+        "peekOfCode": "d = {}.fromkeys([1,2,3], 0)  \nprint(d)   \n#zip\ndef f(r,c):\n    print(r,c)\nz = [*map(f, *zip(*((r,c) for r in range(1, 3+1) for c in range(1, 4+1))))]\nprint(z)",
+        "detail": "concepts_miniCode.basic_useful_snippet_concept",
+        "documentation": {
+            "value": "\n```python\nfrom concepts_miniCode.basic_useful_snippet_concept import d\n```\n\n```python\n\n\n```\n\n```python\nd = {}.fromkeys([1,2,3], 0)  \nprint(d)   \n#zip\ndef f(r,c):\n    print(r,c)\nz = [*map(f, *zip(*((r,c) for r in range(1, 3+1) for c in range(1, 4+1))))]\nprint(z)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "concepts_miniCode.basic_useful_snippet_concept",
+        "description": "concepts_miniCode.basic_useful_snippet_concept",
+        "peekOfCode": "z = [*map(f, *zip(*((r,c) for r in range(1, 3+1) for c in range(1, 4+1))))]\nprint(z)",
+        "detail": "concepts_miniCode.basic_useful_snippet_concept",
+        "documentation": {
+            "value": "\n```python\nfrom concepts_miniCode.basic_useful_snippet_concept import z\n```\n\n```python\n\n\n```\n\n```python\nz = [*map(f, *zip(*((r,c) for r in range(1, 3+1) for c in range(1, 4+1))))]\nprint(z)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "f",
+        "kind": 2,
+        "importPath": "concepts_miniCode.global_local_concept",
+        "description": "concepts_miniCode.global_local_concept",
+        "peekOfCode": "def f():\n    d1 = {'1':'1'}  \n    print(d1)\nprint(globals())\nprint(locals())",
+        "detail": "concepts_miniCode.global_local_concept",
+        "documentation": {
+            "value": "\n```python\nfrom concepts_miniCode.global_local_concept import f\n```\n\n```python\n\n\n```\n\n```python\ndef f():\n    d1 = {'1':'1'}  \n    print(d1)\nprint(globals())\nprint(locals())\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "g_v1",
+        "kind": 5,
+        "importPath": "concepts_miniCode.global_local_concept",
+        "description": "concepts_miniCode.global_local_concept",
+        "peekOfCode": "g_v1 = 10\nd = {1:1, 2:2}\ndef f():\n    d1 = {'1':'1'}  \n    print(d1)\nprint(globals())\nprint(locals())",
+        "detail": "concepts_miniCode.global_local_concept",
+        "documentation": {
+            "value": "\n```python\nfrom concepts_miniCode.global_local_concept import g_v1\n```\n\n```python\n\n\n```\n\n```python\ng_v1 = 10\nd = {1:1, 2:2}\ndef f():\n    d1 = {'1':'1'}  \n    print(d1)\nprint(globals())\nprint(locals())\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "concepts_miniCode.global_local_concept",
+        "description": "concepts_miniCode.global_local_concept",
+        "peekOfCode": "d = {1:1, 2:2}\ndef f():\n    d1 = {'1':'1'}  \n    print(d1)\nprint(globals())\nprint(locals())",
+        "detail": "concepts_miniCode.global_local_concept",
+        "documentation": {
+            "value": "\n```python\nfrom concepts_miniCode.global_local_concept import d\n```\n\n```python\n\n\n```\n\n```python\nd = {1:1, 2:2}\ndef f():\n    d1 = {'1':'1'}  \n    print(d1)\nprint(globals())\nprint(locals())\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "regex",
+        "kind": 5,
+        "importPath": "concepts_miniCode.regex_string_cntr",
+        "description": "concepts_miniCode.regex_string_cntr",
+        "peekOfCode": "regex = r\"('''|\\\"\\\"\\\"|['\\\"])[\\s\\S]*?(?<!\\\\)\\1\"\ntest_str = '''\nThis is a Test 'Str'\n\"Sdsd\"\n\"\"\"sdsd\"\"\"\n'''\nmatches = re.finditer(regex, test_str, re.MULTILINE)\nfor matchNum, match in enumerate(matches, start=1):\n    print (\"Match {matchNum} was found at {start}-{end}: {match}\".format(matchNum = matchNum, start = match.start(), end = match.end(), match = match.group()))\n    # for groupNum in range(0, len(match.groups())):",
+        "detail": "concepts_miniCode.regex_string_cntr",
+        "documentation": {
+            "value": "\n```python\nfrom concepts_miniCode.regex_string_cntr import regex\n```\n\n```python\n\n\n```\n\n```python\nregex = r\"('''|\\\"\\\"\\\"|['\\\"])[\\s\\S]*?(?<!\\\\)\\1\"\ntest_str = '''\nThis is a Test 'Str'\n\"Sdsd\"\n\"\"\"sdsd\"\"\"\n'''\nmatches = re.finditer(regex, test_str, re.MULTILINE)\nfor matchNum, match in enumerate(matches, start=1):\n    print (\"Match {matchNum} was found at {start}-{end}: {match}\".format(matchNum = matchNum, start = match.start(), end = match.end(), match = match.group()))\n    # for groupNum in range(0, len(match.groups())):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "test_str",
+        "kind": 5,
+        "importPath": "concepts_miniCode.regex_string_cntr",
+        "description": "concepts_miniCode.regex_string_cntr",
+        "peekOfCode": "test_str = '''\nThis is a Test 'Str'\n\"Sdsd\"\n\"\"\"sdsd\"\"\"\n'''\nmatches = re.finditer(regex, test_str, re.MULTILINE)\nfor matchNum, match in enumerate(matches, start=1):\n    print (\"Match {matchNum} was found at {start}-{end}: {match}\".format(matchNum = matchNum, start = match.start(), end = match.end(), match = match.group()))\n    # for groupNum in range(0, len(match.groups())):\n    #     groupNum = groupNum + 1",
+        "detail": "concepts_miniCode.regex_string_cntr",
+        "documentation": {
+            "value": "\n```python\nfrom concepts_miniCode.regex_string_cntr import test_str\n```\n\n```python\n\n\n```\n\n```python\ntest_str = '''\nThis is a Test 'Str'\n\"Sdsd\"\n\"\"\"sdsd\"\"\"\n'''\nmatches = re.finditer(regex, test_str, re.MULTILINE)\nfor matchNum, match in enumerate(matches, start=1):\n    print (\"Match {matchNum} was found at {start}-{end}: {match}\".format(matchNum = matchNum, start = match.start(), end = match.end(), match = match.group()))\n    # for groupNum in range(0, len(match.groups())):\n    #     groupNum = groupNum + 1\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "matches",
+        "kind": 5,
+        "importPath": "concepts_miniCode.regex_string_cntr",
+        "description": "concepts_miniCode.regex_string_cntr",
+        "peekOfCode": "matches = re.finditer(regex, test_str, re.MULTILINE)\nfor matchNum, match in enumerate(matches, start=1):\n    print (\"Match {matchNum} was found at {start}-{end}: {match}\".format(matchNum = matchNum, start = match.start(), end = match.end(), match = match.group()))\n    # for groupNum in range(0, len(match.groups())):\n    #     groupNum = groupNum + 1\n    #     print (\"Group {groupNum} found at {start}-{end}: {group}\".format(groupNum = groupNum, start = match.start(groupNum), end = match.end(groupNum), group = match.group(groupNum)))\n# Note: for Python 2.7 compatibility, use ur\"\" to prefix the regex and u\"\" to prefix the test string and substitution.",
+        "detail": "concepts_miniCode.regex_string_cntr",
+        "documentation": {
+            "value": "\n```python\nfrom concepts_miniCode.regex_string_cntr import matches\n```\n\n```python\n\n\n```\n\n```python\nmatches = re.finditer(regex, test_str, re.MULTILINE)\nfor matchNum, match in enumerate(matches, start=1):\n    print (\"Match {matchNum} was found at {start}-{end}: {match}\".format(matchNum = matchNum, start = match.start(), end = match.end(), match = match.group()))\n    # for groupNum in range(0, len(match.groups())):\n    #     groupNum = groupNum + 1\n    #     print (\"Group {groupNum} found at {start}-{end}: {group}\".format(groupNum = groupNum, start = match.start(groupNum), end = match.end(groupNum), group = match.group(groupNum)))\n# Note: for Python 2.7 compatibility, use ur\"\" to prefix the regex and u\"\" to prefix the test string and substitution.\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "mine_concepts_code.for_else",
+        "description": "mine_concepts_code.for_else",
+        "peekOfCode": "l = [1,2,1,2,1,2,1]\n# for i in range(2):\n#     print(i)\n# else:\n#     print(11211)\n# for i in it.repeat(2, 2):\n#     print(i)\n# else:\n#     print(12121)\ndl = range(len(l))",
+        "detail": "mine_concepts_code.for_else",
+        "documentation": {
+            "value": "\n```python\nfrom mine_concepts_code.for_else import l\n```\n\n```python\n\n\n```\n\n```python\nl = [1,2,1,2,1,2,1]\n# for i in range(2):\n#     print(i)\n# else:\n#     print(11211)\n# for i in it.repeat(2, 2):\n#     print(i)\n# else:\n#     print(12121)\ndl = range(len(l))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "dl",
+        "kind": 5,
+        "importPath": "mine_concepts_code.for_else",
+        "description": "mine_concepts_code.for_else",
+        "peekOfCode": "dl = range(len(l))\nil = list(it.filterfalse(lambda x: l[x]==1, dl))\nprint(il)\n# g = (i for i in range(5))\n# for i in it.repeat(g,5):\n#     print(next(i))\n# for i in it.dropwhile(lambda x: l[x]==1, dl):\n#     print(i)\n# else:\n#     print(1212121)",
+        "detail": "mine_concepts_code.for_else",
+        "documentation": {
+            "value": "\n```python\nfrom mine_concepts_code.for_else import dl\n```\n\n```python\n\n\n```\n\n```python\ndl = range(len(l))\nil = list(it.filterfalse(lambda x: l[x]==1, dl))\nprint(il)\n# g = (i for i in range(5))\n# for i in it.repeat(g,5):\n#     print(next(i))\n# for i in it.dropwhile(lambda x: l[x]==1, dl):\n#     print(i)\n# else:\n#     print(1212121)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "il",
+        "kind": 5,
+        "importPath": "mine_concepts_code.for_else",
+        "description": "mine_concepts_code.for_else",
+        "peekOfCode": "il = list(it.filterfalse(lambda x: l[x]==1, dl))\nprint(il)\n# g = (i for i in range(5))\n# for i in it.repeat(g,5):\n#     print(next(i))\n# for i in it.dropwhile(lambda x: l[x]==1, dl):\n#     print(i)\n# else:\n#     print(1212121)",
+        "detail": "mine_concepts_code.for_else",
+        "documentation": {
+            "value": "\n```python\nfrom mine_concepts_code.for_else import il\n```\n\n```python\n\n\n```\n\n```python\nil = list(it.filterfalse(lambda x: l[x]==1, dl))\nprint(il)\n# g = (i for i in range(5))\n# for i in it.repeat(g,5):\n#     print(next(i))\n# for i in it.dropwhile(lambda x: l[x]==1, dl):\n#     print(i)\n# else:\n#     print(1212121)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "join_inplace",
+        "kind": 2,
+        "importPath": "mine_concepts_code.join_iterable",
+        "description": "mine_concepts_code.join_iterable",
+        "peekOfCode": "def join_inplace(itr :list, filler: object) -> list:\n    if len(itr) == 1:\n        return\n    for i in range(len(l)-1, 0, -1):\n        itr.insert(i, filler)\n#Approach 2, Works with any iterable\njoin = lambda itr,filler : [*it.chain.from_iterable(t for t in zip(l, it.repeat(filler, len(l)-1)))] + l[-1:]\njoin_inplace(l, '-')\nm = join(l, '*')\nprint(m)",
+        "detail": "mine_concepts_code.join_iterable",
+        "documentation": {
+            "value": "\n```python\nfrom mine_concepts_code.join_iterable import join_inplace\n```\n\n```python\n\n\n```\n\n```python\ndef join_inplace(itr :list, filler: object) -> list:\n    if len(itr) == 1:\n        return\n    for i in range(len(l)-1, 0, -1):\n        itr.insert(i, filler)\n#Approach 2, Works with any iterable\njoin = lambda itr,filler : [*it.chain.from_iterable(t for t in zip(l, it.repeat(filler, len(l)-1)))] + l[-1:]\njoin_inplace(l, '-')\nm = join(l, '*')\nprint(m)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "mine_concepts_code.join_iterable",
+        "description": "mine_concepts_code.join_iterable",
+        "peekOfCode": "l = [1]\nfiller = '-'\n#Approach 1 (In-Place) , Works only with list \ndef join_inplace(itr :list, filler: object) -> list:\n    if len(itr) == 1:\n        return\n    for i in range(len(l)-1, 0, -1):\n        itr.insert(i, filler)\n#Approach 2, Works with any iterable\njoin = lambda itr,filler : [*it.chain.from_iterable(t for t in zip(l, it.repeat(filler, len(l)-1)))] + l[-1:]",
+        "detail": "mine_concepts_code.join_iterable",
+        "documentation": {
+            "value": "\n```python\nfrom mine_concepts_code.join_iterable import l\n```\n\n```python\n\n\n```\n\n```python\nl = [1]\nfiller = '-'\n#Approach 1 (In-Place) , Works only with list \ndef join_inplace(itr :list, filler: object) -> list:\n    if len(itr) == 1:\n        return\n    for i in range(len(l)-1, 0, -1):\n        itr.insert(i, filler)\n#Approach 2, Works with any iterable\njoin = lambda itr,filler : [*it.chain.from_iterable(t for t in zip(l, it.repeat(filler, len(l)-1)))] + l[-1:]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "filler",
+        "kind": 5,
+        "importPath": "mine_concepts_code.join_iterable",
+        "description": "mine_concepts_code.join_iterable",
+        "peekOfCode": "filler = '-'\n#Approach 1 (In-Place) , Works only with list \ndef join_inplace(itr :list, filler: object) -> list:\n    if len(itr) == 1:\n        return\n    for i in range(len(l)-1, 0, -1):\n        itr.insert(i, filler)\n#Approach 2, Works with any iterable\njoin = lambda itr,filler : [*it.chain.from_iterable(t for t in zip(l, it.repeat(filler, len(l)-1)))] + l[-1:]\njoin_inplace(l, '-')",
+        "detail": "mine_concepts_code.join_iterable",
+        "documentation": {
+            "value": "\n```python\nfrom mine_concepts_code.join_iterable import filler\n```\n\n```python\n\n\n```\n\n```python\nfiller = '-'\n#Approach 1 (In-Place) , Works only with list \ndef join_inplace(itr :list, filler: object) -> list:\n    if len(itr) == 1:\n        return\n    for i in range(len(l)-1, 0, -1):\n        itr.insert(i, filler)\n#Approach 2, Works with any iterable\njoin = lambda itr,filler : [*it.chain.from_iterable(t for t in zip(l, it.repeat(filler, len(l)-1)))] + l[-1:]\njoin_inplace(l, '-')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "join",
+        "kind": 5,
+        "importPath": "mine_concepts_code.join_iterable",
+        "description": "mine_concepts_code.join_iterable",
+        "peekOfCode": "join = lambda itr,filler : [*it.chain.from_iterable(t for t in zip(l, it.repeat(filler, len(l)-1)))] + l[-1:]\njoin_inplace(l, '-')\nm = join(l, '*')\nprint(m)",
+        "detail": "mine_concepts_code.join_iterable",
+        "documentation": {
+            "value": "\n```python\nfrom mine_concepts_code.join_iterable import join\n```\n\n```python\n\n\n```\n\n```python\njoin = lambda itr,filler : [*it.chain.from_iterable(t for t in zip(l, it.repeat(filler, len(l)-1)))] + l[-1:]\njoin_inplace(l, '-')\nm = join(l, '*')\nprint(m)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "mine_concepts_code.join_iterable",
+        "description": "mine_concepts_code.join_iterable",
+        "peekOfCode": "m = join(l, '*')\nprint(m)",
+        "detail": "mine_concepts_code.join_iterable",
+        "documentation": {
+            "value": "\n```python\nfrom mine_concepts_code.join_iterable import m\n```\n\n```python\n\n\n```\n\n```python\nm = join(l, '*')\nprint(m)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "list_intersection",
+        "kind": 2,
+        "importPath": "mine_concepts_code.list_intersection",
+        "description": "mine_concepts_code.list_intersection",
+        "peekOfCode": "def list_intersection(l1, l2):\n    l1_ctr = ctr(l1)\n    l2_ctr = ctr(l2)\n    l1_set, l2_set = set(l1), set(l2)\n    common_members = l1_set.intersection(l2_set)\n    if not common_members:\n        return []\n    ans = []\n    for m in common_members:\n        ans.extend(it.repeat(m, min(l1_ctr[m], l2_ctr[m])))",
+        "detail": "mine_concepts_code.list_intersection",
+        "documentation": {
+            "value": "\n```python\nfrom mine_concepts_code.list_intersection import list_intersection\n```\n\n```python\n\n\n```\n\n```python\ndef list_intersection(l1, l2):\n    l1_ctr = ctr(l1)\n    l2_ctr = ctr(l2)\n    l1_set, l2_set = set(l1), set(l2)\n    common_members = l1_set.intersection(l2_set)\n    if not common_members:\n        return []\n    ans = []\n    for m in common_members:\n        ans.extend(it.repeat(m, min(l1_ctr[m], l2_ctr[m])))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "ordinal",
+        "kind": 5,
+        "importPath": "mine_concepts_code.number_ordinal",
+        "description": "mine_concepts_code.number_ordinal",
+        "peekOfCode": "ordinal = lambda n: \"%d%s\" % (n,\"tsnrhtdd\"[(n//10%10!=1)*(n%10<4)*n%10::4])\nprint(ordinal(1))",
+        "detail": "mine_concepts_code.number_ordinal",
+        "documentation": {
+            "value": "\n```python\nfrom mine_concepts_code.number_ordinal import ordinal\n```\n\n```python\n\n\n```\n\n```python\nordinal = lambda n: \"%d%s\" % (n,\"tsnrhtdd\"[(n//10%10!=1)*(n%10<4)*n%10::4])\nprint(ordinal(1))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "normalize_string",
+        "kind": 2,
+        "importPath": "problem solving.all_alphabets_check",
+        "description": "problem solving.all_alphabets_check",
+        "peekOfCode": "def normalize_string(string: str) -> str:\n    regex = r\"\\s+\"\n    subst = ''\n    result = re.sub(regex, subst, string)\n    return result if result else string\ndef pangrams(s):\n    s = normalize_string(s)\n    letters = set(s.lower())\n    print(letters)\n    return 'pangram' if len(letters) == 26 else 'not pangram'",
+        "detail": "problem solving.all_alphabets_check",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.all_alphabets_check import normalize_string\n```\n\n```python\n\n\n```\n\n```python\ndef normalize_string(string: str) -> str:\n    regex = r\"\\s+\"\n    subst = ''\n    result = re.sub(regex, subst, string)\n    return result if result else string\ndef pangrams(s):\n    s = normalize_string(s)\n    letters = set(s.lower())\n    print(letters)\n    return 'pangram' if len(letters) == 26 else 'not pangram'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "pangrams",
+        "kind": 2,
+        "importPath": "problem solving.all_alphabets_check",
+        "description": "problem solving.all_alphabets_check",
+        "peekOfCode": "def pangrams(s):\n    s = normalize_string(s)\n    letters = set(s.lower())\n    print(letters)\n    return 'pangram' if len(letters) == 26 else 'not pangram'\nif __name__ == '__main__':\n    s = input()\n    result = pangrams(s)\n    print(result)",
+        "detail": "problem solving.all_alphabets_check",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.all_alphabets_check import pangrams\n```\n\n```python\n\n\n```\n\n```python\ndef pangrams(s):\n    s = normalize_string(s)\n    letters = set(s.lower())\n    print(letters)\n    return 'pangram' if len(letters) == 26 else 'not pangram'\nif __name__ == '__main__':\n    s = input()\n    result = pangrams(s)\n    print(result)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alternate",
+        "kind": 2,
+        "importPath": "problem solving.alternating_chr_regex_concept",
+        "description": "problem solving.alternating_chr_regex_concept",
+        "peekOfCode": "def alternate(s):\n    ans = 0\n    characters = set(s)    # Unique character in string\n    character_combination =  it.combinations(characters, 2)  #get every combination of 2 character\n    subst_single_combination = \"\"\n    #regex_alternating = r\"^ab(?:ab)*a?$\"\n    for comb in character_combination:\n        #regex- Remove all character except 2 character in comb\n        regex_single_combination = r\"[^{0}{1}]\".format(comb[0], comb[1])\n        reduced_string = re.sub(regex_single_combination, subst_single_combination, s)",
+        "detail": "problem solving.alternating_chr_regex_concept",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.alternating_chr_regex_concept import alternate\n```\n\n```python\n\n\n```\n\n```python\ndef alternate(s):\n    ans = 0\n    characters = set(s)    # Unique character in string\n    character_combination =  it.combinations(characters, 2)  #get every combination of 2 character\n    subst_single_combination = \"\"\n    #regex_alternating = r\"^ab(?:ab)*a?$\"\n    for comb in character_combination:\n        #regex- Remove all character except 2 character in comb\n        regex_single_combination = r\"[^{0}{1}]\".format(comb[0], comb[1])\n        reduced_string = re.sub(regex_single_combination, subst_single_combination, s)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "anagram",
+        "kind": 2,
+        "importPath": "problem solving.anagram_reduce",
+        "description": "problem solving.anagram_reduce",
+        "peekOfCode": "def anagram(s):\n    l = len(s)\n    #print(l)\n    m = l//2\n    if l%2 != 0:\n        return -1\n    s1, s2, s1_set, s2_set = s[:m], s[m:], set(s[:m]), set(s[m:])\n    #print(s1, s2, s1_set, s2_set)\n    s1_unique = s1_set - s2_set\n    common = s1_set.intersection(s2_set)",
+        "detail": "problem solving.anagram_reduce",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.anagram_reduce import anagram\n```\n\n```python\n\n\n```\n\n```python\ndef anagram(s):\n    l = len(s)\n    #print(l)\n    m = l//2\n    if l%2 != 0:\n        return -1\n    s1, s2, s1_set, s2_set = s[:m], s[m:], set(s[:m]), set(s[m:])\n    #print(s1, s2, s1_set, s2_set)\n    s1_unique = s1_set - s2_set\n    common = s1_set.intersection(s2_set)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "findOccurrences_using_find",
+        "kind": 2,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "def findOccurrences_using_find(string, sub):\n    count = start = 0\n    while True:\n        start = string.find(sub, start) + 1\n        if start > 0:\n            count+=1\n        else:\n            return count\n#slow compare to above implementation\ndef findOccurrences_using_regex(string, sub):",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import findOccurrences_using_find\n```\n\n```python\n\n\n```\n\n```python\ndef findOccurrences_using_find(string, sub):\n    count = start = 0\n    while True:\n        start = string.find(sub, start) + 1\n        if start > 0:\n            count+=1\n        else:\n            return count\n#slow compare to above implementation\ndef findOccurrences_using_regex(string, sub):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "findOccurrences_using_regex",
+        "kind": 2,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "def findOccurrences_using_regex(string, sub):\n    pattern_overlapping_count = r'(?={0})'.format(g)\n    cnt = len(re.findall(pattern_overlapping_count, d))\ndef checkIdentical(lst):\n    lst[0] == lst[-1]\n    #return lst.count(lst[0]) == len(lst)    #more efficient\n    #return len(set(lst)) == 1\nNUMBER_OF_INTEGERS = 2\nn = int(input()) #number of genes\nelements = input().split()                  #genes",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import findOccurrences_using_regex\n```\n\n```python\n\n\n```\n\n```python\ndef findOccurrences_using_regex(string, sub):\n    pattern_overlapping_count = r'(?={0})'.format(g)\n    cnt = len(re.findall(pattern_overlapping_count, d))\ndef checkIdentical(lst):\n    lst[0] == lst[-1]\n    #return lst.count(lst[0]) == len(lst)    #more efficient\n    #return len(set(lst)) == 1\nNUMBER_OF_INTEGERS = 2\nn = int(input()) #number of genes\nelements = input().split()                  #genes\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "checkIdentical",
+        "kind": 2,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "def checkIdentical(lst):\n    lst[0] == lst[-1]\n    #return lst.count(lst[0]) == len(lst)    #more efficient\n    #return len(set(lst)) == 1\nNUMBER_OF_INTEGERS = 2\nn = int(input()) #number of genes\nelements = input().split()                  #genes\nvalues = list(map(int, input().split()))    #healths\n#d = defaultdict(int)\ndna_strands = []",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import checkIdentical\n```\n\n```python\n\n\n```\n\n```python\ndef checkIdentical(lst):\n    lst[0] == lst[-1]\n    #return lst.count(lst[0]) == len(lst)    #more efficient\n    #return len(set(lst)) == 1\nNUMBER_OF_INTEGERS = 2\nn = int(input()) #number of genes\nelements = input().split()                  #genes\nvalues = list(map(int, input().split()))    #healths\n#d = defaultdict(int)\ndna_strands = []\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "getCount",
+        "kind": 2,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "def getCount(string, sub):\n    if len(set(string)) == 1:\n        return findOccurrences_using_find(string, sub)\n    else:\n        return string.count(sub)",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import getCount\n```\n\n```python\n\n\n```\n\n```python\ndef getCount(string, sub):\n    if len(set(string)) == 1:\n        return findOccurrences_using_find(string, sub)\n    else:\n        return string.count(sub)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "NUMBER_OF_INTEGERS",
+        "kind": 5,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "NUMBER_OF_INTEGERS = 2\nn = int(input()) #number of genes\nelements = input().split()                  #genes\nvalues = list(map(int, input().split()))    #healths\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import NUMBER_OF_INTEGERS\n```\n\n```python\n\n\n```\n\n```python\nNUMBER_OF_INTEGERS = 2\nn = int(input()) #number of genes\nelements = input().split()                  #genes\nvalues = list(map(int, input().split()))    #healths\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "n = int(input()) #number of genes\nelements = input().split()                  #genes\nvalues = list(map(int, input().split()))    #healths\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import n\n```\n\n```python\n\n\n```\n\n```python\nn = int(input()) #number of genes\nelements = input().split()                  #genes\nvalues = list(map(int, input().split()))    #healths\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "elements",
+        "kind": 5,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "elements = input().split()                  #genes\nvalues = list(map(int, input().split()))    #healths\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n    health = values[start:end+1]",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import elements\n```\n\n```python\n\n\n```\n\n```python\nelements = input().split()                  #genes\nvalues = list(map(int, input().split()))    #healths\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n    health = values[start:end+1]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "values = list(map(int, input().split()))    #healths\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n    health = values[start:end+1]\n    genes_health_map = defaultdict(int)",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import values\n```\n\n```python\n\n\n```\n\n```python\nvalues = list(map(int, input().split()))    #healths\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n    health = values[start:end+1]\n    genes_health_map = defaultdict(int)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#d",
+        "kind": 5,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "#d = defaultdict(int)\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n    health = values[start:end+1]\n    genes_health_map = defaultdict(int)\n    #individual_check = [gene for gene in genes if checkIdentical(gene)]",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import #d\n```\n\n```python\n\n\n```\n\n```python\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n    health = values[start:end+1]\n    genes_health_map = defaultdict(int)\n    #individual_check = [gene for gene in genes if checkIdentical(gene)]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "dna_strands",
+        "kind": 5,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "dna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n    health = values[start:end+1]\n    genes_health_map = defaultdict(int)\n    #individual_check = [gene for gene in genes if checkIdentical(gene)]\n    for k,v in zip(genes, health):",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import dna_strands\n```\n\n```python\n\n\n```\n\n```python\ndna_strands = []\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n    health = values[start:end+1]\n    genes_health_map = defaultdict(int)\n    #individual_check = [gene for gene in genes if checkIdentical(gene)]\n    for k,v in zip(genes, health):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "cases",
+        "kind": 5,
+        "importPath": "problem solving.dictionary_substr",
+        "description": "problem solving.dictionary_substr",
+        "peekOfCode": "cases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n    health = values[start:end+1]\n    genes_health_map = defaultdict(int)\n    #individual_check = [gene for gene in genes if checkIdentical(gene)]\n    for k,v in zip(genes, health):\n        genes_health_map[k] += v",
+        "detail": "problem solving.dictionary_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dictionary_substr import cases\n```\n\n```python\n\n\n```\n\n```python\ncases = int(input())\nfor _ in range(cases):\n    i = iter(input().split())\n    start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    genes = elements[start:end+1]\n    health = values[start:end+1]\n    genes_health_map = defaultdict(int)\n    #individual_check = [gene for gene in genes if checkIdentical(gene)]\n    for k,v in zip(genes, health):\n        genes_health_map[k] += v\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "find_using_rabinKarp",
+        "kind": 2,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "def find_using_rabinKarp(string, sub):\n    cnt = 0\n    length_string, length_sub = len(string), len(sub) \n    hash_sub = hash(sub)\n    for i in range(length_string - length_sub + 1):\n        hs = hash(string[i:i+length_sub])\n        if hs == hash_sub and string[i:i+length_sub] == sub:\n            cnt+=1\n    return cnt\n#Fast Compare to regex (as C implementation behind)",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import find_using_rabinKarp\n```\n\n```python\n\n\n```\n\n```python\ndef find_using_rabinKarp(string, sub):\n    cnt = 0\n    length_string, length_sub = len(string), len(sub) \n    hash_sub = hash(sub)\n    for i in range(length_string - length_sub + 1):\n        hs = hash(string[i:i+length_sub])\n        if hs == hash_sub and string[i:i+length_sub] == sub:\n            cnt+=1\n    return cnt\n#Fast Compare to regex (as C implementation behind)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "findOccurrences_using_find",
+        "kind": 2,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "def findOccurrences_using_find(string, sub):\n    count = start = 0\n    while True:\n        #start = string.find(sub, start) + 1\n        start = find_using_rabinKarp(string[start:], sub) + 1\n        if start > 0:\n            count+=1\n        else:\n            return count\n#slow compare to above implementation",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import findOccurrences_using_find\n```\n\n```python\n\n\n```\n\n```python\ndef findOccurrences_using_find(string, sub):\n    count = start = 0\n    while True:\n        #start = string.find(sub, start) + 1\n        start = find_using_rabinKarp(string[start:], sub) + 1\n        if start > 0:\n            count+=1\n        else:\n            return count\n#slow compare to above implementation\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "findOccurrences_using_regex",
+        "kind": 2,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "def findOccurrences_using_regex(string, sub):\n    pattern_overlapping_count = r'(?={0})'.format(g)\n    cnt = len(re.findall(pattern_overlapping_count, d))\ndef checkIdentical(lst):\n    return lst[0] == lst[-1]\n#NUMBER_OF_INTEGERS = 2\nn = int(input('Number of Inputs :')) #number of genes\nelements = input('Elements').split()\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import findOccurrences_using_regex\n```\n\n```python\n\n\n```\n\n```python\ndef findOccurrences_using_regex(string, sub):\n    pattern_overlapping_count = r'(?={0})'.format(g)\n    cnt = len(re.findall(pattern_overlapping_count, d))\ndef checkIdentical(lst):\n    return lst[0] == lst[-1]\n#NUMBER_OF_INTEGERS = 2\nn = int(input('Number of Inputs :')) #number of genes\nelements = input('Elements').split()\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "checkIdentical",
+        "kind": 2,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "def checkIdentical(lst):\n    return lst[0] == lst[-1]\n#NUMBER_OF_INTEGERS = 2\nn = int(input('Number of Inputs :')) #number of genes\nelements = input('Elements').split()\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import checkIdentical\n```\n\n```python\n\n\n```\n\n```python\ndef checkIdentical(lst):\n    return lst[0] == lst[-1]\n#NUMBER_OF_INTEGERS = 2\nn = int(input('Number of Inputs :')) #number of genes\nelements = input('Elements').split()\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#NUMBER_OF_INTEGERS",
+        "kind": 5,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "#NUMBER_OF_INTEGERS = 2\nn = int(input('Number of Inputs :')) #number of genes\nelements = input('Elements').split()\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import #NUMBER_OF_INTEGERS\n```\n\n```python\n\n\n```\n\n```python\n#NUMBER_OF_INTEGERS = 2\nn = int(input('Number of Inputs :')) #number of genes\nelements = input('Elements').split()\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "n = int(input('Number of Inputs :')) #number of genes\nelements = input('Elements').split()\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import n\n```\n\n```python\n\n\n```\n\n```python\nn = int(input('Number of Inputs :')) #number of genes\nelements = input('Elements').split()\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "elements",
+        "kind": 5,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "elements = input('Elements').split()\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n    end = int(i[1])",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import elements\n```\n\n```python\n\n\n```\n\n```python\nelements = input('Elements').split()\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n    end = int(i[1])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "values = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n    end = int(i[1])\n    d = i[2]",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import values\n```\n\n```python\n\n\n```\n\n```python\nvalues = list(map(int, input('Values:').split()))\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n    end = int(i[1])\n    d = i[2]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#d",
+        "kind": 5,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n    end = int(i[1])\n    d = i[2]\n    # genes = elements[start:end+1]",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import #d\n```\n\n```python\n\n\n```\n\n```python\n#d = defaultdict(int)\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n    end = int(i[1])\n    d = i[2]\n    # genes = elements[start:end+1]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "dna_strands",
+        "kind": 5,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "dna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n    end = int(i[1])\n    d = i[2]\n    # genes = elements[start:end+1]\n    # health = values[start:end+1]",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import dna_strands\n```\n\n```python\n\n\n```\n\n```python\ndna_strands = []\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n    end = int(i[1])\n    d = i[2]\n    # genes = elements[start:end+1]\n    # health = values[start:end+1]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "cases",
+        "kind": 5,
+        "importPath": "problem solving.dna_health_problem",
+        "description": "problem solving.dna_health_problem",
+        "peekOfCode": "cases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n    end = int(i[1])\n    d = i[2]\n    # genes = elements[start:end+1]\n    # health = values[start:end+1]\n    # genes_health_map = defaultdict(int)",
+        "detail": "problem solving.dna_health_problem",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.dna_health_problem import cases\n```\n\n```python\n\n\n```\n\n```python\ncases = int(input('cases:'))\nfor _ in range(cases):\n    i = input().split()\n    #start, end, d = *map(int, next(zip(*it.repeat(i, 2)))), next(i)  # start & end are integer , d is string\n    start = int(i[0])\n    end = int(i[1])\n    d = i[2]\n    # genes = elements[start:end+1]\n    # health = values[start:end+1]\n    # genes_health_map = defaultdict(int)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "funnyString",
+        "kind": 2,
+        "importPath": "problem solving.generator_zip_symmetric_check",
+        "description": "problem solving.generator_zip_symmetric_check",
+        "peekOfCode": "def funnyString(s):\n    #get the length of the string\n    l_s = len(s)\n    #For even number we will have odd number of alternating differences \n    #for odd number we will have even number of alternating differences\n    first_cnt = l_s // 2 if l_s % 2 != 0 else l_s // 2 - 1\n    #print(first_cnt)\n    #first half generator of symmetric alternating character difference list\n    first_half = (abs(operator.sub(ord(e[0]), ord(e[1]))) for e in zip(s[:first_cnt+1], s[1:first_cnt+1]))\n    first_half_alt = map(lambda x, y: abs(ord(x)-ord(y)), s[:first_cnt+1], s[1:first_cnt+1])",
+        "detail": "problem solving.generator_zip_symmetric_check",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.generator_zip_symmetric_check import funnyString\n```\n\n```python\n\n\n```\n\n```python\ndef funnyString(s):\n    #get the length of the string\n    l_s = len(s)\n    #For even number we will have odd number of alternating differences \n    #for odd number we will have even number of alternating differences\n    first_cnt = l_s // 2 if l_s % 2 != 0 else l_s // 2 - 1\n    #print(first_cnt)\n    #first half generator of symmetric alternating character difference list\n    first_half = (abs(operator.sub(ord(e[0]), ord(e[1]))) for e in zip(s[:first_cnt+1], s[1:first_cnt+1]))\n    first_half_alt = map(lambda x, y: abs(ord(x)-ord(y)), s[:first_cnt+1], s[1:first_cnt+1])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "theLoveLetterMystery",
+        "kind": 2,
+        "importPath": "problem solving.itertools_reduce_zip_palindrome",
+        "description": "problem solving.itertools_reduce_zip_palindrome",
+        "peekOfCode": "def theLoveLetterMystery(s):\n    l = len(s)       # length of string\n    m = l//2         # middle index of string\n    s1 = s[:m]       # first part of string\n    s2 = s[-1:m-1:-1] if l%2==0 else s[-1:m:-1] # 2nd part of string (neglecting middle element)\n    #1st attempt\n    chr_modi = filter(lambda x: x[0] != x[1], [pair for pair in zip(s1, s2)])  # get all pairs that needs to be change inorder to make string palindrome\n    cnt = ft.reduce(lambda x,y: x + abs(ord(y[0])-ord(y[1])), chr_modi, 0)  # cnt & add required steps to make string palindrome\n    #print(cnt)\n    #2nd attempt",
+        "detail": "problem solving.itertools_reduce_zip_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.itertools_reduce_zip_palindrome import theLoveLetterMystery\n```\n\n```python\n\n\n```\n\n```python\ndef theLoveLetterMystery(s):\n    l = len(s)       # length of string\n    m = l//2         # middle index of string\n    s1 = s[:m]       # first part of string\n    s2 = s[-1:m-1:-1] if l%2==0 else s[-1:m:-1] # 2nd part of string (neglecting middle element)\n    #1st attempt\n    chr_modi = filter(lambda x: x[0] != x[1], [pair for pair in zip(s1, s2)])  # get all pairs that needs to be change inorder to make string palindrome\n    cnt = ft.reduce(lambda x,y: x + abs(ord(y[0])-ord(y[1])), chr_modi, 0)  # cnt & add required steps to make string palindrome\n    #print(cnt)\n    #2nd attempt\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "find_index_tobe_removed",
+        "kind": 2,
+        "importPath": "problem solving.palindrome_index",
+        "description": "problem solving.palindrome_index",
+        "peekOfCode": "def find_index_tobe_removed(s):\n    l = len(s)\n    m = l//2         # middle index of string\n    s1 = s[:m]       # first part of string\n    s2 = s[-1:m-1:-1] if l%2==0 else s[-1:m:-1] # 2nd part of string (neglecting middle element)\n    deciding_pairs = zip(s1, s2)\n    for n,pair in enumerate(deciding_pairs, start=1):\n        #print(pair)\n        if pair[0] != pair[1]:\n            return len(s)-n if pair[0] == s[-n-1] else n-1",
+        "detail": "problem solving.palindrome_index",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.palindrome_index import find_index_tobe_removed\n```\n\n```python\n\n\n```\n\n```python\ndef find_index_tobe_removed(s):\n    l = len(s)\n    m = l//2         # middle index of string\n    s1 = s[:m]       # first part of string\n    s2 = s[-1:m-1:-1] if l%2==0 else s[-1:m:-1] # 2nd part of string (neglecting middle element)\n    deciding_pairs = zip(s1, s2)\n    for n,pair in enumerate(deciding_pairs, start=1):\n        #print(pair)\n        if pair[0] != pair[1]:\n            return len(s)-n if pair[0] == s[-n-1] else n-1\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "find_index_to_remove",
+        "kind": 2,
+        "importPath": "problem solving.palindrome_index",
+        "description": "problem solving.palindrome_index",
+        "peekOfCode": "def find_index_to_remove(s):\n    l = len(s)\n    m = l//2-1 if l%2 == 0 else l//2\n    for i in range(l//2):\n        #print(s[i], s[-(i+1)])\n        if s[i] != s[-(i+1)]:\n            #return (l-i-1 if s[i] == s[-(i+2)] else i)\n            #return i if s[i+1:i+3] == s[-(i+1):-(i+3)] else l-i-1\n            #print(s[i+1:min(i+3,m)], s[-(i+1):max(-(i+3), -m-1):-1])\n            #return i if s[i+1:min(i+3,m)] == s[-(i+1):max(-(i+3), -m-1):-1] else l-i-1",
+        "detail": "problem solving.palindrome_index",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.palindrome_index import find_index_to_remove\n```\n\n```python\n\n\n```\n\n```python\ndef find_index_to_remove(s):\n    l = len(s)\n    m = l//2-1 if l%2 == 0 else l//2\n    for i in range(l//2):\n        #print(s[i], s[-(i+1)])\n        if s[i] != s[-(i+1)]:\n            #return (l-i-1 if s[i] == s[-(i+2)] else i)\n            #return i if s[i+1:i+3] == s[-(i+1):-(i+3)] else l-i-1\n            #print(s[i+1:min(i+3,m)], s[-(i+1):max(-(i+3), -m-1):-1])\n            #return i if s[i+1:min(i+3,m)] == s[-(i+1):max(-(i+3), -m-1):-1] else l-i-1\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "problem solving.palindrome_index",
+        "description": "problem solving.palindrome_index",
+        "peekOfCode": "s = input()\nwhile s:\n    print(find_index_tobe_removed(s))\n    print(find_index_to_remove(s))\n    s = input() #input string",
+        "detail": "problem solving.palindrome_index",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.palindrome_index import s\n```\n\n```python\n\n\n```\n\n```python\ns = input()\nwhile s:\n    print(find_index_tobe_removed(s))\n    print(find_index_to_remove(s))\n    s = input() #input string\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "superReducedString",
+        "kind": 2,
+        "importPath": "problem solving.regex_superreduced",
+        "description": "problem solving.regex_superreduced",
+        "peekOfCode": "def superReducedString(s):\n    pattern = r'([a-z])\\1'\n    while(True):\n        reduced_string = re.sub(pattern, '', s)\n        if reduced_string == s:\n            break\n        s = reduced_string\n    return reduced_string if reduced_string else 'Empty String'\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')",
+        "detail": "problem solving.regex_superreduced",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.regex_superreduced import superReducedString\n```\n\n```python\n\n\n```\n\n```python\ndef superReducedString(s):\n    pattern = r'([a-z])\\1'\n    while(True):\n        reduced_string = re.sub(pattern, '', s)\n        if reduced_string == s:\n            break\n        s = reduced_string\n    return reduced_string if reduced_string else 'Empty String'\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "gemstones",
+        "kind": 2,
+        "importPath": "problem solving.set_intersection_example",
+        "description": "problem solving.set_intersection_example",
+        "peekOfCode": "def gemstones(arr):\n    s = set.intersection(*map(set, arr))  #common character present in all string\n    return len(s)\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n    n = int(input())\n    arr = []\n    for _ in range(n):\n        arr_item = input()\n        arr.append(arr_item)",
+        "detail": "problem solving.set_intersection_example",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.set_intersection_example import gemstones\n```\n\n```python\n\n\n```\n\n```python\ndef gemstones(arr):\n    s = set.intersection(*map(set, arr))  #common character present in all string\n    return len(s)\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n    n = int(input())\n    arr = []\n    for _ in range(n):\n        arr_item = input()\n        arr.append(arr_item)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "marsExploration",
+        "kind": 2,
+        "importPath": "problem solving.textwrap_Example",
+        "description": "problem solving.textwrap_Example",
+        "peekOfCode": "def marsExploration(s):\n    changed_letters = 0\n    w = wrap(s, 3)\n    for batch in w:\n        if batch[0] != 'S':\n            changed_letters += 1\n        if batch[1] != 'O':\n            changed_letters += 1\n        if batch[2] != 'S':\n            changed_letters += 1",
+        "detail": "problem solving.textwrap_Example",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.textwrap_Example import marsExploration\n```\n\n```python\n\n\n```\n\n```python\ndef marsExploration(s):\n    changed_letters = 0\n    w = wrap(s, 3)\n    for batch in w:\n        if batch[0] != 'S':\n            changed_letters += 1\n        if batch[1] != 'O':\n            changed_letters += 1\n        if batch[2] != 'S':\n            changed_letters += 1\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "problem solving.textwrap_wrap-concept",
+        "description": "problem solving.textwrap_wrap-concept",
+        "peekOfCode": "s = '123456788'\nw = wrap(s, 3)\nprint(w)",
+        "detail": "problem solving.textwrap_wrap-concept",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.textwrap_wrap-concept import s\n```\n\n```python\n\n\n```\n\n```python\ns = '123456788'\nw = wrap(s, 3)\nprint(w)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "w",
+        "kind": 5,
+        "importPath": "problem solving.textwrap_wrap-concept",
+        "description": "problem solving.textwrap_wrap-concept",
+        "peekOfCode": "w = wrap(s, 3)\nprint(w)",
+        "detail": "problem solving.textwrap_wrap-concept",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.textwrap_wrap-concept import w\n```\n\n```python\n\n\n```\n\n```python\nw = wrap(s, 3)\nprint(w)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "weightedUniformStrings",
+        "kind": 2,
+        "importPath": "problem solving.weighted-unifom-string",
+        "description": "problem solving.weighted-unifom-string",
+        "peekOfCode": "def weightedUniformStrings(s, queries):\n    possible_weights = []\n    chr_cnt = Counter(s)\n    for k,v in chr_cnt.items():\n        weight = ord(k)-96       # As ascii of 'a' is 97\n        possible_weights.extend([weight*i for i in range(1, v+1)])\n    answer = ('Yes' if q in possible_weights else 'No' for q in queries)\n    return answer\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')",
+        "detail": "problem solving.weighted-unifom-string",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.weighted-unifom-string import weightedUniformStrings\n```\n\n```python\n\n\n```\n\n```python\ndef weightedUniformStrings(s, queries):\n    possible_weights = []\n    chr_cnt = Counter(s)\n    for k,v in chr_cnt.items():\n        weight = ord(k)-96       # As ascii of 'a' is 97\n        possible_weights.extend([weight*i for i in range(1, v+1)])\n    answer = ('Yes' if q in possible_weights else 'No' for q in queries)\n    return answer\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "weightedUniformStrings",
+        "kind": 2,
+        "importPath": "problem solving.weighted-unifom-string",
+        "description": "problem solving.weighted-unifom-string",
+        "peekOfCode": "def weightedUniformStrings(s, queries):\n    possible_weights = set()\n    list_of_weights_per_grp = []\n    groups = {''.join(g) for k,g in it.groupby(s)}\n    #print(groups)\n    for g in groups:\n        weight = ord(g[0])-96\n        list_of_weights_per_grp.append({i for i in range(weight, len(g)*weight+1, weight)})\n    #print(list_of_weights_per_grp)\n    possible_weights = set().union(*list_of_weights_per_grp)",
+        "detail": "problem solving.weighted-unifom-string",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving.weighted-unifom-string import weightedUniformStrings\n```\n\n```python\n\n\n```\n\n```python\ndef weightedUniformStrings(s, queries):\n    possible_weights = set()\n    list_of_weights_per_grp = []\n    groups = {''.join(g) for k,g in it.groupby(s)}\n    #print(groups)\n    for g in groups:\n        weight = ord(g[0])-96\n        list_of_weights_per_grp.append({i for i in range(weight, len(g)*weight+1, weight)})\n    #print(list_of_weights_per_grp)\n    possible_weights = set().union(*list_of_weights_per_grp)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "checkListEqualityIgnoringOrder",
+        "kind": 2,
+        "importPath": "problem solving 2.all_anagram_substr",
+        "description": "problem solving 2.all_anagram_substr",
+        "peekOfCode": "def checkListEqualityIgnoringOrder(l1, l2):\n    l1_ctr = ctr(l1)\n    l2_ctr = ctr(l2)\n    for k in l1_ctr:\n        if l1_ctr[k] != l2_ctr[k]:\n            return False\n    return True\n    #l1_ctr.subtract(l2_ctr)\n    #return not(any(l1_ctr.values()))\n# def checkListEqualityIgnoringOrder(l1, l2):",
+        "detail": "problem solving 2.all_anagram_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.all_anagram_substr import checkListEqualityIgnoringOrder\n```\n\n```python\n\n\n```\n\n```python\ndef checkListEqualityIgnoringOrder(l1, l2):\n    l1_ctr = ctr(l1)\n    l2_ctr = ctr(l2)\n    for k in l1_ctr:\n        if l1_ctr[k] != l2_ctr[k]:\n            return False\n    return True\n    #l1_ctr.subtract(l2_ctr)\n    #return not(any(l1_ctr.values()))\n# def checkListEqualityIgnoringOrder(l1, l2):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "fact",
+        "kind": 2,
+        "importPath": "problem solving 2.all_anagram_substr",
+        "description": "problem solving 2.all_anagram_substr",
+        "peekOfCode": "def fact(n):\n    if n == 0:\n        return 1\n    if n<3:\n        return n\n    return ft.reduce(op.mul, range(2,n),1)\ndef multiplyAll(l):\n    if l:\n        return ft.reduce(op.mul, l, 1)\n    return 1",
+        "detail": "problem solving 2.all_anagram_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.all_anagram_substr import fact\n```\n\n```python\n\n\n```\n\n```python\ndef fact(n):\n    if n == 0:\n        return 1\n    if n<3:\n        return n\n    return ft.reduce(op.mul, range(2,n),1)\ndef multiplyAll(l):\n    if l:\n        return ft.reduce(op.mul, l, 1)\n    return 1\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "multiplyAll",
+        "kind": 2,
+        "importPath": "problem solving 2.all_anagram_substr",
+        "description": "problem solving 2.all_anagram_substr",
+        "peekOfCode": "def multiplyAll(l):\n    if l:\n        return ft.reduce(op.mul, l, 1)\n    return 1\n@ft.lru_cache()\ndef nCr(n,r):\n    #NOTE: when we do nC2 then it will always give us integer number \n    return multiplyAll(range(n,max(n-r,r),-1)) // fact(min(n-r,r))\ndef findAllAnagramSubstrPair(s):\n    total_cnt = 0",
+        "detail": "problem solving 2.all_anagram_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.all_anagram_substr import multiplyAll\n```\n\n```python\n\n\n```\n\n```python\ndef multiplyAll(l):\n    if l:\n        return ft.reduce(op.mul, l, 1)\n    return 1\n@ft.lru_cache()\ndef nCr(n,r):\n    #NOTE: when we do nC2 then it will always give us integer number \n    return multiplyAll(range(n,max(n-r,r),-1)) // fact(min(n-r,r))\ndef findAllAnagramSubstrPair(s):\n    total_cnt = 0\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "nCr",
+        "kind": 2,
+        "importPath": "problem solving 2.all_anagram_substr",
+        "description": "problem solving 2.all_anagram_substr",
+        "peekOfCode": "def nCr(n,r):\n    #NOTE: when we do nC2 then it will always give us integer number \n    return multiplyAll(range(n,max(n-r,r),-1)) // fact(min(n-r,r))\ndef findAllAnagramSubstrPair(s):\n    total_cnt = 0\n    length = len(s)\n    for step in range(1, length):\n        substrs = [s[i:i+step] for i in range(0,length+1-step)]\n        #print(substrs)\n        substr_ctr = ctr(substrs)",
+        "detail": "problem solving 2.all_anagram_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.all_anagram_substr import nCr\n```\n\n```python\n\n\n```\n\n```python\ndef nCr(n,r):\n    #NOTE: when we do nC2 then it will always give us integer number \n    return multiplyAll(range(n,max(n-r,r),-1)) // fact(min(n-r,r))\ndef findAllAnagramSubstrPair(s):\n    total_cnt = 0\n    length = len(s)\n    for step in range(1, length):\n        substrs = [s[i:i+step] for i in range(0,length+1-step)]\n        #print(substrs)\n        substr_ctr = ctr(substrs)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "findAllAnagramSubstrPair",
+        "kind": 2,
+        "importPath": "problem solving 2.all_anagram_substr",
+        "description": "problem solving 2.all_anagram_substr",
+        "peekOfCode": "def findAllAnagramSubstrPair(s):\n    total_cnt = 0\n    length = len(s)\n    for step in range(1, length):\n        substrs = [s[i:i+step] for i in range(0,length+1-step)]\n        #print(substrs)\n        substr_ctr = ctr(substrs)\n        #print(substr_ctr)\n        for count in filter(lambda cnt: cnt>1, substr_ctr.values()):\n            total_cnt += nCr(count,2)",
+        "detail": "problem solving 2.all_anagram_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.all_anagram_substr import findAllAnagramSubstrPair\n```\n\n```python\n\n\n```\n\n```python\ndef findAllAnagramSubstrPair(s):\n    total_cnt = 0\n    length = len(s)\n    for step in range(1, length):\n        substrs = [s[i:i+step] for i in range(0,length+1-step)]\n        #print(substrs)\n        substr_ctr = ctr(substrs)\n        #print(substr_ctr)\n        for count in filter(lambda cnt: cnt>1, substr_ctr.values()):\n            total_cnt += nCr(count,2)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#l1",
+        "kind": 5,
+        "importPath": "problem solving 2.all_anagram_substr",
+        "description": "problem solving 2.all_anagram_substr",
+        "peekOfCode": "#l1 = [1,2,3,3,1]\n#l2 = [2,3,1,1,3]\n#print(compareListDespiteOrder(l1,l2))\nc = findAllAnagramSubstrPair('gffryqktmwocejbxfidpjfgrrkpowoxwggxaknmltjcpazgtnakcfcogzatyskqjyorcftwxjrtgayvllutrjxpbzggjxbmxpnde')\nprint(c)",
+        "detail": "problem solving 2.all_anagram_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.all_anagram_substr import #l1\n```\n\n```python\n\n\n```\n\n```python\n#l1 = [1,2,3,3,1]\n#l2 = [2,3,1,1,3]\n#print(compareListDespiteOrder(l1,l2))\nc = findAllAnagramSubstrPair('gffryqktmwocejbxfidpjfgrrkpowoxwggxaknmltjcpazgtnakcfcogzatyskqjyorcftwxjrtgayvllutrjxpbzggjxbmxpnde')\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#l2",
+        "kind": 5,
+        "importPath": "problem solving 2.all_anagram_substr",
+        "description": "problem solving 2.all_anagram_substr",
+        "peekOfCode": "#l2 = [2,3,1,1,3]\n#print(compareListDespiteOrder(l1,l2))\nc = findAllAnagramSubstrPair('gffryqktmwocejbxfidpjfgrrkpowoxwggxaknmltjcpazgtnakcfcogzatyskqjyorcftwxjrtgayvllutrjxpbzggjxbmxpnde')\nprint(c)",
+        "detail": "problem solving 2.all_anagram_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.all_anagram_substr import #l2\n```\n\n```python\n\n\n```\n\n```python\n#l2 = [2,3,1,1,3]\n#print(compareListDespiteOrder(l1,l2))\nc = findAllAnagramSubstrPair('gffryqktmwocejbxfidpjfgrrkpowoxwggxaknmltjcpazgtnakcfcogzatyskqjyorcftwxjrtgayvllutrjxpbzggjxbmxpnde')\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "problem solving 2.all_anagram_substr",
+        "description": "problem solving 2.all_anagram_substr",
+        "peekOfCode": "c = findAllAnagramSubstrPair('gffryqktmwocejbxfidpjfgrrkpowoxwggxaknmltjcpazgtnakcfcogzatyskqjyorcftwxjrtgayvllutrjxpbzggjxbmxpnde')\nprint(c)",
+        "detail": "problem solving 2.all_anagram_substr",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.all_anagram_substr import c\n```\n\n```python\n\n\n```\n\n```python\nc = findAllAnagramSubstrPair('gffryqktmwocejbxfidpjfgrrkpowoxwggxaknmltjcpazgtnakcfcogzatyskqjyorcftwxjrtgayvllutrjxpbzggjxbmxpnde')\nprint(c)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "gameOfThrones",
+        "kind": 2,
+        "importPath": "problem solving 2.anagram_palindrome_counter_filter",
+        "description": "problem solving 2.anagram_palindrome_counter_filter",
+        "peekOfCode": "def gameOfThrones(s):\n    s_count = Counter(s)\n    *odd_cnt, = filter(lambda x: s_count[x]%2!=0, s_count)\n    #print(odd_cnt)\n    count = s_count\n    if len(s)%2 == 0:\n        return 'YES' if not odd_cnt else 'NO'\n    else:\n        return 'YES' if len(odd_cnt) == 1 else 'NO'\nif __name__ == '__main__':",
+        "detail": "problem solving 2.anagram_palindrome_counter_filter",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_palindrome_counter_filter import gameOfThrones\n```\n\n```python\n\n\n```\n\n```python\ndef gameOfThrones(s):\n    s_count = Counter(s)\n    *odd_cnt, = filter(lambda x: s_count[x]%2!=0, s_count)\n    #print(odd_cnt)\n    count = s_count\n    if len(s)%2 == 0:\n        return 'YES' if not odd_cnt else 'NO'\n    else:\n        return 'YES' if len(odd_cnt) == 1 else 'NO'\nif __name__ == '__main__':\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "problem solving 2.anagram_string_deletion",
+        "description": "problem solving 2.anagram_string_deletion",
+        "peekOfCode": "s1 = input('enter string 1:')\ns2 = input('enter string 2:')\nprint(len(s1), len(s2))\ns1_set,s2_set = set(s1), set(s2)\ncommon = s1_set.intersection(s2_set)\n# Approach 1------------------------------\nprint(common)\ns1_common_cnt = sum([s1.count(n) for n in common])\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])",
+        "detail": "problem solving 2.anagram_string_deletion",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_string_deletion import s1\n```\n\n```python\n\n\n```\n\n```python\ns1 = input('enter string 1:')\ns2 = input('enter string 2:')\nprint(len(s1), len(s2))\ns1_set,s2_set = set(s1), set(s2)\ncommon = s1_set.intersection(s2_set)\n# Approach 1------------------------------\nprint(common)\ns1_common_cnt = sum([s1.count(n) for n in common])\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "problem solving 2.anagram_string_deletion",
+        "description": "problem solving 2.anagram_string_deletion",
+        "peekOfCode": "s2 = input('enter string 2:')\nprint(len(s1), len(s2))\ns1_set,s2_set = set(s1), set(s2)\ncommon = s1_set.intersection(s2_set)\n# Approach 1------------------------------\nprint(common)\ns1_common_cnt = sum([s1.count(n) for n in common])\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)",
+        "detail": "problem solving 2.anagram_string_deletion",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_string_deletion import s2\n```\n\n```python\n\n\n```\n\n```python\ns2 = input('enter string 2:')\nprint(len(s1), len(s2))\ns1_set,s2_set = set(s1), set(s2)\ncommon = s1_set.intersection(s2_set)\n# Approach 1------------------------------\nprint(common)\ns1_common_cnt = sum([s1.count(n) for n in common])\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s1_set,s2_set",
+        "kind": 5,
+        "importPath": "problem solving 2.anagram_string_deletion",
+        "description": "problem solving 2.anagram_string_deletion",
+        "peekOfCode": "s1_set,s2_set = set(s1), set(s2)\ncommon = s1_set.intersection(s2_set)\n# Approach 1------------------------------\nprint(common)\ns1_common_cnt = sum([s1.count(n) for n in common])\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt",
+        "detail": "problem solving 2.anagram_string_deletion",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_string_deletion import s1_set,s2_set\n```\n\n```python\n\n\n```\n\n```python\ns1_set,s2_set = set(s1), set(s2)\ncommon = s1_set.intersection(s2_set)\n# Approach 1------------------------------\nprint(common)\ns1_common_cnt = sum([s1.count(n) for n in common])\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "common",
+        "kind": 5,
+        "importPath": "problem solving 2.anagram_string_deletion",
+        "description": "problem solving 2.anagram_string_deletion",
+        "peekOfCode": "common = s1_set.intersection(s2_set)\n# Approach 1------------------------------\nprint(common)\ns1_common_cnt = sum([s1.count(n) for n in common])\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)",
+        "detail": "problem solving 2.anagram_string_deletion",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_string_deletion import common\n```\n\n```python\n\n\n```\n\n```python\ncommon = s1_set.intersection(s2_set)\n# Approach 1------------------------------\nprint(common)\ns1_common_cnt = sum([s1.count(n) for n in common])\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s1_common_cnt",
+        "kind": 5,
+        "importPath": "problem solving 2.anagram_string_deletion",
+        "description": "problem solving 2.anagram_string_deletion",
+        "peekOfCode": "s1_common_cnt = sum([s1.count(n) for n in common])\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\nprint(s1_removal_cnt + s2_removal_cnt + common_removal_cnt)\n#Approach2------------------------------\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]",
+        "detail": "problem solving 2.anagram_string_deletion",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_string_deletion import s1_common_cnt\n```\n\n```python\n\n\n```\n\n```python\ns1_common_cnt = sum([s1.count(n) for n in common])\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\nprint(s1_removal_cnt + s2_removal_cnt + common_removal_cnt)\n#Approach2------------------------------\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s2_common_cnt",
+        "kind": 5,
+        "importPath": "problem solving 2.anagram_string_deletion",
+        "description": "problem solving 2.anagram_string_deletion",
+        "peekOfCode": "s2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\nprint(s1_removal_cnt + s2_removal_cnt + common_removal_cnt)\n#Approach2------------------------------\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n[sum(s1_common_cnt), sum(s2_common_cnt), sum(common_removal_cnt) for  in zip(*common_cnts)]",
+        "detail": "problem solving 2.anagram_string_deletion",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_string_deletion import s2_common_cnt\n```\n\n```python\n\n\n```\n\n```python\ns2_common_cnt = sum([s2.count(n) for n in common])\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\nprint(s1_removal_cnt + s2_removal_cnt + common_removal_cnt)\n#Approach2------------------------------\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n[sum(s1_common_cnt), sum(s2_common_cnt), sum(common_removal_cnt) for  in zip(*common_cnts)]\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "common_removal_cnt",
+        "kind": 5,
+        "importPath": "problem solving 2.anagram_string_deletion",
+        "description": "problem solving 2.anagram_string_deletion",
+        "peekOfCode": "common_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\nprint(s1_removal_cnt + s2_removal_cnt + common_removal_cnt)\n#Approach2------------------------------\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n[sum(s1_common_cnt), sum(s2_common_cnt), sum(common_removal_cnt) for  in zip(*common_cnts)]\ncommon_removal_cnt= []",
+        "detail": "problem solving 2.anagram_string_deletion",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_string_deletion import common_removal_cnt\n```\n\n```python\n\n\n```\n\n```python\ncommon_removal_cnt = sum([abs(s1.count(n) - s2.count(n)) for n in common])\nprint(s1_common_cnt, s2_common_cnt)\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\nprint(s1_removal_cnt + s2_removal_cnt + common_removal_cnt)\n#Approach2------------------------------\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n[sum(s1_common_cnt), sum(s2_common_cnt), sum(common_removal_cnt) for  in zip(*common_cnts)]\ncommon_removal_cnt= []\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s1_removal_cnt",
+        "kind": 5,
+        "importPath": "problem solving 2.anagram_string_deletion",
+        "description": "problem solving 2.anagram_string_deletion",
+        "peekOfCode": "s1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\nprint(s1_removal_cnt + s2_removal_cnt + common_removal_cnt)\n#Approach2------------------------------\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n[sum(s1_common_cnt), sum(s2_common_cnt), sum(common_removal_cnt) for  in zip(*common_cnts)]\ncommon_removal_cnt= []",
+        "detail": "problem solving 2.anagram_string_deletion",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_string_deletion import s1_removal_cnt\n```\n\n```python\n\n\n```\n\n```python\ns1_removal_cnt = len(s1) - s1_common_cnt\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\nprint(s1_removal_cnt + s2_removal_cnt + common_removal_cnt)\n#Approach2------------------------------\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n[sum(s1_common_cnt), sum(s2_common_cnt), sum(common_removal_cnt) for  in zip(*common_cnts)]\ncommon_removal_cnt= []\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s2_removal_cnt",
+        "kind": 5,
+        "importPath": "problem solving 2.anagram_string_deletion",
+        "description": "problem solving 2.anagram_string_deletion",
+        "peekOfCode": "s2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\nprint(s1_removal_cnt + s2_removal_cnt + common_removal_cnt)\n#Approach2------------------------------\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n[sum(s1_common_cnt), sum(s2_common_cnt), sum(common_removal_cnt) for  in zip(*common_cnts)]\ncommon_removal_cnt= []",
+        "detail": "problem solving 2.anagram_string_deletion",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_string_deletion import s2_removal_cnt\n```\n\n```python\n\n\n```\n\n```python\ns2_removal_cnt = len(s2) - s2_common_cnt\nprint(s1_removal_cnt,s2_removal_cnt)\nprint(s1_removal_cnt + s2_removal_cnt + common_removal_cnt)\n#Approach2------------------------------\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n[sum(s1_common_cnt), sum(s2_common_cnt), sum(common_removal_cnt) for  in zip(*common_cnts)]\ncommon_removal_cnt= []\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "common_cnts",
+        "kind": 5,
+        "importPath": "problem solving 2.anagram_string_deletion",
+        "description": "problem solving 2.anagram_string_deletion",
+        "peekOfCode": "common_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n[sum(s1_common_cnt), sum(s2_common_cnt), sum(common_removal_cnt) for  in zip(*common_cnts)]\ncommon_removal_cnt= []",
+        "detail": "problem solving 2.anagram_string_deletion",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.anagram_string_deletion import common_cnts\n```\n\n```python\n\n\n```\n\n```python\ncommon_cnts = [(s1.count(n), s2.count(n), abs(s1.count(n) - s2.count(n))) for n in common]\n[sum(s1_common_cnt), sum(s2_common_cnt), sum(common_removal_cnt) for  in zip(*common_cnts)]\ncommon_removal_cnt= []\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "find_indexes_to_be_altered",
+        "kind": 2,
+        "importPath": "problem solving 2.highest_number_palindrome",
+        "description": "problem solving 2.highest_number_palindrome",
+        "peekOfCode": "def find_indexes_to_be_altered(s):\n    l = len(s)\n    return {i for i in range(l//2) if s[i] != s[-(i+1)]}\n# Complete the highestValuePalindrome function below.\ndef highestValuePalindrome(s, n, k):\n    l = len(s)\n    #if string contains only 1 character then just check if it's max or not, if allowed alteration, & return likewisew\n    if l == 1:\n        if k:\n            return '9'",
+        "detail": "problem solving 2.highest_number_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.highest_number_palindrome import find_indexes_to_be_altered\n```\n\n```python\n\n\n```\n\n```python\ndef find_indexes_to_be_altered(s):\n    l = len(s)\n    return {i for i in range(l//2) if s[i] != s[-(i+1)]}\n# Complete the highestValuePalindrome function below.\ndef highestValuePalindrome(s, n, k):\n    l = len(s)\n    #if string contains only 1 character then just check if it's max or not, if allowed alteration, & return likewisew\n    if l == 1:\n        if k:\n            return '9'\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "highestValuePalindrome",
+        "kind": 2,
+        "importPath": "problem solving 2.highest_number_palindrome",
+        "description": "problem solving 2.highest_number_palindrome",
+        "peekOfCode": "def highestValuePalindrome(s, n, k):\n    l = len(s)\n    #if string contains only 1 character then just check if it's max or not, if allowed alteration, & return likewisew\n    if l == 1:\n        if k:\n            return '9'\n        else:\n            return s\n    #get list of characters of string\n    str_chrs = list(s)  ",
+        "detail": "problem solving 2.highest_number_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.highest_number_palindrome import highestValuePalindrome\n```\n\n```python\n\n\n```\n\n```python\ndef highestValuePalindrome(s, n, k):\n    l = len(s)\n    #if string contains only 1 character then just check if it's max or not, if allowed alteration, & return likewisew\n    if l == 1:\n        if k:\n            return '9'\n        else:\n            return s\n    #get list of characters of string\n    str_chrs = list(s)  \n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "find_indexes_to_be_altered",
+        "kind": 2,
+        "importPath": "problem solving 2.hnp_a1",
+        "description": "problem solving 2.hnp_a1",
+        "peekOfCode": "def find_indexes_to_be_altered(s):\n    l = len(s)\n    return {i for i in range(l//2) if s[i] != s[-(i+1)]}\n# Complete the highestValuePalindrome function below.\ndef highestValuePalindrome(s, n, k):\n    str_chrs = list(s)\n    idx_req_altered = find_indexes_to_be_altered(s)\n    req_alter = len(idx_req_altered)\n    #print(idx_req_altered)\n    l = len(s)",
+        "detail": "problem solving 2.hnp_a1",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.hnp_a1 import find_indexes_to_be_altered\n```\n\n```python\n\n\n```\n\n```python\ndef find_indexes_to_be_altered(s):\n    l = len(s)\n    return {i for i in range(l//2) if s[i] != s[-(i+1)]}\n# Complete the highestValuePalindrome function below.\ndef highestValuePalindrome(s, n, k):\n    str_chrs = list(s)\n    idx_req_altered = find_indexes_to_be_altered(s)\n    req_alter = len(idx_req_altered)\n    #print(idx_req_altered)\n    l = len(s)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "highestValuePalindrome",
+        "kind": 2,
+        "importPath": "problem solving 2.hnp_a1",
+        "description": "problem solving 2.hnp_a1",
+        "peekOfCode": "def highestValuePalindrome(s, n, k):\n    str_chrs = list(s)\n    idx_req_altered = find_indexes_to_be_altered(s)\n    req_alter = len(idx_req_altered)\n    #print(idx_req_altered)\n    l = len(s)\n    if l == 1:\n        if k:\n            return '9'\n        else:",
+        "detail": "problem solving 2.hnp_a1",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.hnp_a1 import highestValuePalindrome\n```\n\n```python\n\n\n```\n\n```python\ndef highestValuePalindrome(s, n, k):\n    str_chrs = list(s)\n    idx_req_altered = find_indexes_to_be_altered(s)\n    req_alter = len(idx_req_altered)\n    #print(idx_req_altered)\n    l = len(s)\n    if l == 1:\n        if k:\n            return '9'\n        else:\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "problem solving 2.maximum_palindrome",
+        "description": "problem solving 2.maximum_palindrome",
+        "peekOfCode": "def factorial(n):\n    if n == 1:\n        return 1\n    return multiplyAll(range(2,n+1))\ndef multiplyAll(l):\n    return reduce(op.mul, l, 1) \ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)",
+        "detail": "problem solving 2.maximum_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.maximum_palindrome import factorial\n```\n\n```python\n\n\n```\n\n```python\ndef factorial(n):\n    if n == 1:\n        return 1\n    return multiplyAll(range(2,n+1))\ndef multiplyAll(l):\n    return reduce(op.mul, l, 1) \ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "multiplyAll",
+        "kind": 2,
+        "importPath": "problem solving 2.maximum_palindrome",
+        "description": "problem solving 2.maximum_palindrome",
+        "peekOfCode": "def multiplyAll(l):\n    return reduce(op.mul, l, 1) \ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)\n    chr_cnt_1 = 0\n    chr_even_fact = []\n    chr_odd_fact = []\n    for cnt in s_ctr.values():",
+        "detail": "problem solving 2.maximum_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.maximum_palindrome import multiplyAll\n```\n\n```python\n\n\n```\n\n```python\ndef multiplyAll(l):\n    return reduce(op.mul, l, 1) \ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)\n    chr_cnt_1 = 0\n    chr_even_fact = []\n    chr_odd_fact = []\n    for cnt in s_ctr.values():\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "find_max_palindrome_cnts",
+        "kind": 2,
+        "importPath": "problem solving 2.maximum_palindrome",
+        "description": "problem solving 2.maximum_palindrome",
+        "peekOfCode": "def find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)\n    chr_cnt_1 = 0\n    chr_even_fact = []\n    chr_odd_fact = []\n    for cnt in s_ctr.values():\n        if cnt == 1:\n            chr_cnt_1 += 1",
+        "detail": "problem solving 2.maximum_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.maximum_palindrome import find_max_palindrome_cnts\n```\n\n```python\n\n\n```\n\n```python\ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)\n    chr_cnt_1 = 0\n    chr_even_fact = []\n    chr_odd_fact = []\n    for cnt in s_ctr.values():\n        if cnt == 1:\n            chr_cnt_1 += 1\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#ct",
+        "kind": 5,
+        "importPath": "problem solving 2.maximum_palindrome",
+        "description": "problem solving 2.maximum_palindrome",
+        "peekOfCode": "#ct = find_max_palindrome_cnts('cabcapacac')\n#string \ns = input()\n#no. of days\ndays = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)",
+        "detail": "problem solving 2.maximum_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.maximum_palindrome import #ct\n```\n\n```python\n\n\n```\n\n```python\n#ct = find_max_palindrome_cnts('cabcapacac')\n#string \ns = input()\n#no. of days\ndays = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "problem solving 2.maximum_palindrome",
+        "description": "problem solving 2.maximum_palindrome",
+        "peekOfCode": "s = input()\n#no. of days\ndays = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)",
+        "detail": "problem solving 2.maximum_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.maximum_palindrome import s\n```\n\n```python\n\n\n```\n\n```python\ns = input()\n#no. of days\ndays = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "days",
+        "kind": 5,
+        "importPath": "problem solving 2.maximum_palindrome",
+        "description": "problem solving 2.maximum_palindrome",
+        "peekOfCode": "days = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)",
+        "detail": "problem solving 2.maximum_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.maximum_palindrome import days\n```\n\n```python\n\n\n```\n\n```python\ndays = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "index_list",
+        "kind": 5,
+        "importPath": "problem solving 2.maximum_palindrome",
+        "description": "problem solving 2.maximum_palindrome",
+        "peekOfCode": "index_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)",
+        "detail": "problem solving 2.maximum_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.maximum_palindrome import index_list\n```\n\n```python\n\n\n```\n\n```python\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "problem solving 2.palindrom_largest_all_possible",
+        "description": "problem solving 2.palindrom_largest_all_possible",
+        "peekOfCode": "def factorial(n):\n    if n == 1:\n        return 1\n    return multiplyAll(range(2,n+1))\ndef multiplyAll(l):\n    return reduce(op.mul, l, 1) \ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)",
+        "detail": "problem solving 2.palindrom_largest_all_possible",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.palindrom_largest_all_possible import factorial\n```\n\n```python\n\n\n```\n\n```python\ndef factorial(n):\n    if n == 1:\n        return 1\n    return multiplyAll(range(2,n+1))\ndef multiplyAll(l):\n    return reduce(op.mul, l, 1) \ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "multiplyAll",
+        "kind": 2,
+        "importPath": "problem solving 2.palindrom_largest_all_possible",
+        "description": "problem solving 2.palindrom_largest_all_possible",
+        "peekOfCode": "def multiplyAll(l):\n    return reduce(op.mul, l, 1) \ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)\n    #seperate out character with count 1\n    chr_1 = list(filter(lambda v: v == 1, s_ctr.values()))\n    chr_cnt_1 = len(chr_1)\n    if chr_cnt_1 == l :",
+        "detail": "problem solving 2.palindrom_largest_all_possible",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.palindrom_largest_all_possible import multiplyAll\n```\n\n```python\n\n\n```\n\n```python\ndef multiplyAll(l):\n    return reduce(op.mul, l, 1) \ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)\n    #seperate out character with count 1\n    chr_1 = list(filter(lambda v: v == 1, s_ctr.values()))\n    chr_cnt_1 = len(chr_1)\n    if chr_cnt_1 == l :\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "find_max_palindrome_cnts",
+        "kind": 2,
+        "importPath": "problem solving 2.palindrom_largest_all_possible",
+        "description": "problem solving 2.palindrom_largest_all_possible",
+        "peekOfCode": "def find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)\n    #seperate out character with count 1\n    chr_1 = list(filter(lambda v: v == 1, s_ctr.values()))\n    chr_cnt_1 = len(chr_1)\n    if chr_cnt_1 == l :\n        return l\n    #seperate out character with even count",
+        "detail": "problem solving 2.palindrom_largest_all_possible",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.palindrom_largest_all_possible import find_max_palindrome_cnts\n```\n\n```python\n\n\n```\n\n```python\ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n    l = len(s)\n    #seperate out character with count 1\n    chr_1 = list(filter(lambda v: v == 1, s_ctr.values()))\n    chr_cnt_1 = len(chr_1)\n    if chr_cnt_1 == l :\n        return l\n    #seperate out character with even count\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "@functools.lru_cache(maxsize",
+        "kind": 5,
+        "importPath": "problem solving 2.palindrom_largest_all_possible",
+        "description": "problem solving 2.palindrom_largest_all_possible",
+        "peekOfCode": "@functools.lru_cache(maxsize = 100)\ndef factorial(n):\n    if n == 1:\n        return 1\n    return multiplyAll(range(2,n+1))\ndef multiplyAll(l):\n    return reduce(op.mul, l, 1) \ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)",
+        "detail": "problem solving 2.palindrom_largest_all_possible",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.palindrom_largest_all_possible import @functools.lru_cache(maxsize\n```\n\n```python\n\n\n```\n\n```python\n@functools.lru_cache(maxsize = 100)\ndef factorial(n):\n    if n == 1:\n        return 1\n    return multiplyAll(range(2,n+1))\ndef multiplyAll(l):\n    return reduce(op.mul, l, 1) \ndef find_max_palindrome_cnts(s):\n    #count unique number of characters for given substring\n    s_ctr = ctr(s)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#ct",
+        "kind": 5,
+        "importPath": "problem solving 2.palindrom_largest_all_possible",
+        "description": "problem solving 2.palindrom_largest_all_possible",
+        "peekOfCode": "#ct = find_max_palindrome_cnts('cabcapacac')\n#string \ns = input()\n#no. of days\ndays = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)",
+        "detail": "problem solving 2.palindrom_largest_all_possible",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.palindrom_largest_all_possible import #ct\n```\n\n```python\n\n\n```\n\n```python\n#ct = find_max_palindrome_cnts('cabcapacac')\n#string \ns = input()\n#no. of days\ndays = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "problem solving 2.palindrom_largest_all_possible",
+        "description": "problem solving 2.palindrom_largest_all_possible",
+        "peekOfCode": "s = input()\n#no. of days\ndays = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)",
+        "detail": "problem solving 2.palindrom_largest_all_possible",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.palindrom_largest_all_possible import s\n```\n\n```python\n\n\n```\n\n```python\ns = input()\n#no. of days\ndays = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "days",
+        "kind": 5,
+        "importPath": "problem solving 2.palindrom_largest_all_possible",
+        "description": "problem solving 2.palindrom_largest_all_possible",
+        "peekOfCode": "days = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)",
+        "detail": "problem solving 2.palindrom_largest_all_possible",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.palindrom_largest_all_possible import days\n```\n\n```python\n\n\n```\n\n```python\ndays = int(input())\n#l & r are including for string index\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "index_list",
+        "kind": 5,
+        "importPath": "problem solving 2.palindrom_largest_all_possible",
+        "description": "problem solving 2.palindrom_largest_all_possible",
+        "peekOfCode": "index_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)",
+        "detail": "problem solving 2.palindrom_largest_all_possible",
+        "documentation": {
+            "value": "\n```python\nfrom problem solving 2.palindrom_largest_all_possible import index_list\n```\n\n```python\n\n\n```\n\n```python\nindex_list = [tuple(map(int, input().split())) for d in range(days)]\nfor l,r in index_list:\n    ct = find_max_palindrome_cnts(s[l-1:r])\n    ans = ct % (10**9 + 7)\n    print(ans)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "alternatingCharacters",
+        "kind": 2,
+        "importPath": "regex .alternating_character_removal",
+        "description": "regex .alternating_character_removal",
+        "peekOfCode": "def alternatingCharacters(s):\n    regex = r\"([AB])\\1+\"\n    subst = \"\\\\1\"\n    result = re.sub(regex, subst, s)\n    return len(s) - len(result)\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n    q = int(input())\n    for q_itr in range(q):\n        s = input()",
+        "detail": "regex .alternating_character_removal",
+        "documentation": {
+            "value": "\n```python\nfrom regex .alternating_character_removal import alternatingCharacters\n```\n\n```python\n\n\n```\n\n```python\ndef alternatingCharacters(s):\n    regex = r\"([AB])\\1+\"\n    subst = \"\\\\1\"\n    result = re.sub(regex, subst, s)\n    return len(s) - len(result)\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n    q = int(input())\n    for q_itr in range(q):\n        s = input()\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "regex",
+        "kind": 5,
+        "importPath": "regex .beautiful_binary_good_010",
+        "description": "regex .beautiful_binary_good_010",
+        "peekOfCode": "regex = r\"\"\"\n\t  010(?=1)(?=.*(011))\n\t  |\n\t  010(?=0?)(?=.*(000))\n\t\"\"\"\ninp_str = input('Enter binary string : ')\ntest_str = inp_str + \"\\n\" + \"011 000\"\nsubst = \"\\\\1\\\\2\"\nflag = re.DOTALL | re.VERBOSE | re.M\n# You can manually specify the number of replacements by changing the 4th argument",
+        "detail": "regex .beautiful_binary_good_010",
+        "documentation": {
+            "value": "\n```python\nfrom regex .beautiful_binary_good_010 import regex\n```\n\n```python\n\n\n```\n\n```python\nregex = r\"\"\"\n\t  010(?=1)(?=.*(011))\n\t  |\n\t  010(?=0?)(?=.*(000))\n\t\"\"\"\ninp_str = input('Enter binary string : ')\ntest_str = inp_str + \"\\n\" + \"011 000\"\nsubst = \"\\\\1\\\\2\"\nflag = re.DOTALL | re.VERBOSE | re.M\n# You can manually specify the number of replacements by changing the 4th argument\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "inp_str",
+        "kind": 5,
+        "importPath": "regex .beautiful_binary_good_010",
+        "description": "regex .beautiful_binary_good_010",
+        "peekOfCode": "inp_str = input('Enter binary string : ')\ntest_str = inp_str + \"\\n\" + \"011 000\"\nsubst = \"\\\\1\\\\2\"\nflag = re.DOTALL | re.VERBOSE | re.M\n# You can manually specify the number of replacements by changing the 4th argument\n_, cnt = re.subn(regex, subst, test_str, flags= flag)\nprint(cnt)",
+        "detail": "regex .beautiful_binary_good_010",
+        "documentation": {
+            "value": "\n```python\nfrom regex .beautiful_binary_good_010 import inp_str\n```\n\n```python\n\n\n```\n\n```python\ninp_str = input('Enter binary string : ')\ntest_str = inp_str + \"\\n\" + \"011 000\"\nsubst = \"\\\\1\\\\2\"\nflag = re.DOTALL | re.VERBOSE | re.M\n# You can manually specify the number of replacements by changing the 4th argument\n_, cnt = re.subn(regex, subst, test_str, flags= flag)\nprint(cnt)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "test_str",
+        "kind": 5,
+        "importPath": "regex .beautiful_binary_good_010",
+        "description": "regex .beautiful_binary_good_010",
+        "peekOfCode": "test_str = inp_str + \"\\n\" + \"011 000\"\nsubst = \"\\\\1\\\\2\"\nflag = re.DOTALL | re.VERBOSE | re.M\n# You can manually specify the number of replacements by changing the 4th argument\n_, cnt = re.subn(regex, subst, test_str, flags= flag)\nprint(cnt)",
+        "detail": "regex .beautiful_binary_good_010",
+        "documentation": {
+            "value": "\n```python\nfrom regex .beautiful_binary_good_010 import test_str\n```\n\n```python\n\n\n```\n\n```python\ntest_str = inp_str + \"\\n\" + \"011 000\"\nsubst = \"\\\\1\\\\2\"\nflag = re.DOTALL | re.VERBOSE | re.M\n# You can manually specify the number of replacements by changing the 4th argument\n_, cnt = re.subn(regex, subst, test_str, flags= flag)\nprint(cnt)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "subst",
+        "kind": 5,
+        "importPath": "regex .beautiful_binary_good_010",
+        "description": "regex .beautiful_binary_good_010",
+        "peekOfCode": "subst = \"\\\\1\\\\2\"\nflag = re.DOTALL | re.VERBOSE | re.M\n# You can manually specify the number of replacements by changing the 4th argument\n_, cnt = re.subn(regex, subst, test_str, flags= flag)\nprint(cnt)",
+        "detail": "regex .beautiful_binary_good_010",
+        "documentation": {
+            "value": "\n```python\nfrom regex .beautiful_binary_good_010 import subst\n```\n\n```python\n\n\n```\n\n```python\nsubst = \"\\\\1\\\\2\"\nflag = re.DOTALL | re.VERBOSE | re.M\n# You can manually specify the number of replacements by changing the 4th argument\n_, cnt = re.subn(regex, subst, test_str, flags= flag)\nprint(cnt)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "flag",
+        "kind": 5,
+        "importPath": "regex .beautiful_binary_good_010",
+        "description": "regex .beautiful_binary_good_010",
+        "peekOfCode": "flag = re.DOTALL | re.VERBOSE | re.M\n# You can manually specify the number of replacements by changing the 4th argument\n_, cnt = re.subn(regex, subst, test_str, flags= flag)\nprint(cnt)",
+        "detail": "regex .beautiful_binary_good_010",
+        "documentation": {
+            "value": "\n```python\nfrom regex .beautiful_binary_good_010 import flag\n```\n\n```python\n\n\n```\n\n```python\nflag = re.DOTALL | re.VERBOSE | re.M\n# You can manually specify the number of replacements by changing the 4th argument\n_, cnt = re.subn(regex, subst, test_str, flags= flag)\nprint(cnt)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "isValid",
+        "kind": 2,
+        "importPath": "some good tricky que.Counter_Sherlock_uniformCharacterCnt",
+        "description": "some good tricky que.Counter_Sherlock_uniformCharacterCnt",
+        "peekOfCode": "def isValid(s):\n    chr_cntr = ctr(s)   # count the characters repeatation in string\n    chr_cnts = chr_cntr.values()  \n    unique_chr_cnts = (*set(chr_cnts),)\n    #As there is no way that all character can be made to have same count \n    if len(unique_chr_cnts) > 2:\n        return 'NO'\n    if len(unique_chr_cnts) == 1:\n        return 'YES'\n    # exactly 2 count Scenario from onwards",
+        "detail": "some good tricky que.Counter_Sherlock_uniformCharacterCnt",
+        "documentation": {
+            "value": "\n```python\nfrom some good tricky que.Counter_Sherlock_uniformCharacterCnt import isValid\n```\n\n```python\n\n\n```\n\n```python\ndef isValid(s):\n    chr_cntr = ctr(s)   # count the characters repeatation in string\n    chr_cnts = chr_cntr.values()  \n    unique_chr_cnts = (*set(chr_cnts),)\n    #As there is no way that all character can be made to have same count \n    if len(unique_chr_cnts) > 2:\n        return 'NO'\n    if len(unique_chr_cnts) == 1:\n        return 'YES'\n    # exactly 2 count Scenario from onwards\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "anagram",
+        "kind": 2,
+        "importPath": "some good tricky que.anagram_concept_amazing",
+        "description": "some good tricky que.anagram_concept_amazing",
+        "peekOfCode": "def anagram(s):\n    l = len(s)\n    m = l//2\n    if l%2 != 0:\n        return -1\n    s1, s2, s1_set, s2_set = s[:m], s[m:], set(s[:m]), set(s[m:])\n    #Find all the unique char in s1, as allunique needs to be replaced\n    s1_unique = s1_set - s2_set\n    #common between s1 & s2 can be settled \n    common = s1_set.intersection(s2_set)",
+        "detail": "some good tricky que.anagram_concept_amazing",
+        "documentation": {
+            "value": "\n```python\nfrom some good tricky que.anagram_concept_amazing import anagram\n```\n\n```python\n\n\n```\n\n```python\ndef anagram(s):\n    l = len(s)\n    m = l//2\n    if l%2 != 0:\n        return -1\n    s1, s2, s1_set, s2_set = s[:m], s[m:], set(s[:m]), set(s[m:])\n    #Find all the unique char in s1, as allunique needs to be replaced\n    s1_unique = s1_set - s2_set\n    #common between s1 & s2 can be settled \n    common = s1_set.intersection(s2_set)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "isValid",
+        "kind": 2,
+        "importPath": "string.counter_set_recycle",
+        "description": "string.counter_set_recycle",
+        "peekOfCode": "def isValid(s):\n    chr_cntr = ctr(s)   # count the characters repeatation in string\n    chr_cnts = chr_cntr.values()  \n    unique_chr_cnts = set(chr_cnts) \n    #As there is no way that all character can be made to have same count \n    if len(unique_chr_cnts) > 2:\n        return 'NO'\n    if len(unique_chr_cnts) == 1:\n        return 'YES'\n    # exactly 2 count",
+        "detail": "string.counter_set_recycle",
+        "documentation": {
+            "value": "\n```python\nfrom string.counter_set_recycle import isValid\n```\n\n```python\n\n\n```\n\n```python\ndef isValid(s):\n    chr_cntr = ctr(s)   # count the characters repeatation in string\n    chr_cnts = chr_cntr.values()  \n    unique_chr_cnts = set(chr_cnts) \n    #As there is no way that all character can be made to have same count \n    if len(unique_chr_cnts) > 2:\n        return 'NO'\n    if len(unique_chr_cnts) == 1:\n        return 'YES'\n    # exactly 2 count\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "isValid",
+        "kind": 2,
+        "importPath": "string.set_dict_counter",
+        "description": "string.set_dict_counter",
+        "peekOfCode": "def isValid(s):\n    chr_cntr = ctr(s)   # count the characters repeatation in string\n    chr_cnts = chr_cntr.values()  \n    unique_chr_cnts = (*set(chr_cnts),)\n    #As there is no way possible to that all character can be made to have same count \n    if len(unique_chr_cnts) > 2:\n        return 'NO'\n    if len(unique_chr_cnts) == 1:  # all character alrady havesame count\n        return 'YES'\n    # exactly 2 count Scenario from onwards",
+        "detail": "string.set_dict_counter",
+        "documentation": {
+            "value": "\n```python\nfrom string.set_dict_counter import isValid\n```\n\n```python\n\n\n```\n\n```python\ndef isValid(s):\n    chr_cntr = ctr(s)   # count the characters repeatation in string\n    chr_cnts = chr_cntr.values()  \n    unique_chr_cnts = (*set(chr_cnts),)\n    #As there is no way possible to that all character can be made to have same count \n    if len(unique_chr_cnts) > 2:\n        return 'NO'\n    if len(unique_chr_cnts) == 1:  # all character alrady havesame count\n        return 'YES'\n    # exactly 2 count Scenario from onwards\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "stringConstruction",
+        "kind": 2,
+        "importPath": "string.set_logical_usecase_que",
+        "description": "string.set_logical_usecase_que",
+        "peekOfCode": "def stringConstruction(s):\n    return len(set(s))\nif __name__ == '__main__':\n    q = int(input())\n    for q_itr in range(q):\n        s = input()\n        result = stringConstruction(s)\n        print(result)",
+        "detail": "string.set_logical_usecase_que",
+        "documentation": {
+            "value": "\n```python\nfrom string.set_logical_usecase_que import stringConstruction\n```\n\n```python\n\n\n```\n\n```python\ndef stringConstruction(s):\n    return len(set(s))\nif __name__ == '__main__':\n    q = int(input())\n    for q_itr in range(q):\n        s = input()\n        result = stringConstruction(s)\n        print(result)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "twoStrings",
+        "kind": 2,
+        "importPath": "string.substring_set_any",
+        "description": "string.substring_set_any",
+        "peekOfCode": "def twoStrings(s1, s2):\n    s1_s = set(s1)\n    s2_s = set(s2)\n    #Approcah 1  - naive using set intersection\n    print('YES' if len(s1_s.intersection(s2_s)) > 0 else 'NO')\n    #Approach 2 as we not require all common this can be sometime useful\n    return 'YES' if any(s in s2_s for s in s1_s) else 'NO'\nif __name__ == '__main__':\n    q = int(input())\n    for q_itr in range(q):",
+        "detail": "string.substring_set_any",
+        "documentation": {
+            "value": "\n```python\nfrom string.substring_set_any import twoStrings\n```\n\n```python\n\n\n```\n\n```python\ndef twoStrings(s1, s2):\n    s1_s = set(s1)\n    s2_s = set(s2)\n    #Approcah 1  - naive using set intersection\n    print('YES' if len(s1_s.intersection(s2_s)) > 0 else 'NO')\n    #Approach 2 as we not require all common this can be sometime useful\n    return 'YES' if any(s in s2_s for s in s1_s) else 'NO'\nif __name__ == '__main__':\n    q = int(input())\n    for q_itr in range(q):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "caesarCipher",
+        "kind": 2,
+        "importPath": "string.translate_good_usecase",
+        "description": "string.translate_good_usecase",
+        "peekOfCode": "def caesarCipher(s, k):\n    l = len(s)   #length of string\n    o = k % 26   # number of rotation to perform on left side ( from right to left )\n    small_alphabet_string = string.ascii_lowercase\n    small_rotated_string = small_alphabet_string[o:] + small_alphabet_string[:o]\n    big_alphabet_string = string.ascii_uppercase\n    big_rotated_string = big_alphabet_string[o:] + big_alphabet_string[:o]\n    small_translation = s.maketrans(small_alphabet_string, small_rotated_string)   #mapping after performing o rotation on small alphabets\n    big_translation = s.maketrans(big_alphabet_string, big_rotated_string)         #mapping after performing o rotation on big alphabets\n    #Translating string ",
+        "detail": "string.translate_good_usecase",
+        "documentation": {
+            "value": "\n```python\nfrom string.translate_good_usecase import caesarCipher\n```\n\n```python\n\n\n```\n\n```python\ndef caesarCipher(s, k):\n    l = len(s)   #length of string\n    o = k % 26   # number of rotation to perform on left side ( from right to left )\n    small_alphabet_string = string.ascii_lowercase\n    small_rotated_string = small_alphabet_string[o:] + small_alphabet_string[:o]\n    big_alphabet_string = string.ascii_uppercase\n    big_rotated_string = big_alphabet_string[o:] + big_alphabet_string[:o]\n    small_translation = s.maketrans(small_alphabet_string, small_rotated_string)   #mapping after performing o rotation on small alphabets\n    big_translation = s.maketrans(big_alphabet_string, big_rotated_string)         #mapping after performing o rotation on big alphabets\n    #Translating string \n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "theLoveLetterMystery",
+        "kind": 2,
+        "importPath": "string.unique_letters_palindrome",
+        "description": "string.unique_letters_palindrome",
+        "peekOfCode": "def theLoveLetterMystery(s):\n    l = len(s)       # length of string\n    m = l//2         # middle index of string\n    s1 = s[:m]       # first part of string\n    s2 = s[-1:m-1:-1] if l%2==0 else s[-1:m:-1] # 2nd part of string (neglecting middle element)\n    #1st attempt\n    chr_modi = filter(lambda x: x[0] != x[1], [pair for pair in zip(s1, s2)])  # get all pairs that needs to be change inorder to make string palindrome\n    cnt = ft.reduce(lambda x,y: x + abs(ord(y[0])-ord(y[1])), chr_modi, 0)  # cnt & add required steps to make string palindrome\n    #print(cnt)\n    #2nd attempt",
+        "detail": "string.unique_letters_palindrome",
+        "documentation": {
+            "value": "\n```python\nfrom string.unique_letters_palindrome import theLoveLetterMystery\n```\n\n```python\n\n\n```\n\n```python\ndef theLoveLetterMystery(s):\n    l = len(s)       # length of string\n    m = l//2         # middle index of string\n    s1 = s[:m]       # first part of string\n    s2 = s[-1:m-1:-1] if l%2==0 else s[-1:m:-1] # 2nd part of string (neglecting middle element)\n    #1st attempt\n    chr_modi = filter(lambda x: x[0] != x[1], [pair for pair in zip(s1, s2)])  # get all pairs that needs to be change inorder to make string palindrome\n    cnt = ft.reduce(lambda x,y: x + abs(ord(y[0])-ord(y[1])), chr_modi, 0)  # cnt & add required steps to make string palindrome\n    #print(cnt)\n    #2nd attempt\n```\n",
+            "supportThemeIcons": false
+        }
+    }
+]

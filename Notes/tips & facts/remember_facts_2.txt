@@ -1,0 +1,106 @@
+* Type checking :
+  -----------
+   do not check type with `==` 
+    Eg type(o) == tuple
+
+   In such case subclass will fail i.e violation of Liskov Substitution Principle
+
+   So checking type equality is violation of Liskov Substitution Principle
+
+   use `isinstance()`  instead
+
+
+* sys.getsizeof() doesn't count size of memory of sub-objects
+
+* Python silently handles the StopIteration & GeneratorExit exception
+
+* __init_subclass__() is called whenever class sub classes subclass the parent class
+
+* The built-in namespace doesn’t behave like a dictionary. Python implements it as a module.
+
+* In python when you raise custom exception from some other Exception occured in code 
+  & you want to prevent the call-stack then you can use  :-
+    raise CustomExceptinClass() from None  // this will only show CustomExceptinClass stack trace & not all rest other above it
+
+=> Python scopes are dictionaries that map names to objects.
+
+* Tuple Comparision for < or >:
+  ---------
+   When 2 tuples are compared for greater than or less than,
+    they are compared from left -> right ie 
+    
+    if decision is made by comparing first element & if draw happen then second element is compared 
+    & so on. 
+
+* typing -> @overload :
+  ------------
+   -> used to emmulate method Overloading incase type hints are used in python
+
+
+* __import__ 
+  ___________ 
+   __import__() is a built-in function that takes a module name as a string and returns a reference to the module object.
+
+
+* global vs local variable :
+  -------------
+  -> Whether or not a variable is Free Variable or Local Variable is determined at Compile time &
+     Not at run time
+
+     If variable is defined in local scope (beware after usage or before usage), Python 
+     will not lookup for name in global or non-local scope
+
+
+* inspect -> member of class 
+  ------------
+  Q. To get the all the Function Member of particular {ClassName} :- 
+      -> inspect.getmembers(ClassName, inspect.isfunction)
+
+
+* cmp() vs cmp_to_key()
+  -------------
+   -> cmp() used to compare two values and return 1, -1, or 0  // ie Kinda TOtal Ordering 
+
+   -> cmp_to_key() uses a key to compare elements
+        \
+         It is built into functools modules
+
+
+* next() & iterator :
+  -------
+  -> on Exhausted iterator, if you want some sentinel val 
+     or default val then you
+
+
+* defaultdict :
+  -------
+  -> if key existence is check with defaultdict instance then at that time new entry is not created with default val 
+     but 
+     when there is access for key on same instance then new entry may be created 
+     with default val if key is missing in defaultdict
+
+
+* If you want key & val both of dictionary while iteration better use items()
+  because it will exonerate you from creating hash every time
+
+  In C => there is already function to get hash for known key
+  but in python not
+
+  So hashing the things in python lang is more costly than C
+
+
+* __del__ vs __enter__ & __exit__
+
+  -> The most effective & robust way to clean up code is via enter-exit protocol
+     of context (ie with statement)
+
+     __del__ may not survive the interpreter shutdown or global variable close or any kinda thing
+
+  -> Python gurantees exit is called at the end of with statement
+
+* weakref
+  ---
+   - finalize()  // to perform cleanup
+
+   - finalizer will be called even when interpreter gets shut down
+               will also be called when any global variables or modules has been deleted

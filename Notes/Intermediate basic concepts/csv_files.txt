@@ -1,0 +1,10 @@
+* module name : csv 
+  ------
+
+=> csv module helps to read file w.o writing the boiler plate codes
+
+* dialect :
+  ------
+   - dialect is something that understand the delimiter from the file itself 
+
+   csv.Sniffer().sniff(f.read(2000))   // helps to get us the dialect by reading first 2000 characters from file f

@@ -1,0 +1,51 @@
+[Namespace Scope] https://realpython.com/python-namespaces-scope/
+[scope & legb] https://realpython.com/python-scope-legb-rule/
+
+[package & modules] https://realpython.com/python-modules-packages/
+
+
+------------------------
+
+* Namespace :
+  -------
+   -> builtin, global, enclosing, local
+
+   global -> any name defined at the level of main program
+
+   enclosing function :- Parent Function 
+   enclosed function  :- nested function
+
+
+   name resolution :- LEGB rule 
+
+   builtin scope ;- names that are pre-assigned in python
+
+   => The built-in namespace doesn’t behave like a dictionary. 
+      Python implements it as a module.
+   
+   ---
+   IMP
+   ---
+    -> globals() return to reference of dictionary 
+       locals() return copy of dictionary
+
+       So you can't assign variable via locals() 
+
+
+* Packages :
+  --------
+   -> modules : help us to differentiate & avoid collision between the global variable names 
+      packages : avoid collision between module names (& have a hierarchy structuring)
+
+      Package is special kinda module whose code lies in __init__.py 
+
+
+   -> __all__ = [ ]
+       \
+        Pkg -> in package's __init__.py -> hold the list of all modules that you want to be imported 
+               when used `from pkg import *` syntax 
+
+        module -> if not defined, import everything
+
+
+   

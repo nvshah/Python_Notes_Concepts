@@ -1,0 +1,92 @@
+ref :- mcoding youtube
+
+* MetClass :
+ ---------
+
+  - allows you to achive function overlaoding in Python 
+     \
+      -> @typing.overload(metaclass=OverloadMeta)
+
+
+ DO you Know ??
+ ----
+  type & objects :
+    - 42 is an obj of int type 
+      |
+      but int is class & its also object of some other type !!
+      ie type of an `int` is `type` class 
+      |
+      classes are also an object of some type :- 
+
+
+* What is the Diff between type & class ??
+  -> in python3 its exactly same 
+
+   class :- keywords for constructing specific type 
+            Its a syntatic sugar for calling the type()
+
+
+
+* What does `class` underhood possess ??
+  -----
+   class CName:
+      #TODO 
+
+   => It possess attributes & namespace :
+
+   namespace :- is dictionary like obj // that holds info abt attrib of particular class 
+
+
+=> Inorder to create the namespace for class You can utilise :- 
+      typing.__prepare__(name, bases)
+
+=> New class is created or excecuted in some namespace
+
+  * What is MetaClass ??
+  -----
+   -> MetaClass is a point of Customization in this Class Creation Process.
+   -> MetaClass is just a class that inherits from type class
+
+   Thus just as `type`, the jobn of metaclass is to create the custom classess
+
+   Having MetaClass allows us to define :-
+     - how namespace of paarticular class gona created 
+     - init method of class 
+     - new meethod of class 
+
+   -> the default metaclass is the `type` 
+
+   => So a metaclass is just a class that inherits from type     
+   |
+   -> Metaclass is just a type of a type (in case class of a class)
+
+
+   Imp Property :- MetaClass gets Inherited
+
+
+----
+IMP 
+---
+NOTE : If you want to modify entire class hierarchy then you must use :- Inheritance 
+       otherwise 
+       You can use Class Decorator
+
+
+* abstract base class in Python :
+  -----------
+   1) Inherit from ABC 
+   2) decorate atleast 1 method with `@abstractmethod`
+
+   after this you will no longer be able to create object of this class
+
+   Thus here in case of abstract base class we need only abstraction at class level & not at hierarchy
+   so we can use decorator based approach 
+
+
+* Descriptor
+  ---------
+   - one that defines 
+      __get__(), __set__() & __del__() methods
+
+
+=> one of other application of MetaClass is Code Generation

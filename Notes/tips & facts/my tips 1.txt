@@ -1,0 +1,113 @@
+[Revrese a String] https://dbader.org/blog/python-reverse-string
+
+
+Automaticaly generates doc for module/obj :- (in cmd) use `pydoc`
+
+-> * To read document for any python module :- use `pydoc modulename`
+     Eg pydoc sys
+
+1) attributes of an object :
+   -------
+    To get an attribute of an obj you can have 2 ways :
+
+      - dot notation :- obj.attrName
+
+      - getattr()  :- getattr(obj, attrName)
+
+      -> operator.attrgetter(attrName)(obj)   // another way using operator module
+
+
+2) To check if object is callable
+
+    callable(obj)   //True or False 
+
+3) To check if any attribute is of obj
+
+    att_name in dir(obj)
+     \
+      Eg -> '__iter__' in dir(o)
+
+4) to get __dict__ attribute of any object -> vars()
+
+5) to getting item value in dict via indexing is same as operator.itemgetter('k')
+
+6) to get dependecies of package :- importlib.metadata.requires('p_name')
+
+7) to get size of an object :- sys.getsizeof(o)
+
+8) Inplace modifications for list is better with `slice assignment`
+
+9) List Comprehension is more pyhonic & efficient then append() or concat()
+
+10) To get max value of int in python :- sys.maxsize //highest possible long in python
+               or use -> float('inf')  | float('-inf')
+
+11) Every Python object contains at least a refcount and a reference to the object's type in addition
+
+12) fastest way to revers a string is using slicing `s[::-1]`
+
+13) Order of operations : PEMDAS - parentheses, exponent, multi, div, add, subtract
+
+14) You can use type() to create class blueprint in python
+    
+15) To dynamically create class in python :- type()
+
+16) Circular reference in python is denoted by `...` 
+       Eg {...}   - dict Circular referencing to itself
+
+17) argparse -> is used to get arguments from command line
+
+18) to get identifiers of built--in come with python use module -> builtins
+
+19) To get location of any python module -> moduleName.__file__
+
+20) To compare any object to be instance of any class inside any method :
+    Use -> isinstance(obj, self.__class__)  instead of className using directly
+
+    To get class name of any object :- `obj.__class__.__name__`
+
+21) To get repr() in string format use -> !r 
+
+22) Python canonicalize tuple with max size upto -> 256 elemes
+
+23) To check builtin scope -> dir(builtins) 
+
+24) To get system time -> time.time()   // no of seconds pass this specific moment (Epoch)
+
+25) To get bit length of int num -> (n).bit_length()
+
+26) time from timestamp -> datetime.fromtimestamp(t)  //get date time format from epoch timestamp
+
+27) All types of errors lies in __builtins__  so do dir(__builtins__) to reveal them
+
+28) To get info about Exception/Error -> sys.exc_info()
+
+29) use `+=` instead of extend() for list if possible as it's fast
+
+30) use `functools.cache` or `functools.lru_cache` decorator for DP like problems
+
+31) To padd string wit 0 or fill string with 0 :- zfill()
+
+32) To evaluate the code you can use :- time.clock()
+
+33) To kill the Python Program :- os._exit(1) or sys.exit()
+
+34) to call classmethod from innstance method use :- type(self).classMethodName()
+
+35) If list or array is already sorted :- use `bisect` module to manipulate
+
+36) `heapq` lets you fetch top t of n items in O(t+n) time
+
+37) to get refcount of an object :- sys.getrefcount
+
+38) Use enumerate(zip(t)) => to get tuple with respective indexes unfold
+
+39) To get mro for any class -> ClassName.__mro__  // returns list of ordered search for method
+
+40) To get platform related information :-- use `platform` package
+                                            { node(), machine(), processor(), platform(), system(), release(), version() }
+
+41) To clone or copy object of some type in python at run time you can use :-
+    copy.copy()
+    or
+    type(obj)()  // this will call constructor & create new object

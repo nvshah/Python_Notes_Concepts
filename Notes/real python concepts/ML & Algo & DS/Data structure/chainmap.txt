@@ -1,0 +1,80 @@
+(ref)  https://realpython.com/python-chainmap/
+
+-------
+NoTe :-
+
+Merge Dict 
+1) ** :- you can also merge dictionaries together using the dictionary unpacking operator (**). 
+2) |  :- Additionally, if you’re using Python 3.9, then you can use the dictionary union operator (|) to merge two dictionaries into a new one.
+
+=> when you use ChainMap, 
+   external changes in the input dictionaries affect the underlying chain, 
+   which isn’t the case with merged dictionaries.
+
+=> Python scopes are dictionaries that map names to objects.
+
+----------------------
+
+
+
+
+* chainmap :
+  --------
+   -> provides the view of multiple dictionary into single one
+   -> it doesnt merge diff dictionary but maintains the list of mappings internally
+   -> ChainMap comes handy when diff dict work with diff contexts & scopes
+
+  How Scoping works (context)  ??
+   
+   -> Python looks in followinng order :-
+       1) locals()  // dict 
+       2) globals()  // dict 
+       3) builtins   // module (ie namespace-dict)
+
+  => Dealing with scopes and contexts is the most common kind of problem you can solve with ChainMap.
+
+  2 cases for chain map :-
+    
+    1. disjoint keys :
+       ----
+        disjoint keys between diff participating dictionaries
+
+        - In such case ChainMap simply behaves like normal dictionary
+
+    2. intersectinng keys :  
+       ----
+        there are some commomn keys between participating dictionaries
+
+        - In such case chainmap shines out & allow you to provide access priority for 
+          repeated keys across the dictionaries
+
+* Thus ChainMap :
+  ---------
+   - can contains repeated keys with different values
+
+NOTE - weIRD 
+   \
+    -> Performs mutations only on the first mapping in the internal list
+
+* Mutations :
+  -----
+   - allowed only on first mappings in the list (internally)
+
+* ChainMap can help us to achieve the immutable original dictionary concept
+
+ ChainMap vs Regular Dict :
+ --------------
+Q) Difference between merging & chaining ??
+
+ - if you often create chains of dictionaries and only perform a few key lookups each time, 
+   then you should use ChainMap. If it’s the other way around, 
+   then use regular dictionaries unless you require duplicate keys or multiple scopes.
+
+* UseCase :
+  -----
+   - ChaninMap is used in string.Template()
+
+   2) Prioritizing Command-Line Apps Settings
+       - cmd-line proxies -> local-proxies -> system-proxies 
+   
+   3) Managing Default Argument Values

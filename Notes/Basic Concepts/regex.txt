@@ -1,0 +1,28 @@
+ref :- Corey Schaffer
+
+regex :- module `re`
+
+---------
+
+pattern = re.compile(r'here')
+
+---------
+
+________________________________
+
+NOTEs :
+
+. - any character except new line
+\d
+\D
+\w 
+\W  
+\s 
+\S 
+
+\b
+\B 
+^  - start
+$  - End 
+[] - matches char in bracket
+[^] - matches char not in brackets

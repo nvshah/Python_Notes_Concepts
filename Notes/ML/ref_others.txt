@@ -1,0 +1,37 @@
+[Collections of tutorial] https://realpython.com/tutorials/numpy/
+
+[scipy linalg] https://realpython.com/python-scipy-linalg/
+[stochastic GD] https://realpython.com/gradient-descent-algorithm-python/
+
+[statistics] https://realpython.com/python-statistics/
+
+[numpy references] https://realpython.com/tutorials/numpy/
+[numpy tutorial] https://realpython.com/numpy-tutorial/
+[numpy]  https://realpython.com/numpy-array-programming/
+
+[numpy linspace] https://realpython.com/np-linspace-numpy/
+
+[pandas Learning Path] https://realpython.com/learning-paths/pandas-data-science/
+[pandas tricks] https://realpython.com/python-pandas-tricks/
+[pandas dataframe] https://realpython.com/pandas-dataframe/
+[pandas data science] https://realpython.com/learning-paths/pandas-data-science/
+[pandas explore dataset] https://realpython.com/pandas-python-explore-dataset/
+[Pandas Sort] https://realpython.com/pandas-sort-python/
+[pandas fast flexible] https://realpython.com/fast-flexible-pandas/
+
+[numpy pandas data cleaning] https://realpython.com/fast-flexible-pandas/
+
+[histogram with matplotlib]
+https://realpython.com/python-histograms/#visualizing-histograms-with-matplotlib-and-pandas
+
+[numpy axes] https://www.sharpsightlabs.com/blog/numpy-axes-explained/#numpy-axes-quick-explanation
+
+[bar plots] https://datavizpyr.com/bar-plots-with-matplotlib-in-python/
+
+----------
+
+[Pandas Tricks] https://towardsdatascience.com/11-pandas-built-in-functions-you-should-know-1cf1783c2b9
+
+[Pandas sample] https://datatofish.com/random-rows-pandas-dataframe/
+
+[Numnpy Tricks] https://towardsdatascience.com/hitchhiker-tips-on-effectively-using-python-numpy-arrays-66649b7bd5fb

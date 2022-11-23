@@ -1,0 +1,158 @@
+[eval] https://realpython.com/python-eval-function/#understanding-pythons-eval
+
+[eval dangerous] https://nedbatchelder.com/blog/201206/eval_really_is_dangerous.html
+
+-----
+[AMAZING]
+
+=> __import__() is a built-in function that takes a module name as a string and returns a reference to the module object.
+
+=> obj.__class__.__base__  // get access to base class of any object
+=> __subclasses__() to get referennce to all subclasses of curr class object  
+
+-----
+
+=> eval(), literal_eval()
+
+________________
+
+* eval() 
+ -------
+  - to evalauate either string or compiled code obj (ie compile())
+
+  eval(expression[, globals[, locals]])
+
+  -> When you want to evaluate something on the fly (at runtime programatically) You can use eval()
+
+
+* eval() vs exec()
+  ---------------
+   -> both are used to evalauate python code dynamically
+   - both used to dynamically execute the python code
+   - eval :- used for single expression
+     exec :- used for any piece of python code
+
+* What eval does ??
+  ---------
+   1. parse Expression 
+   2. Compile it to ByteCode 
+   3. Evalauet it as a Python Expression 
+   4. Return the result 
+
+* Expression vs Statement :
+  ------
+   Expression :- syntax of code that evalauate so some val. 
+                 Do not include compound statement 
+   
+   Statement :- Part of Code. (one of several conbstructs with keyword)
+                Eg if, for, while 
+
+                Assignments are also statements
+
+   NOTE :- comprehension syntax though allow for, if etc... still comprehension is a valid exxpression
+
+   Compound Statement :- if, for loop, while loop
+
+
+* Code Obj :
+  -------
+   - compile() 
+       \
+        Code Object or AST object 
+
+   compiled code & eval :
+   ---------
+    -> 1. evaluate the compiled code 
+       2. return the result 
+    
+    => This can be handy when you need to evalauate same expression multiple times
+       \
+        (You won't be repeating parsing & compiling steps)
+
+
+* globals : (2nd argument)
+  ------
+   Imp Note :
+
+   If dict provided to globals, doesnt contain key :- '__builtins__' then 
+   reference to builtins dictionary will be automatically inserted inside that dictionary
+
+* locals : (3rd argument)
+  -----
+   namespace for eval() func itself 
+
+* diff between globals & locals :
+  ------
+   -> If you pass te custom dict to globals then if it not contains __builtins__ key then 
+      automatically it will be get added 
+      
+      Whereas for locals if passed custom dict, that dict will be intact
+
+----
+
+* eval() & Expressions :
+  --------
+
+=> eval is used for expression only & not statement 
+
+ - boolean expression 
+ - math expression
+
+ - general purpose expressions :-  
+     { function call, obj creation, attrib access, comprehensions, }
+
+* Security :
+  -------
+   eval() is considered insecure 
+   because it allows you (or your users) to dynamically execute arbitrary Python code.
+
+[iMP]
+* import module using eval :
+  -------------
+  __import__()
+    
+    -> __import__() is a built-in function that takes a module name as a string and returns a reference to the module object.
+    -> __import__() is a function, which is totally different from an import statement. 
+    
+    -> You can’t evaluate an import statement using eval().
+
+    => You can use __import__() to import any standard or third-party module
+
+  UnTrusted :-
+     
+     eval("__import__('subprocess').getoutput('rm –rf *')")  // remove all files in curr dir
+
+
+-------
+
+* Minimizing Risk with eval() 
+
+* Restricting the Env that eval() can operate with !
+  -----
+
+
+   1. Restricting globals() & locals() 
+
+   2. Restricting built-ins names 
+
+   3. Restricting the names in the input 
+
+
+* Restricting the names in input : 
+  ------
+   (restriction for eval along with restriction on builtin + current namespace)
+
+   1. Create a dictionary containing the names that you want to use with eval().
+   2. Compile the input string to bytecode using compile() in mode "eval".
+   3. Check .co_names on the bytecode object to make sure it contains only allowed names.
+   4. Raise a NameError if the user tries to enter a name that’s not allowed.
+
+* co_names :
+  -----
+   -> To check which names are used in compile bytecode object
+
+
+-----------
+
+* literal_eval :
+  --------

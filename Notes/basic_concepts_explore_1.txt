@@ -1,0 +1,129 @@
+https://dbader.org/blog/python-repr-vs-str
+
+[reverse a string] https://dbader.org/blog/python-reverse-string
+[Eval] https://realpython.com/python-eval-function/#understanding-pythons-eval
+
+* sorted() on tuple compares first element of tuple by default
+
+* vars() vs dir()
+
+  -> vars(i)  - instance variables in a dictionary that belon[g]s to a object i
+     dir(i)   - i's attributes, it's class attributes & also attribs of base classes
+
+      So whenever attrib is called on instance i, python will first look into vars(i) if not found then 
+      it will check into dir(i)
+
+      So in gist vars(i) is i's own symbol table
+
+      whereas dir(i) is i's class's symbol table
+
+      NOTE :- dir()'s output is sorted alphabetically,  whereas
+              vars()'s output is sorted by the order the attributes were defined in 
+
+  __dict__ :
+     -> is also called mappingproxy object
+
+     -> it gives different attrib on instance & class 
+
+     => vars() is facade for __dict__
+  
+  IMP -> vars()
+  ------------
+     If no value is specified for the vars() function it acts as pythons locals() method.
+
+  => vars() gives us dictionary representation of all defined variables in the scope of a defined python script
+
+
+* function and attributes :
+  ---------
+   => Though function is first-class citizens the variables declared inside function 
+      are not considered as attribs of that fucntion object 
+
+      So if you do vars() or dir() on function object you will not get the local, nonlocal(free) variables in dict
+
+
+* Counter Amazing Note :
+  -------
+   - You can create Counter on Dict object as well
+
+* non-local variable 
+  -------
+   - nonlocal variable can only refer to variable to ancestor local scopes but not global scopes
+
+* random.randint() & seed() :
+  -------
+   -> When can you use random.seed()
+
+      let say you want to stop on some sentinel valuet then you can use seed() so that 
+      iteratively you can get same val every time, letting you to get sentinel val at exact pos.   
+
+
+* To get finite iterator :-
+  --------
+   use 
+     iter(iterable, sentinel)
+
+
+* module doc strings :
+  ----------
+   ''' ''' as very first line of python module
+
+
+* escape charatcer :
+  ------------
+   '\ooo'  -> used to represent octal value 
+   '\xff'  -> for hexadecimal values
+
+
+* python source code encodings :
+  -----------
+    # -*- coding: utf-8 -*- 
+
+
+* type :
+  ----
+   class that is used as blueprint to define any custom types in python 
+   type("ClassName", (ParentIfAny), {attrbs})
+
+* sys.path :
+  ------
+   How it's content gets included
+      1) same directory path as where script resides
+      2) PythonPath
+      3) Std library 
+      4) site-packages 
+
+
+* standard library :
+  -----------
+   -> contains many utilities & standard modules  
+       modules :- 
+      (eg random, math, datetime, calender, os)
+
+
+* __repr__ vs __str__ :
+  -------------------
+   -> Eg if l = [o1, o2, o3]
+           
+      if you print this list then it will use repr() for its members & not str()
+
+  So when any container or collection type object is printed using print() then repr() used on items 
+
+
+* To remove key-val pair from dictionary :-  `dict_obj.pop()`
+
+* new() vs init():
+  ------------  
+   __new__ :- call to create object 
+   __init__ :- to add attrib to that object
+
+   new :- return object 
+   init :- do not return anything
+
+   generlly signature of both are same
+
+   new :- is a class method 
+   init :- is a instance method
+
+* eval() :
+  ------

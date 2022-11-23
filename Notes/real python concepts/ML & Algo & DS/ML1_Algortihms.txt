@@ -1,0 +1,7 @@
+[KNN] (https://realpython.com/knn-python/)
+[Logistic Regression] https://realpython.com/logistic-regression-python/
+[Linear Regression] https://realpython.com/linear-regression-in-python/
+
+[Train Test Split] https://realpython.com/train-test-split-python-data/
+
+[Text classification using Keras] https://realpython.com/python-keras-text-classification/

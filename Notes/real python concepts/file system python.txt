@@ -1,0 +1,12 @@
+[file with python] https://realpython.com/read-write-files-python/#what-is-a-file
+
+[configparser] https://pymotw.com/2/ConfigParser/
+
+[importlib advance] https://realpython.com/python-import/
+[relative vs absolute import] https://realpython.com/absolute-vs-relative-python-imports/
+
+[commandline interface argparse] https://realpython.com/command-line-interfaces-python-argparse/
+[commandline arguments] https://realpython.com/python-command-line-arguments/
+[compare commandline libraries] https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/
+
+[csv file] https://realpython.com/python-csv/

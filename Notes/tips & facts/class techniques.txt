@@ -1,0 +1,26 @@
+https://realpython.com/python-descriptors/   [descriptors]
+https://realpython.com/inheritance-composition-python/  [inheritance & composition]
+https://realpython.com/instance-class-and-static-methods-demystified/  [class & static methods]
+
+
+https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy  [Standard type hierarchy]
+
+
+https://docs.pytest.org/en/latest/how-to/monkeypatch.html  [Monkey Patching]
+
+[Meta Class] https://realpython.com/python-metaclasses/
+
+[interface mixins] https://rednafi.github.io/digressions/python/2020/07/03/python-mixins.html
+
+
+Tips :- 
+----
+ -> To compare any object to be instance of any class inside any method :
+    Use -> isinstance(obj, self.__class__)  instead of className using directly
+
+  
+ -> dict does not provide you attribute lookup with their names i.e with dot notation 
+
+ -> to get all the members that are funnctions of particular class 
+      \
+       -> inspect.getmembers(ClassName, inspect.isfunction)

@@ -1,0 +1,15 @@
+* order of operations :- PEMDAS
+
+* WARNING! Remember to put # -- coding: utf-8 -- at the top 
+  if you use non- ASCII characters and get an encoding error.
+
+* See help for any python obj :
+    -> pydoc obj_name     // most probably obj belong to __builtin__ module
+
+* Get arguments from command line :
+    -> sys.argv
+
+* Check if file path exists :
+    -> os.path.exists()
+
+=> CTRL+C -> used to abort any input() in python

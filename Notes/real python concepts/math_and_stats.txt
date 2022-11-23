@@ -1,0 +1,119 @@
+modules : math, statistics, fractions, decimal
+
+ others : statsmodels, scipy.stats
+
+ref :- 
+
+[Statistics] https://realpython.com/lessons/math-and-statistics-functions/
+
+[round] https://realpython.com/python-rounding/#truncation
+
+[float details ] http://perso.ens-lyon.fr/jean-michel.muller/goldberg.pdf
+[bits ] https://realpython.com/python-bitwise-operators/
+
+
+* statistics :
+  ---------
+    mean()
+    fmean()
+
+    .NormalDist.from_samples([])  //create normal dist obj from sample things
+
+
+* log :
+  ---
+   math.log()  // Use it extensively where required exponential growth
+
+* fraction.Fraction 
+
+* decimal.Decimal
+
+* struct.pack()   // to get floating point representation of a float number 
+
+* math.hypot()   // to get hypotenuese between 2 Points
+
+--------------------------------------
+
+=> `nan` is only kinda python obj that is not comparable (ie when compared is meaningless) 
+         always return false 
+
+-----------------------------------------
+
+Useful methods : {
+  bit_length(),  
+}
+
+* bitwise Operators :
+  ------
+   -> Imp in any system is `base` 
+
+   TIP :- to get bit_length of int in python = `num_obj.bit_length()`
+
+   Smallest Unit of Information :- octet or byte  (i.e )
+
+   => bit sequences in Python aren’t fixed in length, So they don't really have a signed bit
+      
+      modulo operator :- keep the original bit patterns for positive integers
+                         while appropriately wrapping around the negative ones.
+
+   * Huffman Coding :
+     _____________ 
+      -> for loss-less data compression.
+      => to find unambiguous bit patterns for every character in a particular text
+
+
+   * Operation :
+       - conjunction, disjunction
+
+
+       disjunction (bitwise OR) :- 
+       ----
+        formula :- (a | b) := (ai + bi) - (ai * bi)
+
+       XOR :
+       ---
+        (a^b) :- (ai + bi) mod 2
+
+
+   * arithmetic shift :
+     -----------
+      ->  Regardless of whether the number is positive or negative, 
+          an arithmetic right shift is equivalent to floor division.
+
+    NOTE -> Python doesn’t always store integers in plain two’s complement binary
+
+            It follows adaptive strategy :- sign-magnitude
+
+
+   * shift & overflow :
+     ----------
+      -> overflows happen only with fixed bit-lengths, 
+         so they’re irrelevant to Python, which doesn’t have such constraints.
+
+   * One's Complement :
+     ------------
+       
+
+* rounding :
+  ----
+  -> basically of 3 types -> truncate, round up, round down
+                             round half up, round half down 
+                             round away from zero
+
+  - int() round towards 0
+    &
+    // always gives floor() val
+   
+-----
+
+* struct.pack() :
+  ------------
+   -> helps to get floating pt represention of number 
+
+      sign * 2^(e-1023) * 1.fraction
+
+   => As float point are always not accurate in repr so they may be roundned & truncated
+      in case of repeating decimal/fraction digits
+
+=> If you want exact represention then use `decimal.Decimal`
+   It will take up a bit memory as its using string representation under the hood 

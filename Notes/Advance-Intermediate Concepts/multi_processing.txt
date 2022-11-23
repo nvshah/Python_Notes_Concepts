@@ -1,0 +1,67 @@
+REMEMBER :-
+----
+ Use Threads :- for tasks that are IO-bound    // Multi-Threading
+     Processes :- For task that are CPU-bound  // Multi-Processing
+
+
+* Python Modules :
+  -----
+   - multiprocessing
+   - concurrent.futures.ProcessPoolExecutor
+
+* Python methods :
+  ---
+   start(), join()
+
+
+* Task :
+  ---
+   -> can be IO-bound or CPU-bound
+   -> Whilst Multi-Threading for CPU-bound processes we won't get much speed up because
+      Tasks are already in contact to CPU so.
+
+
+* Multi-processing :
+  ---------
+   -> Diff Processes
+
+
+* Process Pool Executor :
+  ------
+   - concurrent.futures.ProcessPoolExecutor  // this is conntext manager (enter, exit)
+   
+   method :-  
+   
+   submit()
+     - schedules the func to be executed & returns a Future Object
+
+   result()
+     - result of Future (ie await future)
+
+    as_completed()
+
+   context-mamagers :-
+     
+     map() :- 
+       it will map all results of task based on the time when task started
+       it will join all tasks implicitly (beware if we access results from it or not)
+
+
+* Images & MultiProcess :
+  ---------
+   - Let say we want to download some images from unsplash 
+   - downloading images from online is IO-bound process (ie we need to wait some time till it gest downnload)
+
+   - For MultiProcess we need something that is CPU bound
+
+
+-----------
+
+* Pool :
+  ----
+   Pool of Multiple Process (ie Queue of multiple processes)
+
+   methods :-
+      map()
+      close()
+      join()

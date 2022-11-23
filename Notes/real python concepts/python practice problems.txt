@@ -1,0 +1,4 @@
+https://realpython.com/python-practice-problems/
+
+interview :- 
+  https://realpython.com/learning-paths/python-interview/

@@ -1,0 +1,67 @@
+[Sortinng Algo ] https://realpython.com/sorting-algorithms-python/
+[Python Sort] https://realpython.com/python-sort/
+[Python Timer] https://realpython.com/python-timer/
+
+________
+REMEMBER
+
+-> for small lists, the time cost of the recursion allows algorithms such as bubble sort and insertion sort to be faster
+
+
+_______
+
+* Time Complexity :
+  -----
+   - use `timeit` module   (practical point of view)
+   - BIG-O notation        (theoritical point of view)
+
+   big-O :
+     -> Big O, on the other hand, provides a platform to express runtime complexity in hardware-agnostic terms
+        Platfrom Agnostic :- means beware of processor speed & memory available
+
+     -> Assuming that n is the size of the input to an algorithm, 
+        the Big O notation represents the relationship between n and 
+        the number of steps the algorithm takes to find a solution
+
+* Monitor Your Code :
+  --- 
+   ref :- https://realpython.com/python-timer/
+
+* Bubble Sort :
+  ----
+   - bubbles up the largest element inn each iteration 
+   - at the end of each iteration, right part of array gets being sorted
+
+
+* Insertion Sort :
+  ----
+   - It manages array sorted before inserting new element
+   - Ideal to insert nnew element in sorted array 
+   - Opposite to Bubble Sort 
+      - Make Small elem move to left side
+
+* Recursion :
+  -----
+  Recursion involves breaking a problem down into smaller subproblems until they’re small enough to manage
+
+* Divide & Conquer :
+  -----
+   1) The original input is broken into several parts, 
+      each one representing a subproblem that’s similar to the original but simpler.
+
+   2) 
+
+* Merge Sort :
+  -----
+   -> breaks the array & sort each half recursively
+   -> Complexity :- O(n logN)
+
+   -> it’s also straightforward to parallelize because it breaks the input array into chunks 
+      that can be distributed and processed in parallel if necessary.
+   
+NOTE :
+  for small lists, 
+  the time cost of the recursion allows algorithms such as bubble sort and insertion sort to be faster
+
+
+    

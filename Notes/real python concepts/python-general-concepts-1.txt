@@ -1,0 +1,127 @@
+Series:-
+
+[intro to python] https://realpython.com/python-introduction/
+[basic data types] https://realpython.com/python-data-types/#built-in-functions
+[octal, binary]
+[built in functions]
+
+[Strings & Characters] https://realpython.com/python-strings/#built-in-string-methods
+[String Interning] https://medium.com/@bdov_/https-medium-com-bdov-python-objects-part-iii-string-interning-625d3c7319de
+
+[context with] https://realpython.com/python-with-statement/#summarizing-the-with-statements-advantages
+
+[data type conversion] https://www.datacamp.com/community/tutorials/python-data-type-conversion
+
+- Python supports less functional programming
+
+=> All objects in python have more or less equal stature, 
+
+=> the maximum value a floating-point number can have is approximately 1.8 ⨉ 10308
+
+dict :
+---- 
+ to update dict 2 ways :- 1) {**d1, **d2}   //dict unpacking
+                          2) d.update(**d1, **d2)  //update() method
+
+
+To calculate factorial -> math.factorial()
+
+
+=> concatentaion :
+  binary plus operator also concatenates strings
+
+* doc string :
+  --------
+   obj.__doc__
+
+
+* timeit :
+  -----
+   REmember :- When the statement is passed as a string, timeit() needs the full context
+
+   1) via string 
+       - need to manually set the environment
+
+   2) via lambda 
+       - cleaner, & less code
+    
+   =? Executing via lambda may have slight advantage against the string one. 
+
+* Object Creation :
+  -----------
+   -> For purposes of optimization,
+     the interpreter creates objects for the integers in the range [-5, 256] at startup
+
+
+* String :
+  ------
+   -> ASCII is subset of Unicode
+
+   => formatting strings :
+         1) f string
+         2) format()
+         3) format_map()
+
+  
+  bytes :
+  -----
+   -> Only ASCII characters are allowed in a bytes literal. 
+      Any character value greater than 127 must be specified using an appropriate escape sequence
+
+      raw byte string :- rb''
+
+      bytes(<s>, <encoding>)
+
+   -> byte obj behaves like an immutable sequence of small integers in the range 0 to 255
+      So single element from a bytes object is displayed as an integer
+
+    NOTE :
+
+    Hexadecimal numbers are often used to specify binary data 
+    because two hexadecimal digits correspond directly to a single byte
+
+    bytes.fromhex()
+    byteObj.hex()
+
+
+  Encoding :
+  ------
+   ->  “Encoding” refers to the manner in which characters are translated to integer values
+
+   Eg 
+     UTF-8 can also be indicated by specifying "UTF8", "utf-8", or "UTF-8" for <encoding>
+     \
+      Unicode Transformation Format UTF-8,
+
+
+* Augmented assignment operators:
+  ----------
+   x <op>= y
+   x = x <op> y
+
+   -> amazing for immutable they change pointers & for mutable they perform inplace operation
+
+
+* generators :
+  ----------
+   -> does next() & iter() method implementation for us.
+
+
+* boolean expressions amazing :
+  ----------------
+   -> boolean expressions always return the last value evaluated for same expressions.
+      
+   => The operand becomes truthy or falsy inside the expression 
+      but retains its original type and value afterward. 
+
+      a positive integer on the left gets propagated, while a zero gets discarded.
+
+
+* Errors Types in python :
+  -------- 
+   -> All types of errors lies in __builtins__  so do dir(__builtins__) to reveal theme
+
+
+* leading 0 & int :
+  ----------- 
+   -> leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers

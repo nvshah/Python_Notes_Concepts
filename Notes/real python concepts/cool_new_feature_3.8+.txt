@@ -1,0 +1,84 @@
+[p3.8] https://realpython.com/courses/cool-new-features-python-38/
+[bpython] https://dbader.org/blog/bpython-a-better-python-repl
+[positional only argument] https://realpython.com/lessons/positional-only-arguments/
+[metadata] https://realpython.com/lessons/importlibmetadata/
+[optimizations] https://realpython.com/lessons/optimizations/
+
+Hint :- For better python terminal(interactor), use `bpython`
+
+* better python repl :
+   -> bpython
+
+
+* Assignment Expressions (walrus operator) :
+  -------------
+   using `:=`
+
+
+* positional only argument ;
+  -------------
+   in py 3.8 -> `/`
+
+   slash (/) after the parameter :-
+   -----
+    -> You can use `/` to denote positional only argument before it
+
+   keyword only argument :
+   -----------------
+    `*`
+
+    def f1(*, a):   #here a is keyword only argument
+
+* metadata :
+  --------
+   package -> importlib
+     \
+      module -> importlib.metadata
+
+      -> metadata.version('p_name')   //
+                 .requires('p-name')  //list of dependecies of package
+
+
+* math:
+  ----
+   prod()
+    -> functional programming lambda function for multiplication reduction
+   
+   isqrt()
+    -> integer part of square root 
+
+   dist()
+    -> distance between 2 points or vector
+
+   hypot()
+    -> length of a vector i.e (10, 30) // as vector in 2-d
+
+
+* optimizations :  [ref : https://realpython.com/lessons/optimizations ]
+  -----------
+   1) looking up fields in namedtuple is faster
+   2) Lists save some space when they are initialized from iterables with a known length.
+
+* statistics :
+  ---------
+
+
+------------------------------------------
+
+Python :- 3.10
+=====
+
+* Strutural Pattern Matching :
+   -------
+    -> { match, case }  
+   
+* Parenthesized Context Manager :
+  -------
+
+* strict argument for zip()   
+  ----
+   -> new param : `strict`
+
+* new typing :
+  -------
+   -> Union, TypeAlias, ParamSpec, Concatenate

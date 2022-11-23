@@ -1,0 +1,122 @@
+https://openweathermap.org/api
+
+To playwith HTTP -> HTTPie i.e (https://httpie.io/)
+
+[urllib]
+
+[htp request] https://realpython.com/api-integration-in-python/?__s=o7s58u9m2l7k7himjzom
+
+[api tutorials] https://realpython.com/tutorials/api/
+[ json ] https://realpython.com/python-json/
+
+[BeautifulSoup] https://realpython.com/beautiful-soup-web-scraper-python/
+[Intro Web Scrap] https://realpython.com/python-web-scraping-practical-introduction/
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+
+--------
+
+*  modules :- { requests, json, jsonify }
+
+--------
+TIP :- 
+
+- curl  
+    -> To send http req from command line tool
+
+[REMEMBER]
+Django plugins are Django applications that are packaged up and distributed and that anyone can use.
+
+--------
+
+* requests -> Http Methods -> API ->  Web Service (resource )
+
+-> A REST API client application can use these five HTTP methods to manage the state of resources in the web service.
+
+any Request compose of basically :-
+ - Host, Method, Endpoint, Query-Params, {HTtp Version}, meta-data, headers
+
+* API Endpoints :
+  -----
+   --> A rest api exposes the set of public URLs that client can consume
+       These urls are called as an endpoints
+
+   - Each of the endpoints above performs a different action based on the HTTP method.
+
+   - Each Endpoint just point to some resource
+
+   * An endpoint shouldn’t contain verbs. 
+    Instead, you should select the appropriate HTTP methods to convey the endpoint’s action.
+
+    Eg /getTransactions   not preferred
+        /trannsactions     preferred
+
+   - Endpoint :- Plural noun 
+     Httpmethod :- Verb
+
+* URL :
+  ---
+   -> BaseURL + EndPoint 
+
+* Patch vs Put :
+  ----
+  PATCH differs from PUT in that it doesn’t completely replace the existing resource. 
+  It only modifies the values set in the JSON sent with the request.
+
+
+* Query String :
+  ------
+   -> To accesss the nested resource
+   -  query string allow you to add extra parameters along with the Http request.
+
+
+* API versioning :
+  -----
+
+* Formats for Data :
+  -----
+  Two popular options for formatting web service data
+   XML with SOAP API 
+   JSON with REST API
+
+* Put, Patch, Post :
+  ----
+   It’s important to always send back a copy of a resource when a user creates it with POST or modifies it with PUT or PATCH. 
+   This way, the user can see the changes that they’ve made.
+
+=> Responding to requests, both successful and erroneous, 
+  is one of the most important jobs of a REST API
+
+* curl :
+  ----
+   - send the http req from command line 
+     
+     -X sets the HTTP method for the request.
+     -H adds an HTTP header to the request.
+     -H adds an HTTP header to the request.
+
+   - It sends GET request by default    
+
+
+* Django :
+  ----
+   - Django is a Project 
+                    |
+                     -> conntains multiple Django applications
+                     
+   -> Django breaks up the functionality of a project into applications. 
+
+   Django `rest_framework`
+   _________________
+    -> It's onne such application of Django 
+
+ => Django plugins are Django applications that are packaged up and distributed and that anyone can use.
+
+  * Django Migrations :- to create & deal with database table
+    Django Fixtures  :- to add some data in table
+
+
+  * Views & ViewSet
+    ----
+     - actions 
+     - mapped to Endpoint/URL

@@ -1,0 +1,3 @@
+[Basics] https://realpython.com/tutorials/basics/
+
+[Learning Paths] https://realpython.com/learning-paths/

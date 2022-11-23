@@ -1,0 +1,21 @@
+https://www.hackerrank.com/challenges/weighted-uniform-string/problem   [Itertools.groupby & set]
+
+https://www.hackerrank.com/challenges/strong-password/problem   [regex_finditer_bool_usecase]
+
+https://www.hackerrank.com/challenges/two-characters/problem [regex_alternating_character_remove_except_chr]
+
+#que -> https://www.hackerrank.com/challenges/caesar-cipher-1/problem [string - translate - alphabets]
+
+#https://www.hackerrank.com/challenges/alternating-characters/problem  [regex - alternating character]
+
+#QUE https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem [Counter, set, dictionary/map]
+
+
+
+
+
+---------------
+
+Problem Solving  :-
+
+  Maximum SubArray Sum

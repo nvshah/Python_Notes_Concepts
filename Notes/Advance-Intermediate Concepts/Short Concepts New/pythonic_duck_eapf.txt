@@ -1,0 +1,18 @@
+* Duck Typing
+  --------
+   -> we do not care abt Object type but rather care abt the Attributes of an obj
+   -> We care only abt what we ask 
+
+* EapF :
+  ---
+   - Easier to ask permission than forgiveness
+   - Pythonic Way (frowns upon LBYL)
+
+   - try-except
+
+  LBYL : 
+  ----
+   - Look before you lead 
+   - Non-Pythonic 
+
+   - hasattr(), callable()

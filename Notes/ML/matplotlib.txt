@@ -1,0 +1,94 @@
+* MATPLOTLIB
+-----------
+ref :
+https://github.com/kimfetti/Videos/blob/master/Matplotlib_Tips/09_text.ipynb
+https://github.com/kimfetti/Videos/blob/master/Matplotlib_Tips/08_legend.ipynb
+
+-> always use plt.show()
+-> you can provide color via `xkcd: brick red`
+
+plt :
+---
+
+shorthand notation for formatting :
+fmt :- [color][marker][line]
+
+* saveFig()   // higher dpi higher resolution you will get
+
+* xticks()   // ticks marked on y-axes
+  yticks()
+
+* xlabel()
+  ylabel()
+  title()
+
+* figsize()  // figure size (aspect ratio)
+       \
+        dpi
+
+* figure()   // 
+* text()  // to add text to plt
+* annotate()  // draw arrow pointing to figure
+
+* xlim()  // limit x axes value
+  ylim()  // limit y axes values
+
+* legend()
+   - { loc, bbox_to_anchor, ncol, fontsize, title, facecolor }
+
+---------
+
+* change the style of plots :- plt.style.use('ggplot')
+
+* change the figure size : plt.figure()
+
+* Add Text into your Plot :- plt.text()
+
+* reversing the Axis :- plt.xlim(4, 1)  // will reverse the axes marks from 4 -> 1
+
+__________
+TIPS
+
+* To add (x, y) based on generalized pos rather than specific values
+-> to change the context of x, y -> to normalize position (ie (0,0) -> (1,1))
+   -> you can use param `transform` while using text()
+      transform = ax.transAxes
+
+* lines & plt.plot()
+->
+  Whenever you plot the things via matplotlib you will get a
+    (lines, axis)  in return
+
+  Here instead of line it can be any kinda plot you tried to plot // For sample we are assuming Line Plot
+
+
+---------
+
+* bar chart ;
+  ---
+   bar.set_hatch()
+
+1) histogram :- for a series
+    \
+     kind of bar chart but they have bins instead of displaying all information
+ 
+2) Pie       :- pas a list of numbers
+               autopct, pctdistance, explode
+
+3) Violin Plots :- Max, Min, Mean & interval
+   Box Plots    :- // List of values 
+                   
+
+* Add Text to MatplotLib Plots :
+  ---
+  plt.text()
+       {}
+
+
+reversing the Axis :
+  left, right = plt.xlim()
+  plt.xlim(right, left)
+
+
+plot the legend :- plt.legend(loc='best')
+plot the legen outside the box :- plt.legend(bbox_to_anchor = (1.05, 1), loc='lower left')

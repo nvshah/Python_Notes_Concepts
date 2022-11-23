@@ -1,0 +1,24 @@
+----
+references :
+
+    [more-itertools] https://pypi.org/project/more-itertools/
+    [decorator-factory] https://www.bbayles.com/index/decorator_factory
+    [Itertools - best blog] https://martinheinz.dev/blog/16
+
+
+-> Rem ) -> filter() if predicate is None then bool() will be used instead
+
+
+=> itertools.count() 
+   ------------
+    -> can have float value has step size
+
+
+* itertools.groupby() 
+   ----
+   Tips :- 
+    => Do sorting by <key> before doing groupby() same <key>
+
+* itertools.compress() :
+   ----
+    Filter by multiple indexes

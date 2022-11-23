@@ -1,0 +1,15 @@
+Tips useful builtin
+
+1) exec() & compile()
+-----------------
+Python’s built-in exec() function allows you to execute any piece of Python code.
+With this function, you can execute dynamically generated code. Usually, it’s a string.
+
+In practice, exec() can be quite slow when used to process strings containing code.
+
+Compiling it beforehand will be the most performant and recommended approach
+if you ever need to dynamically run a given piece of code more than once.
+To do so, you can use `compile()`.
+
+you can use the built-in open() function to read the file’s content as a string,
+which you can then pass as an argument to exec()

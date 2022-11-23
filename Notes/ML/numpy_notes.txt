@@ -1,0 +1,156 @@
+ref  
+https://www.sharpsightlabs.com/blog/numpy-axes-explained/#numpy-axes-quick-explanation
+
+https://likegeeks.com/numpy-meshgrid/
+
+--------------------------------------------------
+
+-> you can use `...` to select all dimension from start to end 
+   (i.e It fills as many dimension as required )
+
+=> NumPy’s NaN value can’t be compared to any other value using the == operator 
+   since this comparison will always be False. 
+   NumPy offers the isnan function, which has to be used to compare a value to NaN. 
+
+=> np.random.seed(0) makes random nnumber predictible
+
+
+* np array :
+
+    .dtype
+    .itemsize   
+    .size      //total number of elements
+    .nbytes
+
+    .intersection1d()
+
+    .ravel()  
+    .flatten()
+
+    .nditer()    // Fortran, C, 
+
+    .meshgrid()
+
+    np.c_()   // zip equivalent col as axis
+       r_()   // zip equivalent row as axis
+
+    .append()
+
+    .eye()    // param k allows to shift the diagonal up or down in matrix
+
+    .argsort()
+    .diff()    // diff between consecutive numbers in original arr
+
+    .sum()
+    .average()
+    .var()    // variance
+    .std()
+    
+    .invert()   // invert all boolean values 
+    .nonzero()
+
+    .argmax()
+    .argsort()
+
+    .meshgrid()
+
+    .repmat()
+
+
+* numpy.percentile()   // to get percentile value
+
+=> ndim :- number of axes
+   shape :- no of member in each axis 
+
+   Consider axis starts from leftmost bracket till encounter first numerical 
+   
+   the axes are ordered from the outermost to the innermost nesting level
+
+* Multi-Dimensional Array Indexing :
+  -----------
+  
+  -> You can index & slice each axis seperately
+  -> If slice or idx is not apply for specific axis then default : is used
+
+  => You can fill remaininng default slicing axis (:) with ... ie 3 dots
+
+  Fancy Multiple-Index at Time :
+  ----------
+   -> You can access multiple elements corresp to multiple index at same time in ndarray 
+      
+      m[[ax1], [ax2], .. [axN]]   // corresp indexes to each axes 
+
+   -> If you access via all axes then you will get the single array 
+      If you omit any axes then you will get ndarray
+
+* Masking : (boolean indexing)
+  ----
+  
+  -> result is always flattened array (ie 1 dimensional vector)
+  -? You can use reshape(...) to make it as your convenient
+
+* arange() vs range()
+  ------
+   arange() works with float as well
+
+* Hadamard Product :
+  ------------
+   -> * in numpy array perform Hadamard Prod ie element wise product
+
+* Matrix Multiplication ;
+  -----
+   1) np.matmul()
+   or 
+   2) `@` 
+       Eg m1 @ m2
+
+   Comparing 2 different matrices in numpy produces boolean matrices
+
+* Cross Product :
+  -----
+   -> Corss Product of 2 vector gives another vector that stands at right angle to other vectors
+   - Right Hand Thumb Rule 
+
+* Dot Product :
+  ----
+   -> Helps to find the angle between 2 Vectors
+
+* Averaging 2D arrays :
+  -----
+   Flattens the array & return average
+
+* Axe`s in 2-D :
+  -----
+   axes = 0 // for row that go downwards   // collapses rows 
+   axes = 1 // for column that go from left -> right  // collapese columns
+
+   the axis parameter controls which axis will be collapsed.
+
+* Filter Array or boolean indexing :
+  ----------------
+
+* sum() vs np.sum() :
+  ----------
+   sum() :- return the numpy array itself after doing addition for axis=0
+   np.sum() :- flatten & do addition
+
+   sum(a) = np.sum(a, axis=0)
+
+* nonzero() :
+  -----
+   the nonzero() function returns the indices along each dimension of the input array 
+   as a tuple of array indices.
+
+_______________________
+
+* BroadCast :
+  ------
+   Array BroadCasting is a way of doing element wise operations on arrays of different (but compatible) shape.
+
+   Shape Compatibility Rules :
+   ----
+    1) If x,y have diff num of dimension, prepend 1's to the shape of the shorter one.
+
+    2) Any axis of length 1 can be repeated(broadcast) to the length of the other vector's length in that axis 
+
+    3) All the other axes ust have matching length  

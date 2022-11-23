@@ -1,0 +1,78 @@
+ref :
+
+https://realpython.com/inner-functions-what-are-they-good-for/  [Inner function]
+https://realpython.com/primer-on-python-decorators/             [Decorator]
+https://code.activestate.com/recipes/578091-simple-tool-for-simulating-classes-using-closures-/  [simulate class using decorator]
+https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy [Types in python]
+
+https://www.datacamp.com/community/tutorials/decorators-python [Decorators DataCamp]
+
+[Decorators in 12 steps] http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/
+
+* Inner function :
+  _____________
+
+  -> Ability to access the variables & objects of enclosing function, even after enclosing function has been returned.
+     
+    nonlocal variables :- local variables in enclosing(i.e outer) function are called nonlocal var for Inner function
+
+
+  Usage : You can do error checks in outer function and then if its safe to go then
+          you can define & call inner function to perform actual manipulation/calculation   
+
+
+  UseCases :
+  ----
+
+   1) Encapsulation
+   2) Helper method
+   3) Closures Factory Function
+   4) Decorators
+
+
+   1) Encapsulation :-
+             hide function from global scope
+
+   2) helper method :
+             You create such methods when you want Encapsulation + code reusability
+
+
+   3) Closure factory Function :
+             -> have full access of variables & names defined in local namespace where they were created
+                eben when enclosing(outer) function has returned & finish executing
+
+            Details : In python when inner function is returned, python packs the function along with
+                      its surrounding environment
+                    the function obj keeps snapshot of all var existing in enclosing scope.
+
+                 When does closure is created ?
+                   - when inner function access atleast a nonlocal var of enclosing scope & its being returned
+
+                A closure retain the state 
+
+                So closure  = ( inner function + enclosing env )
+
+
+            static enclosing state :- state where closure did not modify the state
+
+            dynamic enclosing state :- cloure can modify enclosing state by using mutable obj such as dict, list, set
+
+   4) Decorator
+
+         -> Note callable doesnt mean only function, but function, methods, class
+         
+          decorated_func = decorator(decorated_func)
+         
+          Usecases : Debugging, logging, Timing, Caching
+
+         -> decorator wraps a function & modify its behaviour
+
+         -> '@..'  is called pie syntax
+
+
+* Decorator : (REGISTERING PLUGINS)
+  ---------
+
+  Light Weight Plugin Aarchitecture :
+  -----
+    Not wrapp function but register it & return function unwrapped  

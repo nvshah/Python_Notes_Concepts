@@ -1,0 +1,22 @@
+dunder_concepts
+
+* __new__, __repr__, __iadd__
+
+  __enter__, __exit__
+
+* dunder for delete `del`
+  |
+  -> there are 3 dunders for `del` keyword (operation)
+
+  1. __delitem__  // del x[0]
+
+  2. __delattr__  // del x.a
+
+  3. __del__      // del x
+
+
+REMEMBER :
+---
+ -> __del__ is suppossed to be run when object ref count is hit to be 0
+
+    So every time `del x` will not call __del__ every time

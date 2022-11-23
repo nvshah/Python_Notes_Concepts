@@ -1,0 +1,47 @@
+* Multi Threading :
+  -----------
+   -> Control by the OS 
+
+  Coroutines : 
+  -----
+   -> Can be controlled by us ie Cooperatively
+
+* Synchronously :- Prog is not doing much on CPU (whilst waiting)
+
+* CPU bound task :
+   - data crunching
+
+  IO bound task : 
+    - File System Operation 
+    - Network Operation
+
+=> Using Threading help us lot in IO-bound tasks
+=> Using CPU-bound for MultiProcessing is preferred 
+
+
+* ThreadPoolExecutor :
+  -------
+   - module :- `concurrent.futures`  
+   -> Easy to handle multiple threads 
+
+   - same apis as of ProcessPoolExecutor
+
+
+   as_completed()  // will provide completed result in order they were submitted 
+
+
+* Application :
+  ------
+   - Downloading lots of things online
+
+-> If somethig is doing lots of computation then Thread would not be ideal choice in such case
+       
+  Eg 
+      [CPU-bound]
+      accessing the photo & resizing them -> Not threads but MultiProcessing is useful
+      
+      [IO-bound]
+      Downloading Photos -> Multi-Threading
+
+
+

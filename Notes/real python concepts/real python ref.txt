@@ -1,0 +1,63 @@
+https://realpython.com/team/dbader/
+https://realpython.com/search?q=algorithms&kind=article
+https://realpython.com/python-math-module/
+https://realpython.com/python-heapq-module/#how-to-identify-problems
+https://realpython.com/primer-on-python-decorators/#a-few-real-world-examples
+https://realpython.com/python-concurrency/
+https://realpython.com/advanced-git-for-pythonistas/
+https://realpython.com/courses/python-3-concurrency-asyncio-module/
+
+https://realpython.com/courses/functional-programming-python/
+https://realpython.com/numpy-array-programming/
+https://realpython.com/lru-cache-python/
+
+https://realpython.com/working-with-files-in-python/
+
+https://realpython.com/sorting-algorithms-python/
+https://realpython.com/python-sort/
+
+https://realpython.com/python-data-structures/
+
+https://realpython.com/python-data-classes/
+https://realpython.com/python3-object-oriented-programming/
+https://realpython.com/python-metaclasses/
+
+
+https://realpython.com/numpy-tutorial/
+https://realpython.com/numpy-array-programming/
+https://realpython.com/np-linspace-numpy/
+https://realpython.com/python-pyqt-database/
+https://realpython.com/sorting-algorithms-python/
+https://realpython.com/python-thinking-recursively/
+
+https://realpython.com/python-descriptors/
+https://code.activestate.com/recipes/578091-simple-tool-for-simulating-classes-using-closures-/xq
+
+
+https://realpython.com/python-memcache-efficient-caching/
+https://realpython.com/python-memory-management/
+https://realpython.com/python-gil/
+
+https://realpython.com/python-lambda/
+
+[Python Packages]
+https://realpython.com/python-packages/
+
+
+Class-Inheritance...
+
+https://realpython.com/python-super/
+
+
+System File oS : 
+
+https://realpython.com/python-pathlib
+https://pymotw.com/2/ConfigParser/
+
+
+* books reference :
+  ----------
+
+  algorithms Design Manual (Steven S Skienea)
+
+  https://book.pythontips.com/en/latest/function_caching.html

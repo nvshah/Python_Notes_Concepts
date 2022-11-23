@@ -1,0 +1,37 @@
+[json] https://www.json.org/json-en.html
+[json real python] https://realpython.com/python-json/
+
+[pickle] https://realpython.com/python-pickle-module/
+[marshal] https://docs.python.org/3/library/marshal.html
+
+
+Serialization :- encoding - (series of bytes)
+Deserialization :- decoding - get back object
+
+---
+MIMP
+---
+=> encoding something to Json & decoding back to object doesn't ensure same object as before encoding
+
+    Eg tuple -> encoded -> json_array -> decoded -> array/list (instead of tuple)
+
+   
+   Json with custom object :
+   ----------
+    -> 1) pass `default` parameter a custom function to deal with it 
+
+       2) pass `cls` argument a value of class that extends JSONEncoder class & implements default() method 
+
+       TIP -> pass complexy object as dict object with meta-deta during Serialization.
+
+    
+       Custom Deserialization :
+       ----------
+        -> intercept the load() method i.e before load actually works its way you can 
+           intercept serialize data & manipulate it as you want.
+        
+        object_hook :
+         -----
+          => pass decoding function to `object_hook` parameter
+
+       2) Try subclassing JSONDecoder

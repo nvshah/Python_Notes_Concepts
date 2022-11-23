@@ -1,0 +1,17 @@
+[dot slash Notation] http://www.linfo.org/dot_slash.html
+[make script executable python] https://dbader.org/blog/how-to-make-command-line-commands-with-python
+[click cli]  https://dbader.org/blog/python-commandline-tools-with-click
+
+[better python repl] https://dbader.org/blog/bpython-a-better-python-repl
+[ArgParse Command Line Interface with python] https://realpython.com/command-line-interfaces-python-argparse/
+
+[importlib advance] https://realpython.com/python-import/
+
+[commanbd line arguments] https://realpython.com/python-command-line-arguments/
+[command line libraries] https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/
+
+* Shebangs :
+  -------
+   -> First line -> interpreter directives
+
+   Eg #!/usr/bin/env python

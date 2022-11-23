@@ -1,0 +1,23 @@
+PyCoders - https://pycoders.com/?__s=o7s58u9m2l7k7himjzom
+
+[Python's ChainMap] https://realpython.com/python-chainmap/?__s=o7s58u9m2l7k7himjzom
+
+[Collections] https://realpython.com/python-collections-module
+
+[Python & Rest API] https://realpython.com/api-integration-in-python/?__s=o7s58u9m2l7k7himjzom
+
+[time your code] https://realpython.com/python-timer/
+
+[Command line Code with Python] https://dbader.org/blog/how-to-make-command-line-commands-with-python
+
+[logging] https://realpython.com/python-logging/
+
+[Scope] https://realpython.com/python-scope-legb-rule/
+
+
+
+-------------
+Advance
+-------------
+
+[Memory Management] https://realpython.com/python-memory-management/  

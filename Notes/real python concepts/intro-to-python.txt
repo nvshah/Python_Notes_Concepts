@@ -1,0 +1,42 @@
+[built in functions] https://realpython.com/python-data-types/#built-in-functions
+[variables] https://realpython.com/python-variables/
+[functions] https://realpython.com/defining-your-own-python-function/#returning-data-to-the-caller
+[lexical structure identation] https://realpython.com/python-program-structure/#implicit-line-continuation
+
+[Strings & Chars] https://realpython.com/python-strings/#built-in-string-methods
+
+[Namespace Scope] https://realpython.com/python-namespaces-scope/
+[scope & legb] https://realpython.com/python-scope-legb-rule/
+
+[package & modules] https://realpython.com/python-modules-packages/
+
+[round numbers] https://realpython.com/python-rounding/#truncation
+
+[bitwise operators python] https://realpython.com/python-bitwise-operators/
+
+
+
+* modules that is part of python standard library -> 'batteries included'
+
+* shebangs : 
+  -------
+   -> Interpreter directives, (present on first line of script that's to be run via cli)
+
+* Every Python object contains at least a refcount 
+  and a reference to the object's type in addition
+
+
+* immutable vs mutable :
+  ---------
+   -> An immutable argument can never be modified by a function.
+   -> A mutable argument can’t be redefined wholesale, but it can be modified in place.
+
+* __name__ 
+  -------
+   Standalone Script 
+
+   => When a .py file is imported as a module, 
+      Python sets the special dunder variable __name__ to the name of the module
+
+=> When we use sys.argv list then, first element will be module_name if run from command line & not in idle
+

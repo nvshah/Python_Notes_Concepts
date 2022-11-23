@@ -1,0 +1,100 @@
+* https://www.geeksforgeeks.org/inputoutput-external-file-cc-java-python-competitive-programming/
+* https://www.codegrepper.com/code-examples/python/how+to+write+user+input+to+a+file+in+python
+
+http://web.archive.org/web/20140928083217/http://oreilly.com/catalog/lpython/chapter/ch09.html#16308
+
+[sys] https://www.askpython.com/python/python-stdin-stdout-stderr
+[stdin] https://stackoverflow.com/questions/19540425/what-is-standard-input
+
+[importlib advance] https://realpython.com/python-import/
+
+-------------------------------------
+
+modules :- sys, shutil, fileinput
+
+
+* To copy 1 file content to another file  :-
+  
+    shutil.copyfile()
+
+
+  stdin -> input stream -> read from keyboard
+  stdout -> output stream -> write to console
+
+  stdin :- file descriptor 0
+            cat file |yourprog
+            #or
+            yourprog <file
+
+  stdout :- file descriptor 1
+            yourprog | someotherprog #pipe your stdout to the stdin of another program
+            yourprog > somefile #save stdout to a file
+            yourprog >> somefile #append stdout to a file
+
+   input() is api for sys.stdin  [i.e input() is calling stdin() internally]
+   print() is api for sys.stdout [i.e print() is calling stdout() internally]
+
+
+* sys.stdin :
+  -------
+   (ref : https://www.geeksforgeeks.org/take-input-from-stdin-in-python/)
+
+   sys.stdin ->
+   sys.stdout
+
+   sys.stdin.readline()
+            .read()
+
+   * To redirect read() input to some other file :
+
+     python3 fName.py < ip.txt
+
+
+   sys.stdout :
+   -------
+    * To redirect output to some other file :
+
+      python3 fName.py > op.txt
+
+
+NOTE :- Inorder to sync buffer, use flush() in between 2 write() operation
+
+        i.e write()
+            flush()
+            write()
+
+            Then you may see contents as expected Inorder
+            but
+            If you miss flush() then may be content are not in order
+
+
+* fileinput ;
+  --------
+   modulename :- fileinput
+      \
+       fileinput.input()    // can be used to read lines from multiple files
+         
+          -> If no argument are passed then standard input i.e sys.stdin will be used as input
+        
+Q. Diff between stdin and input() 
+
+ -> "sys.stdin.read()" is described as being able to take a newline 
+    and finish your entry with Control+D. 
+    input() would finish your entry with the "Enter" key being pressed on your keyboard, 
+    so you couldn't include a newline in your data input that way.
+
+ => stdin is used for all interactive input, including calls to input();
+    stdout is used for the output of print() and expression statements and for the prompts of input()
+
+
+=> GENERAL INFO :-
+    1) If you want to read command line arguments :
+           - sys.argv[i]
+    
+    2) If you want to read from prompt :
+           - input() 
+
+    3) from file or file like objects :
+           - sys.stdin, fileinput()
+
+           

@@ -1,0 +1,90 @@
+Tips : 
+
+  Always read the scale of the plot
+  
+  In seaborn hue='' value is determined based on label column name
+
+__________________________
+
+* Terms :
+    -> n dimension = n features.
+       legend = what color is what class label
+
+       linearly seperability - by drawing line you can determine class_label
+
+__________________________
+
+* pandas
+  ------
+
+   df['co_name'].value_counts()  // gives counts for each value
+
+* numpy 
+  -----
+   np.zeros_like()
+   np.histogram()
+   np.cumsum(pdf)    //cdf from pdf
+
+* Seaborn :
+  -------
+   -> sns.set_style("whitegrid")
+         .FacetGrid(df, hue=, size=)
+             \
+              .add_legend()
+
+    Scatter Plots :
+    
+      -> to plot for 2D or 3D
+    
+    pair-plots :
+      
+      -> Hack to visualise data in more than 3D space i.e (4D, 5D, ... ,nD) 
+
+    Histogram :
+
+      -> Histogram makes more sense than 1D Scatter Plot (as it shows count for small-windows)
+
+* balanced dataset:
+  --------------
+  -> same count for all values in single column of class_label 
+     (i.e value_counts() result in same value for all)
+
+
+* PDF
+  ---
+   -> PDF is a smooth form of a histogram
+   -> take a histogram & smooth it up
+
+* CDF
+  ---
+   -> what percentage of class_label(on y axis) has value <= feature value (on x axis) 
+      all probablity lies between 0 & 1
+
+   -> area under the curve till that point(on x axis)
+
+
+REMEMBER : diff of CDF = PDF
+ 
+           Integration of PDF = CDF
+
+----------
+
+* UniVariate KDE Plot :
+  ------
+   -> Convert Histogram to PDF or CDF
+   -> Density Estimate via Kernel like Gaussian or Triangle or any other shape Curve
+
+   -> First just plot kernel for each pt 
+      then add each kernel with each other into single kernel 
+
+   -> Gaussian Kernel, Triangular Kernel, Cosine Kernel
+
+* Contour Plot :  (BiVariate KDE plot)
+  ------
+   - Joint Density Plot (in 2 dimension)
+   - Diff level of density for 2 features at same time 
+   - KDE plot for Joint features is Contour Plot
+
+   -> Highest density is circle with small radi 
+      lowest Density is circle with large radi
+    

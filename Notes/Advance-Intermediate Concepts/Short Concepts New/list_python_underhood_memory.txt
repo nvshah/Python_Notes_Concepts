@@ -1,0 +1,78 @@
+[SNEAK PEAK]
+
+ref : https://www.youtube.com/watch?v=rdlQzhP71pQ
+
+
+* List & its Size (Amazing Obsv):
+  ----------------
+   What innfo list holds in Python (at its core)
+
+   # Garbage Collection info (before Object)
+   _gc_next = ...
+   _gc_prev = ... 
+
+   # PyObject info 
+   ob_refcnt = ...
+   on_type = ...
+
+   # PyVarObject info 
+   ob_size = ...  // equi to len() as list is of variable size // Tells how many elem are in the memory
+
+   # PyListObject info 
+   ob_item = ...     # pointer to contiguous memory
+   allocated = ...   # how many elems could FIT in ob_item memory 
+
+   
+   => When we do sys.getsizeof(l) :- it returns the size of memory allocated & not used 
+
+   -> For garbage collection purposes Python stores 2 pointers to object before the object gets starts
+
+
+   => Each of above fields take 8 bytes (depend on Machine)
+      
+      So sys.getsizeof([]) is 56 bytes (ie 7 Fields * 8 Bytes)
+
+   - Variable Part of List :
+     -------
+      -> for variable part of list, python stores the pointer to each of the object in the list 
+      -> So variable size = Size of Pointer = 8 bytes
+            & it points to n such slots which have beenn allocated 
+              So = 8 * allocated 
+
+    Thus all in all :-
+     ---
+      1) Fix Size :- 7 Fields * 8 Bytes = 56 Bytes 
+      2) Variable Size :- 8 Byte * allocated        // for pointers
+
+* List as a Abstract View :
+  -----
+   -> When you create a List Object, It can hold variable size of elements 
+
+   -> It has basically 2 main properties ie 
+       1. length of List (ie #items present in List at moment)
+       2. Capacity of List (max #items can present in List at moment)
+
+[AMORTIZED ALLOCATION/EXPANSION]
+* Capacity of List increase in multiple of 4 
+
+=> Python resize on factor of 1.125 ie 9/8 on averge
+     \
+      -> If current capacity = 1000
+         then 
+         It will resize to = 1125
+
+-----------------
+
+=> The sizes of the list doesnt determine how much memory they take
+
+What does sys.getsizeof() returns ??
+
+* sys.getsizeof()
+   -> size of an object in bytes as represented by underhood computer
+   -> Counts the size of object itself & not subobjects
+
+   => the size we get via this is the allocated nuber & not the size based on element present in the list
+      (generally the allocation size is more than what required -> ie Amortized Concept)
+
+=> For garbage collection purposes we use 2 pointers before object gets created
+   gc_prev, gc_next
