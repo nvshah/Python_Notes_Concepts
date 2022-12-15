@@ -55,6 +55,7 @@ https://likegeeks.com/numpy-meshgrid/
     .meshgrid()
 
     .repmat()
+    .vectorize()   // similar to map()
 
 
 * numpy.percentile()   // to get percentile value

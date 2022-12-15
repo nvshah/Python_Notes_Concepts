@@ -59,3 +59,7 @@
   -----------
    Ellipsis is special operator in python :- `...`
   - denotes the cyclical reference in python
+
+* No Qa (Suppress Warnings from Pep)
+  --------
+  #NOQA

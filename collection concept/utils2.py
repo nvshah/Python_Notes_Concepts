@@ -19,6 +19,7 @@ def expand(lst, map_to_iter):
     return chain.from_iterable(map(map_to_iter, lst))
 
 
+
 if __name__ == '__main__':
     l = [{'k1': [1, 2, 4], 'k2': [5, 8, 14]}, 
          {'k1': [21, 22, 24], 'k2': [25, 28, 25]}

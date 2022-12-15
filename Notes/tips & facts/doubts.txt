@@ -1,0 +1,9 @@
+doubts
+------
+
+* Does itertools.groupby() uses hash-mechanims to group based on the key
+  i.e in such case key must be hashable (ie immutable)
+  But
+  groupby works when we do grouping based on set also !
+
+  So its using functools.KeyWrapper

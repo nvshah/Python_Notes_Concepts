@@ -104,3 +104,19 @@
 
    - finalizer will be called even when interpreter gets shut down
                will also be called when any global variables or modules has been deleted
+
+
+* groupby (itertools)
+  ---
+  -> with `itertools.groupby()` you can use the set as well as your group key
+     Hence
+     groupby() is not using hashing base mechanism to group the things
+     because
+     elsecase it would throw error that set|dict cannot be used as a key
+     as those are not hashable (ie. or immutable)
+
+     But
+
+     Maybe its using some other mechanism because it is grouping based on the set !
+      \
+      functools.KeyWrapper

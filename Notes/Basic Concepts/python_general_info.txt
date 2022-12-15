@@ -78,4 +78,29 @@
                     this func make cmp(a1, a2) [a func that takes 2 arg] to readily available to pass to key
 
 
+* __name__ :
 
+  ref : Python Simplified (Youtube)
+
+  -> special variable we use when interacting with the modules
+  -> Allows us to make a distinction between modules that represent :
+     a. libraries, functions, classes
+     b. current python file we are executing in our console.
+
+  '__main__' is a value that represents the name of the top level environment, where top level code runs !
+
+  __main__ uniquely identifies `top-level` modules & seperates the non-top-level module
+  So via checking __name__ == __main__
+  We are checking if code is running in top level environment or not !
+
+  __name__  // if its global variable (then we will get '__main__')
+
+  If its access as attribute on module
+
+  moduleName.__name__  // its attribute (then it will not be '__main__')
+
+  So all things boils down to this :
+
+  If your module is top-level module //-> '__main__' is the __name__
+  else
+  If your module is imported module  //-> __name__ is same as modulename

@@ -5,3 +5,4 @@
 [Train Test Split] https://realpython.com/train-test-split-python-data/
 
 [Text classification using Keras] https://realpython.com/python-keras-text-classification/
+[NLTK Sentiment Analysis] https://realpython.com/python-nltk-sentiment-analysis/

@@ -1,4 +1,5 @@
 import itertools as it
+import collections as ct
 
 def skip(l, skip=0):
     i = 0
@@ -17,6 +18,14 @@ def takewhile(l, p):
             return 
         yield s
 
+def default_dict_incrementer():
+    '''default dict that assigns default value in an increment fashion
+       concepts includes :- Closure & Free variables
+    '''
+    cntr = it.count()
+    incrementer = ct.defaultdict(cntr.__next__)
+    return incrementer
+
 def inp1():
 
     l = [1,2,3,4,5,6]
@@ -30,6 +39,7 @@ def inp2():
     itr = takewhile(s, p)
     for g in itr:
         print(g)
+
 
 if __name__ == '__main__':
     inp2()

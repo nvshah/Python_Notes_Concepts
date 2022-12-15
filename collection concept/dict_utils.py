@@ -1,4 +1,6 @@
 import operator as op
+from collections import defaultdict
+from itertools import count
 
 
 def unionAll(*sets):
@@ -122,6 +124,16 @@ def dict_from_keys_values(keys, values):
     return dict(zip(keys, values))
 
 
+def default_dict_incrementer():
+    '''default dict that assigns default value in an increment fashion
+       concepts includes :- Closure & Free variables
+    '''
+    cntr = count()
+    incrementer = defaultdict(cntr.__next__)
+    return incrementer
+
+
+
 # ----------------------- TEST ------------------
 
 
@@ -163,9 +175,17 @@ def check_dict_zip():
     for k, *v in dict_zip(d1, d2):
         print(k, *v)
 
+def check_defaultdict_incrementer():
+    d1 = [1, 2, 2, 3, 10, 3]
+    m1 = default_dict_incrementer()  # concept of closures & context
+    for v in d1:
+        print(v, '->', m1[v])
+
 
 if __name__ == '__main__':
 
     # inp2()
 
-    check_dict_zip()
+    #check_dict_zip()
+
+    check_defaultdict_incrementer()

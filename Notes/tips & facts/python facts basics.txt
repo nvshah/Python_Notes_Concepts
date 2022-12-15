@@ -130,3 +130,8 @@
 
    round(n, -1)  // 2343650
    round(n, -2)  // 2343600
+
+
+* Closures & Free Variables:
+  ------------
+   http://mathamy.com/python-closures-and-free-variables.html

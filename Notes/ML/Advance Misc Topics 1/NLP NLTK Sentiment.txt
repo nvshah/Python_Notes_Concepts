@@ -1,0 +1,3 @@
+NLP NLTK
+
+ref : https://realpython.com/python-nltk-sentiment-analysis/
