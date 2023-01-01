@@ -120,3 +120,9 @@
      Maybe its using some other mechanism because it is grouping based on the set !
       \
       functools.KeyWrapper
+
+* apply() :
+  -----
+  ref : https://python-reference.readthedocs.io/en/latest/docs/functions/apply.html
+
+  -> Used to call func with arguments in Functional Style

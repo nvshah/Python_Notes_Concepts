@@ -39,6 +39,8 @@
 
   func.__get__(owner, type(owner))  // this will bind the func to `owner`
 
+* To call func with arguments in functional programming style use :- `apply()` function builtin
+
 --------
 
 -> for loop is faster in compare to while loop 

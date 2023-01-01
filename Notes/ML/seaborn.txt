@@ -14,6 +14,8 @@ TIPS
 
 - plt.rc('date.autoformatter', day='%b %Y')  // Format Data whilst Plotting
 
+- plt.axvline()   // Add vertical line to plot
+
 _________________
 
 1) KDE plot :
@@ -191,3 +193,23 @@ _________________
         - yticklabels
         - square       // perfect square each rectanngle of heatmap
      
+
+* ECDF Plot :
+  -----
+  - Emperical Cumulative Distb Plot
+
+  - Instead of accumulating it just do CDF for original vals
+  - ECDF plot ranges from min(), to max() val in given range !
+
+  -> Y-Axis(Proportion/Percentage) tells you what percentage of data you have seen so far !
+
+
+  [PARAM] :
+  ---
+  hue :- to compare ecdf line for different categories of variable
+
+  stat  :- switch between proportion & raw-count
+
+  complementary :- opposite curve
+
+  weights
